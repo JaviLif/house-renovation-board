@@ -1,0 +1,47 @@
+{
+  "tasks": [
+    {
+      "id": "xmq16jvn9tsi",
+      "created": 1780679422197,
+      "title": ",kjn",
+      "desc": "",
+      "cat": "planning",
+      "priority": "medium",
+      "col": "backlog",
+      "due": ""
+    }
+  ],
+  "cats": [
+    {
+      "id": "planning",
+      "label": "Planning",
+      "color": "#0052cc"
+    },
+    {
+      "id": "structural",
+      "label": "Structural",
+      "color": "#de350b"
+    },
+    {
+      "id": "electrical",
+      "label": "Electrical",
+      "color": "#ff8b00"
+    },
+    {
+      "id": "plumbing",
+      "label": "Plumbing",
+      "color": "#00b8d9"
+    },
+    {
+      "id": "finishing",
+      "label": "Finishing",
+      "color": "#00875a"
+    },
+    {
+      "id": "permits",
+      "label": "Permits",
+      "color": "#6554c0"
+    }
+  ],
+  "updated": 1780679538648
+}
