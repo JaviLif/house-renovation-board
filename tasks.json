@@ -1,16 +1,5 @@
 {
-  "tasks": [
-    {
-      "id": "xmq16jvn9tsi",
-      "created": 1780679422197,
-      "title": ",kjn",
-      "desc": "",
-      "cat": "planning",
-      "priority": "medium",
-      "col": "backlog",
-      "due": ""
-    }
-  ],
+  "tasks": [],
   "cats": [
     {
       "id": "planning",
@@ -43,5 +32,5 @@
       "color": "#6554c0"
     }
   ],
-  "updated": 1780679538648
+  "updated": 1780679555864
 }
