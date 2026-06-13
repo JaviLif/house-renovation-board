@@ -712,7 +712,7 @@
         },
         {
           "id": "ixmqcdmsm0bx1",
-          "name": "New item",
+          "name": "Test",
           "qty": 1,
           "unit": 0,
           "labor": 0,
@@ -757,5 +757,5 @@
       ]
     }
   ],
-  "updated": 1781356446491
+  "updated": 1781356451203
 }
