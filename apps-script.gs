@@ -141,23 +141,53 @@ function doPost(e) {
 function writeBudgetToSheet(sheet, budget) {
   const rows = sheet.getDataRange().getValues();
 
-  // Build name → row-index map for item rows only
+  // Build name→rowIndex map (items only) and phase→lastItemRow map
   const nameToRow = {};
+  const phaseLastRow = {};   // phase label → 0-based index of its last item row
+  let currentPhaseLabel = null;
+
   rows.forEach((row, i) => {
     const name = String(row[COL.NAME] || '').trim();
-    if (name && !name.toLowerCase().startsWith('subtotal') && rowHasData(row)) {
+    if (!name) return;
+    if (name.toLowerCase().startsWith('subtotal')) return;
+    if (!rowHasData(row)) {
+      currentPhaseLabel = name;   // phase header
+    } else {
       nameToRow[name] = i;
+      if (currentPhaseLabel) phaseLastRow[currentPhaseLabel] = i;
     }
   });
 
-  // Apply updates — only editable columns (C, D, F, H, J)
-  // Columns E (Material) and G (Total) are formulas — never touched
+  // Apply updates; INSERT new rows after the last item of their phase
   budget.forEach(phase => {
     (phase.items || []).forEach(item => {
-      const rowIdx = nameToRow[item.name];
-      if (rowIdx === undefined) return;
-      const r = rowIdx + 1;   // 1-indexed
+      let rowIdx = nameToRow[item.name];
 
+      if (rowIdx === undefined) {
+        // ── NEW ITEM: insert a row after the phase's last known item ──
+        const afterIdx = phaseLastRow[phase.label];
+        if (afterIdx === undefined) return;   // phase not in sheet — skip
+
+        const afterRow1 = afterIdx + 1;       // 1-indexed sheet row
+        sheet.insertRowAfter(afterRow1);
+        const newRow1 = afterRow1 + 1;        // 1-indexed position of new row
+
+        sheet.getRange(newRow1, COL.NAME  + 1).setValue(item.name);
+        sheet.getRange(newRow1, COL.QTY   + 1).setValue(item.qty   || 0);
+        sheet.getRange(newRow1, COL.UNIT  + 1).setValue(item.unit  || 0);
+        sheet.getRange(newRow1, COL.LABOR + 1).setValue(item.labor || 0);
+        if (item.link  !== undefined) sheet.getRange(newRow1, COL.LINK  + 1).setValue(item.link  || '');
+        if (item.notes !== undefined) sheet.getRange(newRow1, COL.NOTES + 1).setValue(item.notes || '');
+
+        // Advance tracker so next new item in same phase goes after this one
+        const newIdx0 = afterIdx + 1;         // 0-based index of the new row
+        phaseLastRow[phase.label] = newIdx0;
+        nameToRow[item.name]      = newIdx0;
+        return;
+      }
+
+      // ── EXISTING ITEM: update editable columns ────────────────────
+      const r = rowIdx + 1;   // 1-indexed
       sheet.getRange(r, COL.QTY   + 1).setValue(item.qty   || 0);
       sheet.getRange(r, COL.UNIT  + 1).setValue(item.unit  || 0);
       sheet.getRange(r, COL.LABOR + 1).setValue(item.labor || 0);
@@ -165,12 +195,8 @@ function writeBudgetToSheet(sheet, budget) {
       if (item.actual !== null && item.actual !== undefined) {
         sheet.getRange(r, COL.ACTUAL + 1).setValue(item.actual);
       }
-      if (item.link !== undefined) {
-        sheet.getRange(r, COL.LINK  + 1).setValue(item.link  || '');
-      }
-      if (item.notes !== undefined) {
-        sheet.getRange(r, COL.NOTES + 1).setValue(item.notes || '');
-      }
+      if (item.link  !== undefined) sheet.getRange(r, COL.LINK  + 1).setValue(item.link  || '');
+      if (item.notes !== undefined) sheet.getRange(r, COL.NOTES + 1).setValue(item.notes || '');
     });
   });
 
