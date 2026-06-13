@@ -57,7 +57,7 @@
           "labor": 0,
           "actual": null,
           "link": "https://www.bouwkeuringvergelijk.nl/zoeken/Amsterdam/390/",
-          "notes": "Structural inspection Building Inspector (Bouwkundig Inspecteur) — MANDATORY"
+          "notes": "Structural inspection Building Inspector (Bouwkundig Inspecteur) â MANDATORY"
         },
         {
           "id": "i_gs_28",
@@ -884,7 +884,7 @@
         {
           "id": "i_gs_174",
           "name": "Kevin",
-          "qty": 1120,
+          "qty": 120,
           "unit": 55,
           "labor": 0,
           "actual": null,
@@ -951,5 +951,5 @@
       ]
     }
   ],
-  "updated": 1781390965253
+  "updated": 1781391049506
 }
