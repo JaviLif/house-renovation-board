@@ -43,5 +43,719 @@
       "color": "#6554c0"
     }
   ],
-  "updated": 1780679561458
+  "budget": [
+    {
+      "id": "ph0",
+      "label": "Phase 0: Design & Prep",
+      "color": "#0052cc",
+      "items": [
+        {
+          "id": "p00",
+          "name": "Bouwkundig Inspecteur",
+          "qty": 1,
+          "unit": 500,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.bouwkeuringvergelijk.nl/zoeken/Amsterdam/390/"
+        },
+        {
+          "id": "p01",
+          "name": "Energy Advisor / Installation Engineer",
+          "qty": 1,
+          "unit": 375,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p02",
+          "name": "Asbestreport",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p03",
+          "name": "Preliminary Layout Kitchen & Bath",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p04",
+          "name": "Preliminary Layout Electricity",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p05",
+          "name": "Street Work Permits (Container)",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "ph1",
+      "label": "Phase 1: Shell Creation",
+      "color": "#de350b",
+      "items": [
+        {
+          "id": "p10",
+          "name": "Removing Existing Floor",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p11",
+          "name": "Removing Existing Walls",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p12",
+          "name": "Remove Bathroom & Kitchen",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p13",
+          "name": "Rent Container 10m³",
+          "qty": 2,
+          "unit": 600,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.afzetbak.nl/en/container-rental/construction-and-demolition-waste/10m3-gesloten"
+        },
+        {
+          "id": "p14",
+          "name": "Breekhammer (Bosch)",
+          "qty": 1,
+          "unit": 450,
+          "labor": 0,
+          "actual": null,
+          "link": "https://mastertools.nl/nl_nl/product/bosch-professional-breekhamer-0611338700"
+        },
+        {
+          "id": "p15",
+          "name": "Tools",
+          "qty": 1,
+          "unit": 1000,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "ph2",
+      "label": "Phase 2: Electricity & Water",
+      "color": "#ff8b00",
+      "items": [
+        {
+          "id": "p20",
+          "name": "Electric Cables, Fuses",
+          "qty": 1,
+          "unit": 1500,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p21",
+          "name": "Renovation Sockets & Lighting",
+          "qty": 1,
+          "unit": 1000,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p22",
+          "name": "Water Supply & Drainage Pipes",
+          "qty": 1,
+          "unit": 1500,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p23",
+          "name": "Tools",
+          "qty": 1,
+          "unit": 1500,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "ph3",
+      "label": "Phase 3: Insulation & Plastering",
+      "color": "#00b8d9",
+      "items": [
+        {
+          "id": "p30",
+          "name": "Floor Insulation PIR 80mm",
+          "qty": 90,
+          "unit": 16,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.isolatiemateriaal.nl/p/insus-pir-2-zijdig-aluminium-1200x600x80mm-rd364-6plpak-432-m2"
+        },
+        {
+          "id": "p31",
+          "name": "Outside Wall Isolation PIR 80mm",
+          "qty": 90,
+          "unit": 15,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p32",
+          "name": "Roof Isolation",
+          "qty": 50,
+          "unit": 15,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p33",
+          "name": "Plaster Boards (Gipsplaten)",
+          "qty": 200,
+          "unit": 6,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p34",
+          "name": "Filler etc.",
+          "qty": 1,
+          "unit": 1000,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p35",
+          "name": "Extras, Glue, Material",
+          "qty": 1,
+          "unit": 1500,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "ph4",
+      "label": "Phase 4: Heat Pump",
+      "color": "#de350b",
+      "items": [
+        {
+          "id": "p40",
+          "name": "Heat Pump + 200L Tank (LG 5kW)",
+          "qty": 1,
+          "unit": 6664,
+          "labor": 0,
+          "actual": null,
+          "link": "https://klimatime.com/products/lg-5kw-therma-v-r32-split-iwt-air-water-heat-pump-with-200l-tank-hu051mr-hn0913t"
+        },
+        {
+          "id": "p41",
+          "name": "Tools",
+          "qty": 1,
+          "unit": 1000,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p42",
+          "name": "Extras, Glue, Material",
+          "qty": 1,
+          "unit": 1000,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "ph5",
+      "label": "Phase 5: MVHR Ventilation",
+      "color": "#6554c0",
+      "items": [
+        {
+          "id": "p50",
+          "name": "MVHR Unit Vent-Axia 250 m³/h",
+          "qty": 1,
+          "unit": 1890,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.lueftungsland.de/de_DE/p/vent-axia-sentinel-kinetic-advance-einschliesslich-vorwarmer-250-m3-h-rechts/9985/"
+        },
+        {
+          "id": "p51",
+          "name": "Tools, Extras, Material",
+          "qty": 1,
+          "unit": 1000,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "ph6",
+      "label": "Phase 6: Underfloor Heating",
+      "color": "#ff8b00",
+      "items": [
+        {
+          "id": "p60",
+          "name": "Underfloor Gips DBS14 System",
+          "qty": 13,
+          "unit": 104,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p61",
+          "name": "Omega Profiles (Mega plate)",
+          "qty": 130,
+          "unit": 3,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p62",
+          "name": "Pipe Line",
+          "qty": 1,
+          "unit": 120,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p63",
+          "name": "Adaptor Euroconus 12×1.5mm",
+          "qty": 16,
+          "unit": 3.23,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p64",
+          "name": "Manifold + A-label Pump (5-groeps)",
+          "qty": 1,
+          "unit": 421,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p65",
+          "name": "Tools, Extras, Material",
+          "qty": 1,
+          "unit": 1500,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "ph7",
+      "label": "Phase 7: Floor Finish",
+      "color": "#00875a",
+      "items": [
+        {
+          "id": "p70",
+          "name": "Floor Forbo Marmoleum Walton Linoleum",
+          "qty": 1,
+          "unit": 5000,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.berlin-parkett.de/Forbo-Marmoleum-Walton-Linoleum-3369-titanium"
+        },
+        {
+          "id": "p71",
+          "name": "Tools, Extras, Material",
+          "qty": 1,
+          "unit": 1000,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "ph8",
+      "label": "Phase 8: Toilet & Bathroom",
+      "color": "#00b8d9",
+      "items": [
+        {
+          "id": "p80",
+          "name": "Floor Tiles 60×60cm",
+          "qty": 20,
+          "unit": 50,
+          "labor": 0,
+          "actual": null,
+          "link": "https://sanitairkamer.nl/jabo-gobi-nude-vloertegel-60x60cm-gerectificeerd-jb12440-4.html"
+        },
+        {
+          "id": "p81",
+          "name": "Ligbad Saniclear Cube 180×80cm",
+          "qty": 1,
+          "unit": 400,
+          "labor": 0,
+          "actual": null,
+          "link": "https://sanitairkamer.nl/saniclear-cube-ligbad-180x80cm-wit-sk1116.html"
+        },
+        {
+          "id": "p82",
+          "name": "Toilet set",
+          "qty": 2,
+          "unit": 325,
+          "labor": 0,
+          "actual": null,
+          "link": "https://sanitairkamer.nl/sanigoods-andes-toiletset-met-saniclear-itsie-randloos-toilet-wit-glans-sk101869.html"
+        },
+        {
+          "id": "p83",
+          "name": "Shower element",
+          "qty": 1,
+          "unit": 1000,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p84",
+          "name": "Gips boards",
+          "qty": 20,
+          "unit": 18.59,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p85",
+          "name": "Douchebak (Teller)",
+          "qty": 1,
+          "unit": 300,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.sklum.com/nl/kopen-douchebakken/208844-soho-rechthoekige-antislip-extra-vlakke-smc-hars-douchebak.html"
+        },
+        {
+          "id": "p86",
+          "name": "Kran small toilet",
+          "qty": 1,
+          "unit": 284,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p87",
+          "name": "Kran big toilet / wastafel",
+          "qty": 1,
+          "unit": 384,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p88",
+          "name": "Tools, Extras, Material",
+          "qty": 1,
+          "unit": 2000,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "ph9",
+      "label": "Phase 9: Kitchen",
+      "color": "#00875a",
+      "items": [
+        {
+          "id": "p90",
+          "name": "Induction Plate",
+          "qty": 1,
+          "unit": 900,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p91",
+          "name": "Oven (Siemens)",
+          "qty": 1,
+          "unit": 629,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p92",
+          "name": "Spoelbak (granite sink)",
+          "qty": 1,
+          "unit": 338,
+          "labor": 0,
+          "actual": null,
+          "link": "https://sanitairkamer.nl/sapho-spoelbak-97x50cm-met-kraangat-zwart-graniet-sk38406.html"
+        },
+        {
+          "id": "p93",
+          "name": "Fridge (Samsung)",
+          "qty": 1,
+          "unit": 600,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p94",
+          "name": "Kitchen Furniture",
+          "qty": 1,
+          "unit": 5000,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "p95",
+          "name": "Tools, Extras, Material",
+          "qty": 1,
+          "unit": 1000,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "ph10",
+      "label": "Phase 10: Extras & Finishing",
+      "color": "#6554c0",
+      "items": [
+        {
+          "id": "pa0",
+          "name": "Paint (Powerdek)",
+          "qty": 3,
+          "unit": 79,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "pa1",
+          "name": "Tools, Extras",
+          "qty": 1,
+          "unit": 1000,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "ph11",
+      "label": "Phase 11: Garden Extension",
+      "color": "#00875a",
+      "items": [
+        {
+          "id": "pb0",
+          "name": "Bouwtekening",
+          "qty": 1,
+          "unit": 800,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "pb1",
+          "name": "Excavation",
+          "qty": 3,
+          "unit": 79,
+          "labor": 200,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "pb2",
+          "name": "Cement (fundering)",
+          "qty": 1,
+          "unit": 1100,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "pb3",
+          "name": "Funderingsbekisting (piepschuim)",
+          "qty": 1,
+          "unit": 500,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "pb4",
+          "name": "Wapeningskorf",
+          "qty": 1,
+          "unit": 300,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "pb5",
+          "name": "OSB 2440×1220×11mm",
+          "qty": 30,
+          "unit": 16.9,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "sub",
+      "label": "Subsidies",
+      "color": "#00875a",
+      "type": "subsidy",
+      "items": [
+        {
+          "id": "s0",
+          "name": "MVHR Subsidie",
+          "qty": 1,
+          "unit": -400,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "s1",
+          "name": "Heat Pump Subsidie (ISDE)",
+          "qty": 1,
+          "unit": -2500,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "s2",
+          "name": "Vloerisolatie (40m²)",
+          "qty": 1,
+          "unit": -610,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "s3",
+          "name": "Gevelisolatie (50m²)",
+          "qty": 1,
+          "unit": -1250,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "s4",
+          "name": "Dakisolatie (60m²)",
+          "qty": 1,
+          "unit": -1500,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "s5",
+          "name": "Gemeende ISDE Subsidie",
+          "qty": 1,
+          "unit": -2500,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "ixmqcdmsm0bx1",
+          "name": "New item",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "lab",
+      "label": "Labour",
+      "color": "#0052cc",
+      "type": "labour",
+      "items": [
+        {
+          "id": "l0",
+          "name": "Rene",
+          "qty": 1,
+          "unit": 25000,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "l1",
+          "name": "Kevin (€55/hr)",
+          "qty": 230,
+          "unit": 55,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "l2",
+          "name": "Plaster – Stuc-Concurrent b.v.",
+          "qty": 1,
+          "unit": 2637.8,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        }
+      ]
+    }
+  ],
+  "updated": 1781356446491
 }
