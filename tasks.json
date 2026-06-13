@@ -52,20 +52,20 @@
         {
           "id": "i_gs_27",
           "name": "(Bouwkundig Inspecteur)",
-          "qty": 0,
-          "unit": 0,
-          "labor": 500,
+          "qty": 1,
+          "unit": 1000,
+          "labor": 0,
           "actual": null,
           "link": "https://www.bouwkeuringvergelijk.nl/zoeken/Amsterdam/390/"
         },
         {
           "id": "i_gs_28",
-          "name": "Energy Advisor / Installation Engineer",
-          "qty": 0,
-          "unit": 0,
-          "labor": 375,
+          "name": "Asbestreport",
+          "qty": 1,
+          "unit": 1000,
+          "labor": 0,
           "actual": null,
-          "link": "https://label-up.nl/omgevingsvergunning/beng-berekening/?qooqie_creative_id=662541941174&keywords=energielabel%20oplevering%20nieuwbouw&gad_source=1&gad_campaignid=22636540258&gbraid=0AAAAAoN8amyVO5knjM3zT49f7O36ewT3T&gclid=Cj0KCQiAprLLBhCMARIsAEDhdPeXIc5X_qPizmhrDJgZLv8Zn7IDQ_Ad_9C8pJceer7LoEoK9wcRlmgaAv6pEALw_wcB"
+          "link": ""
         }
       ]
     },
@@ -589,7 +589,7 @@
           "id": "i_gs_145",
           "name": "Bouwtekening",
           "qty": 1,
-          "unit": 800,
+          "unit": 2000,
           "labor": 0,
           "actual": null,
           "link": ""
@@ -640,37 +640,55 @@
           "link": ""
         },
         {
-          "id": "i_gs_151",
-          "name": "Windows",
+          "id": "i_gs_150",
+          "name": "Extra wood + screws...",
           "qty": 1,
-          "unit": 0,
+          "unit": 1000,
           "labor": 0,
           "actual": null,
           "link": ""
+        },
+        {
+          "id": "i_gs_151",
+          "name": "Windows / Schuifpuien",
+          "qty": 1,
+          "unit": 6000,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.toeleveringonline.nl/product/2-delige-schuifpui-aluminium/?s=ventilation&w=m84w4000h2400p116jt0pc1469wc2112s2114sl0gt1025gi271gl324rt0rd0%7Ecp377cg2046c2109-x0y0w3868h2268f317dh0gr0ho0kac0mb0o1sd1who0wso0%7Ecp1566cg2298c4815%7Ecp396cg2046c2106.v1.v1"
         },
         {
           "id": "i_gs_152",
-          "name": "Isolation",
+          "name": "EPDM Folie",
           "qty": 1,
-          "unit": 0,
+          "unit": 400,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "https://mein-dach24.de/epdm-dachfolie-1-5mm-457#"
         },
         {
           "id": "i_gs_153",
-          "name": "Plastering",
+          "name": "Kleber",
           "qty": 1,
-          "unit": 0,
+          "unit": 120,
           "labor": 0,
           "actual": null,
           "link": ""
         },
         {
           "id": "i_gs_154",
-          "name": "Paint",
+          "name": "Gullys",
+          "qty": 2,
+          "unit": 40,
+          "labor": 0,
+          "actual": null,
+          "link": "https://mein-dach24.de/EPDM-Dachgully?_gl=1*1510go*_up*MQ..*_ga*MTI0NzY2NzAzNi4xNzgxMzczOTc4*_ga_8GN11EHM1V*czE3ODEzNzM5NzgkbzEkZzEkdDE3ODEzNzQxMzUkajYwJGwwJGgxNDc3NzY2MTI3"
+        },
+        {
+          "id": "i_gs_155",
+          "name": "Extras",
           "qty": 1,
-          "unit": 0,
+          "unit": 300,
           "labor": 0,
           "actual": null,
           "link": ""
@@ -678,6 +696,15 @@
         {
           "id": "i_gs_156",
           "name": "Tools Extras",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": ""
+        },
+        {
+          "id": "ixmqcqpteqyu9",
+          "name": "lnflkdNew item",
           "qty": 1,
           "unit": 0,
           "labor": 0,
@@ -775,7 +802,7 @@
         {
           "id": "i_gs_174",
           "name": "Kevin",
-          "qty": 234,
+          "qty": 120,
           "unit": 55,
           "labor": 0,
           "actual": null,
@@ -827,5 +854,5 @@
       ]
     }
   ],
-  "updated": 1781378272146
+  "updated": 1781378424988
 }
