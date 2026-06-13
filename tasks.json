@@ -350,7 +350,7 @@
           "id": "ixmqczy1cqo3t",
           "name": "New item",
           "qty": 1,
-          "unit": 0,
+          "unit": 999,
           "labor": 0,
           "actual": null,
           "link": "",
@@ -1045,5 +1045,5 @@
       ]
     }
   ],
-  "updated": 1781393922581
+  "updated": 1781393926940
 }
