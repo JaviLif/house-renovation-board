@@ -3,7 +3,7 @@
  * =============================================
  * HOW TO INSTALL (3 steps):
  *
- *  1. In your Google Sheet → Extensions → Apps Script
+ *  1. Go to https://script.google.com → New project
  *  2. Delete any existing code, paste this entire file → Save (Ctrl+S)
  *  3. Deploy → New deployment → Type: Web app
  *       Execute as:  Me
@@ -11,9 +11,9 @@
  *     → Deploy → Copy the Web App URL
  *  4. In the Renovation Board → ⚙ Settings → Google Sheets URL → paste URL → Connect Sheets
  *
- * ACTUAL COLUMN LAYOUT OF THIS SHEET:
+ * COLUMN LAYOUT (confirmed):
  *   A  Item name / phase header
- *   B  (hidden column — ignored)
+ *   B  (narrow hidden column — ignored)
  *   C  Quantity
  *   D  Cost per item (€)
  *   E  Material total  ← formula =IF(D*C=0,"",D*C), NEVER overwritten
@@ -25,7 +25,8 @@
  */
 
 // ── CONFIGURATION ─────────────────────────────────────────────
-const BUDGET_SHEET_GID = 137726425;   // "Home Renovation Budget Template" tab
+const SPREADSHEET_ID = '1aDxFQo56JSdwuWUHJZimbnM3MIW2qHBw';
+const SHEET_NAME     = 'Home Renovation Budget Template';
 
 const COL = {
   NAME:   0,   // A  — item name / phase header
@@ -41,9 +42,8 @@ const COL = {
 
 
 function getSheet() {
-  const sheets = SpreadsheetApp.getActiveSpreadsheet().getSheets();
-  const found  = sheets.find(s => s.getSheetId() === BUDGET_SHEET_GID);
-  return found || SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+  return ss.getSheetByName(SHEET_NAME) || ss.getSheets()[0];
 }
 
 // ── READ ──────────────────────────────────────────────────────
@@ -60,8 +60,8 @@ function doGet(e) {
 
 /**
  * Row classification:
- *   • blank name            → skip
- *   • name starts "Subtotal" → skip (calculated subtotal row)
+ *   • blank name             → skip
+ *   • name starts "Subtotal" → skip (section subtotal row)
  *   • no data in any of {qty, unit, labor, actual, link} → phase header
  *   • otherwise              → item row
  */
@@ -71,12 +71,11 @@ function parseSheetToBudget(rows) {
 
   rows.forEach((row, i) => {
     const name = String(row[COL.NAME] || '').trim();
-    if (!name) return;                                         // blank row
+    if (!name) return;                                    // blank row
 
     // Skip subtotal / section-total rows
     if (name.toLowerCase().startsWith('subtotal')) return;
 
-    // Check whether any data column has a meaningful value
     const hasData = rowHasData(row);
 
     if (!hasData) {
@@ -85,7 +84,7 @@ function parseSheetToBudget(rows) {
       let type  = undefined;
       let color = '#0052cc';
 
-      if      (lc.includes('subsidi') || lc.includes('subsidy'))               { type = 'subsidy'; color = '#00875a'; }
+      if      (lc.includes('subsidi') || lc.includes('subsidy'))                { type = 'subsidy'; color = '#00875a'; }
       else if (lc.includes('labour')  || lc.includes('labor') || lc.includes('arbeid')) { type = 'labour'; color = '#0052cc'; }
       else if (lc.includes('phase 0')  || lc.includes('fase 0'))  color = '#0052cc';
       else if (lc.includes('phase 1')  || lc.includes('fase 1'))  color = '#de350b';
