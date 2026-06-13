@@ -56,7 +56,8 @@
           "unit": 1000,
           "labor": 0,
           "actual": null,
-          "link": "https://www.bouwkeuringvergelijk.nl/zoeken/Amsterdam/390/"
+          "link": "https://www.bouwkeuringvergelijk.nl/zoeken/Amsterdam/390/",
+          "notes": ""
         },
         {
           "id": "i_gs_28",
@@ -65,7 +66,18 @@
           "unit": 1000,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "ixmqcsoruk8fc",
+          "name": "testNew item",
+          "qty": 1,
+          "unit": 999,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
         }
       ]
     },
@@ -81,7 +93,8 @@
           "unit": 0,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_39",
@@ -90,7 +103,8 @@
           "unit": 0,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_40",
@@ -99,7 +113,8 @@
           "unit": 0,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_41",
@@ -108,7 +123,8 @@
           "unit": 600,
           "labor": 0,
           "actual": null,
-          "link": "https://www.afzetbak.nl/en/container-rental/construction-and-demolition-waste/10m3-gesloten"
+          "link": "https://www.afzetbak.nl/en/container-rental/construction-and-demolition-waste/10m3-gesloten",
+          "notes": ""
         },
         {
           "id": "i_gs_42",
@@ -117,7 +133,8 @@
           "unit": 450,
           "labor": 0,
           "actual": null,
-          "link": "https://mastertools.nl/nl_nl/product/bosch-professional-breekhamer-0611338700"
+          "link": "https://mastertools.nl/nl_nl/product/bosch-professional-breekhamer-0611338700",
+          "notes": ""
         },
         {
           "id": "i_gs_43",
@@ -126,7 +143,8 @@
           "unit": 1000,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         }
       ]
     },
@@ -142,7 +160,8 @@
           "unit": 1500,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_49",
@@ -151,7 +170,8 @@
           "unit": 1000,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_50",
@@ -160,7 +180,8 @@
           "unit": 1500,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_51",
@@ -169,7 +190,8 @@
           "unit": 1500,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         }
       ]
     },
@@ -185,7 +207,8 @@
           "unit": 16,
           "labor": 0,
           "actual": null,
-          "link": "PIR 80mm Isolatieplaat | 2-Zijdig Aluminium (1200x600x80mm) - De Isolatieshop BV"
+          "link": "PIR 80mm Isolatieplaat | 2-Zijdig Aluminium (1200x600x80mm) - De Isolatieshop BV",
+          "notes": ""
         },
         {
           "id": "i_gs_58",
@@ -194,7 +217,8 @@
           "unit": 15,
           "labor": 0,
           "actual": null,
-          "link": "https://www.isolatiemateriaal.nl/p/insus-pir-2-zijdig-aluminium-1200x600x80mm-rd364-6plpak-432-m2"
+          "link": "https://www.isolatiemateriaal.nl/p/insus-pir-2-zijdig-aluminium-1200x600x80mm-rd364-6plpak-432-m2",
+          "notes": ""
         },
         {
           "id": "i_gs_59",
@@ -203,7 +227,8 @@
           "unit": 15,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_60",
@@ -212,7 +237,8 @@
           "unit": 6,
           "labor": 0,
           "actual": null,
-          "link": "https://www.isolatiemateriaal.nl/p/gipsplaten-3000x600x125mm-ak-180-m2?utm_source=google&utm_medium=cpc&gad_source=1&gad_campaignid=19643236460&gbraid=0AAAAADxVveE6MjWj_uypRqIlvQYR1V3Tz&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsY9EhYWrdfmXthiXcRAfMbDXsS11dZrooPGwACYXcXZcyXXTE0BQ9YaAk2PEALw_wcB"
+          "link": "https://www.isolatiemateriaal.nl/p/gipsplaten-3000x600x125mm-ak-180-m2?utm_source=google&utm_medium=cpc&gad_source=1&gad_campaignid=19643236460&gbraid=0AAAAADxVveE6MjWj_uypRqIlvQYR1V3Tz&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsY9EhYWrdfmXthiXcRAfMbDXsS11dZrooPGwACYXcXZcyXXTE0BQ9YaAk2PEALw_wcB",
+          "notes": ""
         },
         {
           "id": "i_gs_61",
@@ -221,7 +247,8 @@
           "unit": 1000,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_65",
@@ -230,7 +257,8 @@
           "unit": 1500,
           "labor": 0,
           "actual": null,
-          "link": "https://www.isolatiemateriaal.nl/purschuim-lijmen/pur-set-de-isolatieshop-purschuim-reiniger-pistool?_gl=1*1aphokc*_up*MQ..*_gs*MQ..&gclid=CjwKCAiAssfLBhBDEiwAcLpwfjIggjyLW2O-2YH6Y_JLK0LEPHJ1t4BPMjXZi7kjU9zDzHPH7mUYLBoCQ7kQAvD_BwE&gbraid=0AAAAADxVveE9-2YaOXFNeaNq8bQMLVYBJ"
+          "link": "https://www.isolatiemateriaal.nl/purschuim-lijmen/pur-set-de-isolatieshop-purschuim-reiniger-pistool?_gl=1*1aphokc*_up*MQ..*_gs*MQ..&gclid=CjwKCAiAssfLBhBDEiwAcLpwfjIggjyLW2O-2YH6Y_JLK0LEPHJ1t4BPMjXZi7kjU9zDzHPH7mUYLBoCQ7kQAvD_BwE&gbraid=0AAAAADxVveE9-2YaOXFNeaNq8bQMLVYBJ",
+          "notes": ""
         }
       ]
     },
@@ -246,7 +274,8 @@
           "unit": 6664,
           "labor": 0,
           "actual": null,
-          "link": "https://klimatime.com/products/lg-5kw-therma-v-r32-split-iwt-air-water-heat-pump-with-200l-tank-hu051mr-hn0913t?variant=49050367787335&country=DE&currency=EUR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorkKZ3jJSyJ78m1EWcSZOOAAYaGDhqxcoB7uQZrkaHJhPSRKatE4H8"
+          "link": "https://klimatime.com/products/lg-5kw-therma-v-r32-split-iwt-air-water-heat-pump-with-200l-tank-hu051mr-hn0913t?variant=49050367787335&country=DE&currency=EUR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorkKZ3jJSyJ78m1EWcSZOOAAYaGDhqxcoB7uQZrkaHJhPSRKatE4H8",
+          "notes": ""
         },
         {
           "id": "i_gs_72",
@@ -255,7 +284,8 @@
           "unit": 1000,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_73",
@@ -264,7 +294,8 @@
           "unit": 1000,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         }
       ]
     },
@@ -280,7 +311,8 @@
           "unit": 1890,
           "labor": 0,
           "actual": null,
-          "link": "https://www.lueftungsland.de/de_DE/p/vent-axia-sentinel-kinetic-advance-einschliesslich-vorwarmer-250-m3-h-rechts/9985/"
+          "link": "https://www.lueftungsland.de/de_DE/p/vent-axia-sentinel-kinetic-advance-einschliesslich-vorwarmer-250-m3-h-rechts/9985/",
+          "notes": ""
         },
         {
           "id": "i_gs_80",
@@ -289,7 +321,8 @@
           "unit": 1000,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         }
       ]
     },
@@ -305,7 +338,8 @@
           "unit": 0,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_85",
@@ -314,7 +348,8 @@
           "unit": 104,
           "labor": 0,
           "actual": null,
-          "link": "https://www.vloerverwarming-direct.nl/p/25mm-systeem-dbs14-25mm-droogbouw-isolatieplaat-doos-7-50m2?utm_source=google&utm_medium=cpc&utm_campaign=FC_NL_NL_SHOP_PUR_CONV_BESTSELLERSQ424&gad_source=1&gad_campaignid=23277490225&gbraid=0AAAAADyq6tSzGK0p-Qz1Z_ayzduM5FMrQ&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCI5TdsWLuy4TOx0MXfb2rov05WusVCJJl-hNT71ND8DGxH9-P0DmrxoCZigQAvD_BwE"
+          "link": "https://www.vloerverwarming-direct.nl/p/25mm-systeem-dbs14-25mm-droogbouw-isolatieplaat-doos-7-50m2?utm_source=google&utm_medium=cpc&utm_campaign=FC_NL_NL_SHOP_PUR_CONV_BESTSELLERSQ424&gad_source=1&gad_campaignid=23277490225&gbraid=0AAAAADyq6tSzGK0p-Qz1Z_ayzduM5FMrQ&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCI5TdsWLuy4TOx0MXfb2rov05WusVCJJl-hNT71ND8DGxH9-P0DmrxoCZigQAvD_BwE",
+          "notes": ""
         },
         {
           "id": "i_gs_86",
@@ -323,7 +358,8 @@
           "unit": 3,
           "labor": 0,
           "actual": null,
-          "link": "https://www.vloerverwarming-direct.nl/p/omega-profielen-dbs14-aluminium-1000mm-x-120mm?_gl=1*1qo18i4*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCI5TdsWLuy4TOx0MXfb2rov05WusVCJJl-hNT71ND8DGxH9-P0DmrxoCZigQAvD_BwE&gbraid=0AAAAADyq6tSzGK0p-Qz1Z_ayzduM5FMrQ"
+          "link": "https://www.vloerverwarming-direct.nl/p/omega-profielen-dbs14-aluminium-1000mm-x-120mm?_gl=1*1qo18i4*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCI5TdsWLuy4TOx0MXfb2rov05WusVCJJl-hNT71ND8DGxH9-P0DmrxoCZigQAvD_BwE&gbraid=0AAAAADyq6tSzGK0p-Qz1Z_ayzduM5FMrQ",
+          "notes": ""
         },
         {
           "id": "i_gs_87",
@@ -332,7 +368,8 @@
           "unit": 120,
           "labor": 0,
           "actual": null,
-          "link": "https://www.elektramat.nl/magnum-universele-vloerverwarmingsbuis-5-laags-pe-rt-12x1-5-mm-komo-rol-van-300-meter-w12300/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4"
+          "link": "https://www.elektramat.nl/magnum-universele-vloerverwarmingsbuis-5-laags-pe-rt-12x1-5-mm-komo-rol-van-300-meter-w12300/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
+          "notes": ""
         },
         {
           "id": "i_gs_88",
@@ -341,7 +378,8 @@
           "unit": 3.23,
           "labor": 0,
           "actual": null,
-          "link": "https://www.elektramat.nl/magnum-adaptor-euroconus-aansluitkoppeling-12x1-5mm-x-3-4-2-stuks-w90012/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4"
+          "link": "https://www.elektramat.nl/magnum-adaptor-euroconus-aansluitkoppeling-12x1-5mm-x-3-4-2-stuks-w90012/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
+          "notes": ""
         },
         {
           "id": "i_gs_89",
@@ -350,7 +388,8 @@
           "unit": 421,
           "labor": 0,
           "actual": null,
-          "link": "https://www.elektramat.nl/magnum-basic-staal-vloerverwarming-verdeler-5-groeps-incl-a-label-pomp-w40005/?_gl=1*1ytr542*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4"
+          "link": "https://www.elektramat.nl/magnum-basic-staal-vloerverwarming-verdeler-5-groeps-incl-a-label-pomp-w40005/?_gl=1*1ytr542*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
+          "notes": ""
         },
         {
           "id": "i_gs_91",
@@ -359,7 +398,8 @@
           "unit": 1500,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         }
       ]
     },
@@ -375,7 +415,8 @@
           "unit": 5000,
           "labor": 0,
           "actual": null,
-          "link": "https://www.berlin-parkett.de/Forbo-Marmoleum-Walton-Linoleum-3369-titanium"
+          "link": "https://www.berlin-parkett.de/Forbo-Marmoleum-Walton-Linoleum-3369-titanium",
+          "notes": ""
         },
         {
           "id": "i_gs_97",
@@ -384,7 +425,8 @@
           "unit": 1000,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         }
       ]
     },
@@ -400,7 +442,8 @@
           "unit": 0,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_103",
@@ -409,7 +452,8 @@
           "unit": 50,
           "labor": 0,
           "actual": null,
-          "link": "https://sanitairkamer.nl/jabo-gobi-nude-vloertegel-60x60cm-gerectificeerd-jb12440-4.html"
+          "link": "https://sanitairkamer.nl/jabo-gobi-nude-vloertegel-60x60cm-gerectificeerd-jb12440-4.html",
+          "notes": ""
         },
         {
           "id": "i_gs_104",
@@ -418,7 +462,8 @@
           "unit": 400,
           "labor": 0,
           "actual": null,
-          "link": "https://sanitairkamer.nl/saniclear-cube-ligbad-180x80cm-wit-sk1116.html"
+          "link": "https://sanitairkamer.nl/saniclear-cube-ligbad-180x80cm-wit-sk1116.html",
+          "notes": ""
         },
         {
           "id": "i_gs_105",
@@ -427,7 +472,8 @@
           "unit": 325,
           "labor": 0,
           "actual": null,
-          "link": "https://sanitairkamer.nl/sanigoods-andes-toiletset-met-saniclear-itsie-randloos-toilet-wit-glans-sk101869.html"
+          "link": "https://sanitairkamer.nl/sanigoods-andes-toiletset-met-saniclear-itsie-randloos-toilet-wit-glans-sk101869.html",
+          "notes": ""
         },
         {
           "id": "i_gs_106",
@@ -436,7 +482,8 @@
           "unit": 1000,
           "labor": 0,
           "actual": null,
-          "link": "https://www.hornbach.nl/p/qboard-liquid-douche-element-1200x900x40-mm/12234114/?wt_mc=nl.paid.sea.google.alwayson_lia.bau.product.14491879814.166764485654.&gad_source=1&gad_campaignid=14491879814&gbraid=0AAAAADkpB3U45h96YcoypAE_4EDR9ZBaT&gclid=CjwKCAiAnoXNBhAZEiwAnItcG3pALPp1YK6XH59YEERUyQk_RwT_IVk1TSdxU9aGdSX7CQDpC9MI9hoC_WAQAvD_BwE"
+          "link": "https://www.hornbach.nl/p/qboard-liquid-douche-element-1200x900x40-mm/12234114/?wt_mc=nl.paid.sea.google.alwayson_lia.bau.product.14491879814.166764485654.&gad_source=1&gad_campaignid=14491879814&gbraid=0AAAAADkpB3U45h96YcoypAE_4EDR9ZBaT&gclid=CjwKCAiAnoXNBhAZEiwAnItcG3pALPp1YK6XH59YEERUyQk_RwT_IVk1TSdxU9aGdSX7CQDpC9MI9hoC_WAQAvD_BwE",
+          "notes": ""
         },
         {
           "id": "i_gs_107",
@@ -445,7 +492,8 @@
           "unit": 18.59,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_108",
@@ -454,7 +502,8 @@
           "unit": 300,
           "labor": 0,
           "actual": null,
-          "link": "https://www.sklum.com/nl/kopen-douchebakken/208844-soho-rechthoekige-antislip-extra-vlakke-smc-hars-douchebak.html?id_c=573327"
+          "link": "https://www.sklum.com/nl/kopen-douchebakken/208844-soho-rechthoekige-antislip-extra-vlakke-smc-hars-douchebak.html?id_c=573327",
+          "notes": ""
         },
         {
           "id": "i_gs_109",
@@ -463,7 +512,8 @@
           "unit": 284,
           "labor": 0,
           "actual": null,
-          "link": "https://sanitairkamer.nl/fontana-alaska-toiletmeubel-mat-zwart-40x22cm-met-solid-surface-fontein-links-sk79995.html"
+          "link": "https://sanitairkamer.nl/fontana-alaska-toiletmeubel-mat-zwart-40x22cm-met-solid-surface-fontein-links-sk79995.html",
+          "notes": ""
         },
         {
           "id": "i_gs_110",
@@ -472,7 +522,8 @@
           "unit": 384,
           "labor": 0,
           "actual": null,
-          "link": "https://sanitairkamer.nl/mueller-single-flat-natuur-stenen-meubelwastafel-80x46cm-geen-kraangat-sk50899.html"
+          "link": "https://sanitairkamer.nl/mueller-single-flat-natuur-stenen-meubelwastafel-80x46cm-geen-kraangat-sk50899.html",
+          "notes": ""
         },
         {
           "id": "i_gs_111",
@@ -481,7 +532,8 @@
           "unit": 0,
           "labor": 0,
           "actual": null,
-          "link": "https://www.maxaro.nl/en-gb/baths/built-in-baths/pianosa-corner-bath-160x85cm-acrylic-gloss-white-left-with-panels-99746/"
+          "link": "https://www.maxaro.nl/en-gb/baths/built-in-baths/pianosa-corner-bath-160x85cm-acrylic-gloss-white-left-with-panels-99746/",
+          "notes": ""
         },
         {
           "id": "i_gs_112",
@@ -490,7 +542,8 @@
           "unit": 2000,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         }
       ]
     },
@@ -506,7 +559,8 @@
           "unit": 900,
           "labor": 0,
           "actual": null,
-          "link": "https://www.elektroshopwagner.de/de/p/326929?utm_campaign=froogle_326929&utm_source=froogle&utm_medium=CPC&utm_content=textanzeige&campaign=froogle&gad_source=1&gad_campaignid=22319801995&gbraid=0AAAAAD_RZfyFbl5ea0h2s_mgLX8E1cQc-&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsbvw5Qmv4ZYwgtHhil7DFl6Sos7U7O7oLUwbf1CMZOP4Y0toYoi0EoaAoQ3EALw_wcB"
+          "link": "https://www.elektroshopwagner.de/de/p/326929?utm_campaign=froogle_326929&utm_source=froogle&utm_medium=CPC&utm_content=textanzeige&campaign=froogle&gad_source=1&gad_campaignid=22319801995&gbraid=0AAAAAD_RZfyFbl5ea0h2s_mgLX8E1cQc-&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsbvw5Qmv4ZYwgtHhil7DFl6Sos7U7O7oLUwbf1CMZOP4Y0toYoi0EoaAoQ3EALw_wcB",
+          "notes": ""
         },
         {
           "id": "i_gs_117",
@@ -515,7 +569,8 @@
           "unit": 629,
           "labor": 0,
           "actual": null,
-          "link": "https://www.bemmelenkroon.nl/merken/siemens/hb272abb3-sies/?gad_source=1&gad_campaignid=215085475&gbraid=0AAAAADtnj80Q04PEH76MuMrO63MHHwykZ&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsZkxT7qtX4hFHJNteh_-oVYJBFXx5SKZlmQtMhj8M9GbWWNIj9lLXUaAnFBEALw_wcB"
+          "link": "https://www.bemmelenkroon.nl/merken/siemens/hb272abb3-sies/?gad_source=1&gad_campaignid=215085475&gbraid=0AAAAADtnj80Q04PEH76MuMrO63MHHwykZ&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsZkxT7qtX4hFHJNteh_-oVYJBFXx5SKZlmQtMhj8M9GbWWNIj9lLXUaAnFBEALw_wcB",
+          "notes": ""
         },
         {
           "id": "i_gs_118",
@@ -524,7 +579,8 @@
           "unit": 338,
           "labor": 0,
           "actual": null,
-          "link": "https://sanitairkamer.nl/sapho-spoelbak-97x50cm-met-kraangat-zwart-graniet-sk38406.html"
+          "link": "https://sanitairkamer.nl/sapho-spoelbak-97x50cm-met-kraangat-zwart-graniet-sk38406.html",
+          "notes": ""
         },
         {
           "id": "i_gs_119",
@@ -533,7 +589,8 @@
           "unit": 600,
           "labor": 0,
           "actual": null,
-          "link": "https://www.mediamarkt.nl/nl/product/_samsung-rb34c600csaef-1762331.html?utm_source=google&utm_medium=cpc&utm_campaign=rt_shopping_generic_sp_nl-W8-9-MDA-Samsung-IBTNG-2026&utm_term=&utm_content=&utm_content=TCID23571866157-TAID197259997630&gad_source=1&gad_campaignid=23571866157&gbraid=0AAAAADoGBO6h4uKdtVlIEUgNM9-eH1RQA&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsYUvjU-9EXl5x1mOLzmasE89xl2Fx4JqExEpTGtB2GezUyGyi8AhgYaAlXHEALw_wcB"
+          "link": "https://www.mediamarkt.nl/nl/product/_samsung-rb34c600csaef-1762331.html?utm_source=google&utm_medium=cpc&utm_campaign=rt_shopping_generic_sp_nl-W8-9-MDA-Samsung-IBTNG-2026&utm_term=&utm_content=&utm_content=TCID23571866157-TAID197259997630&gad_source=1&gad_campaignid=23571866157&gbraid=0AAAAADoGBO6h4uKdtVlIEUgNM9-eH1RQA&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsYUvjU-9EXl5x1mOLzmasE89xl2Fx4JqExEpTGtB2GezUyGyi8AhgYaAlXHEALw_wcB",
+          "notes": ""
         },
         {
           "id": "i_gs_120",
@@ -542,7 +599,8 @@
           "unit": 5000,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_125",
@@ -551,7 +609,8 @@
           "unit": 1000,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         }
       ]
     },
@@ -567,7 +626,8 @@
           "unit": 79,
           "labor": 0,
           "actual": null,
-          "link": "https://www.verfwinkel.nl/powerdek-muren-plafonds-muurverf-wit.html?channable=02c96b696400333634353267&select=VW-FL1011.10&utm_source=google&utm_medium=cpc&utm_campaign={campaignname}&utm_id=22495205671&utm_term=&utm_content=749693406602&utm_source_platform=Google+Ads&gad_source=1&gad_campaignid=22495205671&gbraid=0AAAAADhCR3MgDW7x3qxfXShsSZ65bzkVt&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsZnj-nylLtkeaLYMuMKliz1s6cQ1flf05Ux9eCIHXjhZKBt_muTlxAaAsH3EALw_wcB"
+          "link": "https://www.verfwinkel.nl/powerdek-muren-plafonds-muurverf-wit.html?channable=02c96b696400333634353267&select=VW-FL1011.10&utm_source=google&utm_medium=cpc&utm_campaign={campaignname}&utm_id=22495205671&utm_term=&utm_content=749693406602&utm_source_platform=Google+Ads&gad_source=1&gad_campaignid=22495205671&gbraid=0AAAAADhCR3MgDW7x3qxfXShsSZ65bzkVt&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsZnj-nylLtkeaLYMuMKliz1s6cQ1flf05Ux9eCIHXjhZKBt_muTlxAaAsH3EALw_wcB",
+          "notes": ""
         },
         {
           "id": "i_gs_139",
@@ -576,7 +636,8 @@
           "unit": 1000,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         }
       ]
     },
@@ -592,7 +653,8 @@
           "unit": 2000,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_146",
@@ -601,7 +663,8 @@
           "unit": 79,
           "labor": 200,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_147",
@@ -610,7 +673,8 @@
           "unit": 1100,
           "labor": 0,
           "actual": null,
-          "link": "https://www.betonstorten.nl/offerte-aanvragen"
+          "link": "https://www.betonstorten.nl/offerte-aanvragen",
+          "notes": ""
         },
         {
           "id": "i_gs_148",
@@ -619,7 +683,8 @@
           "unit": 500,
           "labor": 0,
           "actual": null,
-          "link": "https://www.bouwbestel.nl/funderingsbekisting-piepschuim-tempex.html"
+          "link": "https://www.bouwbestel.nl/funderingsbekisting-piepschuim-tempex.html",
+          "notes": ""
         },
         {
           "id": "i_gs_149",
@@ -628,7 +693,8 @@
           "unit": 300,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_150",
@@ -637,7 +703,8 @@
           "unit": 16.9,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_150",
@@ -646,7 +713,8 @@
           "unit": 1000,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_151",
@@ -655,7 +723,8 @@
           "unit": 6000,
           "labor": 0,
           "actual": null,
-          "link": "https://www.toeleveringonline.nl/product/2-delige-schuifpui-aluminium/?s=ventilation&w=m84w4000h2400p116jt0pc1469wc2112s2114sl0gt1025gi271gl324rt0rd0%7Ecp377cg2046c2109-x0y0w3868h2268f317dh0gr0ho0kac0mb0o1sd1who0wso0%7Ecp1566cg2298c4815%7Ecp396cg2046c2106.v1.v1"
+          "link": "https://www.toeleveringonline.nl/product/2-delige-schuifpui-aluminium/?s=ventilation&w=m84w4000h2400p116jt0pc1469wc2112s2114sl0gt1025gi271gl324rt0rd0%7Ecp377cg2046c2109-x0y0w3868h2268f317dh0gr0ho0kac0mb0o1sd1who0wso0%7Ecp1566cg2298c4815%7Ecp396cg2046c2106.v1.v1",
+          "notes": ""
         },
         {
           "id": "i_gs_152",
@@ -664,7 +733,8 @@
           "unit": 400,
           "labor": 0,
           "actual": null,
-          "link": "https://mein-dach24.de/epdm-dachfolie-1-5mm-457#"
+          "link": "https://mein-dach24.de/epdm-dachfolie-1-5mm-457#",
+          "notes": ""
         },
         {
           "id": "i_gs_153",
@@ -673,7 +743,8 @@
           "unit": 120,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_154",
@@ -682,7 +753,8 @@
           "unit": 40,
           "labor": 0,
           "actual": null,
-          "link": "https://mein-dach24.de/EPDM-Dachgully?_gl=1*1510go*_up*MQ..*_ga*MTI0NzY2NzAzNi4xNzgxMzczOTc4*_ga_8GN11EHM1V*czE3ODEzNzM5NzgkbzEkZzEkdDE3ODEzNzQxMzUkajYwJGwwJGgxNDc3NzY2MTI3"
+          "link": "https://mein-dach24.de/EPDM-Dachgully?_gl=1*1510go*_up*MQ..*_ga*MTI0NzY2NzAzNi4xNzgxMzczOTc4*_ga_8GN11EHM1V*czE3ODEzNzM5NzgkbzEkZzEkdDE3ODEzNzQxMzUkajYwJGwwJGgxNDc3NzY2MTI3",
+          "notes": ""
         },
         {
           "id": "i_gs_155",
@@ -691,7 +763,8 @@
           "unit": 300,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_156",
@@ -700,7 +773,8 @@
           "unit": 0,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "ixmqcqpteqyu9",
@@ -726,7 +800,8 @@
           "unit": -400,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_162",
@@ -735,7 +810,8 @@
           "unit": -2500,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_163",
@@ -744,7 +820,8 @@
           "unit": -610,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_164",
@@ -753,7 +830,8 @@
           "unit": -1250,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_165",
@@ -762,7 +840,8 @@
           "unit": -1500,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_166",
@@ -771,7 +850,8 @@
           "unit": -2500,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_167",
@@ -780,7 +860,8 @@
           "unit": 0,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         }
       ]
     },
@@ -797,7 +878,8 @@
           "unit": 25000,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_174",
@@ -806,7 +888,8 @@
           "unit": 55,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_175",
@@ -815,7 +898,8 @@
           "unit": 2637.8,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         }
       ]
     },
@@ -831,7 +915,8 @@
           "unit": 0,
           "labor": 0,
           "actual": 0,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_307",
@@ -840,7 +925,8 @@
           "unit": 0,
           "labor": 0,
           "actual": 0,
-          "link": ""
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_309",
@@ -849,10 +935,11 @@
           "unit": 0,
           "labor": 0,
           "actual": null,
-          "link": ""
+          "link": "",
+          "notes": ""
         }
       ]
     }
   ],
-  "updated": 1781378461147
+  "updated": 1781381737815
 }
