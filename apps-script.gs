@@ -52,8 +52,10 @@ function getSheet() {
 function doGet(e) {
   try {
     const sheet  = getSheet();
-    const rows   = sheet.getDataRange().getValues();
-    const budget = parseSheetToBudget(rows);
+    const range  = sheet.getDataRange();
+    const rows   = range.getValues();
+    const bgs    = range.getBackgrounds();
+    const budget = parseSheetToBudget(rows, bgs);
     return respond({ ok: true, budget, rows: rows.length, sheet: sheet.getName() });
   } catch (err) {
     return respond({ ok: false, error: err.message });
@@ -61,13 +63,17 @@ function doGet(e) {
 }
 
 /**
- * Row classification:
+ * Row classification — uses BACKGROUND COLOR as the primary signal:
  *   • blank name             → skip
  *   • name starts "Subtotal" → skip (section subtotal row)
- *   • no data in any of {qty, unit, labor, actual, link} → phase header
- *   • otherwise              → item row
+ *   • dark/colored background → phase / section header
+ *   • light/white background  → item row
+ *
+ * This is more reliable than checking for empty data columns, because some
+ * phase headers in the template have 0-values in data columns, and some
+ * items (e.g. "Self Made" work) have all-zero costs.
  */
-function parseSheetToBudget(rows) {
+function parseSheetToBudget(rows, bgs) {
   const phases       = [];
   let   currentPhase = null;
 
@@ -78,28 +84,29 @@ function parseSheetToBudget(rows) {
     // Skip subtotal / section-total rows
     if (name.toLowerCase().startsWith('subtotal')) return;
 
-    const hasData = rowHasData(row);
+    const bg       = bgs && bgs[i] ? bgs[i][COL.NAME] : null;
+    const isHeader = isHeaderBackground(bg);
 
-    if (!hasData) {
+    if (isHeader) {
       // ── Phase / section header ──────────────────────────────
       const lc = name.toLowerCase();
       let type  = undefined;
       let color = '#0052cc';
 
-      if      (lc.includes('subsidi') || lc.includes('subsidy'))                { type = 'subsidy'; color = '#00875a'; }
-      else if (lc.includes('labour')  || lc.includes('labor') || lc.includes('arbeid')) { type = 'labour'; color = '#0052cc'; }
-      else if (lc.includes('phase 0')  || lc.includes('fase 0'))  color = '#0052cc';
-      else if (lc.includes('phase 1')  || lc.includes('fase 1'))  color = '#de350b';
-      else if (lc.includes('phase 2')  || lc.includes('fase 2'))  color = '#ff8b00';
-      else if (lc.includes('phase 3')  || lc.includes('fase 3'))  color = '#00b8d9';
-      else if (lc.includes('phase 4')  || lc.includes('fase 4'))  color = '#de350b';
-      else if (lc.includes('phase 5')  || lc.includes('fase 5'))  color = '#6554c0';
-      else if (lc.includes('phase 6')  || lc.includes('fase 6'))  color = '#ff8b00';
-      else if (lc.includes('phase 7')  || lc.includes('fase 7'))  color = '#00875a';
-      else if (lc.includes('phase 8')  || lc.includes('fase 8'))  color = '#00b8d9';
-      else if (lc.includes('phase 9')  || lc.includes('fase 9'))  color = '#00875a';
-      else if (lc.includes('phase 10') || lc.includes('fase 10')) color = '#6554c0';
-      else if (lc.includes('phase 11') || lc.includes('fase 11')) color = '#00875a';
+      if      (lc.includes('subsidi') || lc.includes('subsidy'))                            { type = 'subsidy'; color = '#00875a'; }
+      else if (lc.includes('labour')  || lc.includes('labor') || lc.includes('arbeid'))     { type = 'labour';  color = '#0052cc'; }
+      else if (lc.includes('phase 0')  || lc.includes('fase 0'))   color = '#0052cc';
+      else if (lc.includes('phase 1')  || lc.includes('fase 1'))   color = '#de350b';
+      else if (lc.includes('phase 2')  || lc.includes('fase 2'))   color = '#ff8b00';
+      else if (lc.includes('phase 3')  || lc.includes('fase 3'))   color = '#00b8d9';
+      else if (lc.includes('phase 4')  || lc.includes('fase 4'))   color = '#de350b';
+      else if (lc.includes('phase 5')  || lc.includes('fase 5'))   color = '#6554c0';
+      else if (lc.includes('phase 6')  || lc.includes('fase 6'))   color = '#ff8b00';
+      else if (lc.includes('phase 7')  || lc.includes('fase 7'))   color = '#00875a';
+      else if (lc.includes('phase 8')  || lc.includes('fase 8'))   color = '#00b8d9';
+      else if (lc.includes('phase 9')  || lc.includes('fase 9'))   color = '#00875a';
+      else if (lc.includes('phase 10') || lc.includes('fase 10'))  color = '#6554c0';
+      else if (lc.includes('phase 11') || lc.includes('fase 11'))  color = '#00875a';
 
       currentPhase = { id: 'ph_gs_' + i, label: name, color, type, items: [] };
       phases.push(currentPhase);
@@ -139,18 +146,22 @@ function doPost(e) {
 }
 
 function writeBudgetToSheet(sheet, budget) {
-  const rows = sheet.getDataRange().getValues();
+  const range = sheet.getDataRange();
+  const rows  = range.getValues();
+  const bgs   = range.getBackgrounds();
 
   // Build name→rowIndex map (items only) and phase→lastItemRow map
-  const nameToRow = {};
+  const nameToRow    = {};
   const phaseLastRow = {};   // phase label → 0-based index of its last item row
-  let currentPhaseLabel = null;
+  let   currentPhaseLabel = null;
 
   rows.forEach((row, i) => {
     const name = String(row[COL.NAME] || '').trim();
     if (!name) return;
     if (name.toLowerCase().startsWith('subtotal')) return;
-    if (!rowHasData(row)) {
+
+    const bg = bgs[i] ? bgs[i][COL.NAME] : null;
+    if (isHeaderBackground(bg)) {
       currentPhaseLabel = name;   // phase header
     } else {
       nameToRow[name] = i;
@@ -180,7 +191,7 @@ function writeBudgetToSheet(sheet, budget) {
         if (item.notes !== undefined) sheet.getRange(newRow1, COL.NOTES + 1).setValue(item.notes || '');
 
         // Advance tracker so next new item in same phase goes after this one
-        const newIdx0 = afterIdx + 1;         // 0-based index of the new row
+        const newIdx0 = afterIdx + 1;
         phaseLastRow[phase.label] = newIdx0;
         nameToRow[item.name]      = newIdx0;
         return;
@@ -204,11 +215,21 @@ function writeBudgetToSheet(sheet, budget) {
 }
 
 // ── HELPERS ───────────────────────────────────────────────────
-function rowHasData(row) {
-  return [COL.QTY, COL.UNIT, COL.LABOR, COL.ACTUAL, COL.LINK].some(c => {
-    const v = row[c];
-    return v !== '' && v !== null && v !== undefined && String(v).trim() !== '';
-  });
+
+/**
+ * Returns true if the cell background is a dark/colored (non-white, non-light) color.
+ * Phase header rows in this sheet always have a dark background.
+ * Item rows are white or very light grey.
+ */
+function isHeaderBackground(bg) {
+  if (!bg || bg === '#ffffff' || bg === '#000000') return false;
+  const hex = bg.replace('#', '');
+  if (hex.length !== 6) return false;
+  const r = parseInt(hex.substr(0, 2), 16);
+  const g = parseInt(hex.substr(2, 2), 16);
+  const b = parseInt(hex.substr(4, 2), 16);
+  // If all channels > 200 → very light (white/light grey) → NOT a header
+  return !(r > 200 && g > 200 && b > 200);
 }
 
 function numOrZero(v) {
