@@ -253,7 +253,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 </div><!-- /app -->
 
 <!-- Version badge -->
-<div id="versionBadge" style="position:fixed;bottom:10px;right:14px;font-size:10.5px;font-weight:700;color:var(--text-muted);background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:3px 9px;z-index:300;letter-spacing:.3px;box-shadow:var(--shadow);user-select:none">v1.2.1</div>
+<div id="versionBadge" style="position:fixed;bottom:10px;right:14px;font-size:10.5px;font-weight:700;color:var(--text-muted);background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:3px 9px;z-index:300;letter-spacing:.3px;box-shadow:var(--shadow);user-select:none">v1.2.2</div>
 
 <!-- Mobile nav -->
 <nav class="bottom-nav">
@@ -631,22 +631,29 @@ document.addEventListener('keydown',e=>{
 /* ══════ GOOGLE SHEETS SYNC ══════ */
 function showGsSyncStatus(msg){const el=document.getElementById('gsSyncStatus');if(el)el.textContent=msg;}
 
-async function loadFromSheets(){
-  if(!gsUrl)return false;
-  try{
+function loadFromSheets(){
+  if(!gsUrl)return Promise.resolve(false);
+  return new Promise(resolve=>{
     showGsSyncStatus('⏳ Loading from Sheets…');
-    const r=await fetch(gsUrl);
-    if(!r.ok)throw new Error(`HTTP ${r.status}`);
-    const data=await r.json();
-    if(!data.ok||!data.budget)throw new Error(data.error||'No budget in response');
-    mergeBudgetFromSheets(data.budget);
-    localStorage.setItem('reno_budget_v1',JSON.stringify(budget));
-    showGsSyncStatus(`📊 Sheets synced ${new Date().toLocaleTimeString('en',{hour:'2-digit',minute:'2-digit'})}`);
-    return true;
-  }catch(e){
-    showGsSyncStatus('⚠️ Sheets: '+e.message);
-    return false;
-  }
+    const xhr=new XMLHttpRequest();
+    xhr.open('GET',gsUrl,true);
+    xhr.onload=function(){
+      try{
+        if(xhr.status!==200)throw new Error(`HTTP ${xhr.status}`);
+        const data=JSON.parse(xhr.responseText);
+        if(!data.ok||!data.budget)throw new Error(data.error||'No budget in response');
+        mergeBudgetFromSheets(data.budget);
+        localStorage.setItem('reno_budget_v1',JSON.stringify(budget));
+        showGsSyncStatus(`📊 Sheets synced ${new Date().toLocaleTimeString('en',{hour:'2-digit',minute:'2-digit'})}`);
+        resolve(true);
+      }catch(e){
+        showGsSyncStatus('⚠️ Sheets: '+e.message);
+        resolve(false);
+      }
+    };
+    xhr.onerror=function(){showGsSyncStatus('⚠️ Sheets: network error');resolve(false);};
+    xhr.send();
+  });
 }
 
 function mergeBudgetFromSheets(sheetBudget){
@@ -671,37 +678,51 @@ function mergeBudgetFromSheets(sheetBudget){
 
 function scheduleGsPush(){clearTimeout(gsPushTimer);gsPushTimer=setTimeout(pushToSheets,4000);}
 
-async function pushToSheets(){
-  if(!gsUrl)return;
-  try{
+function pushToSheets(){
+  if(!gsUrl)return Promise.resolve();
+  return new Promise(resolve=>{
     showGsSyncStatus('⏳ Saving to Sheets…');
-    const r=await fetch(gsUrl,{method:'POST',headers:{'Content-Type':'text/plain'},body:JSON.stringify({budget})});
-    const data=await r.json();
-    if(!data.ok)throw new Error(data.error||'Script error');
-    showGsSyncStatus(`📊 Sheets synced ${new Date().toLocaleTimeString('en',{hour:'2-digit',minute:'2-digit'})}`);
-  }catch(e){
-    showGsSyncStatus('⚠️ Sheets push failed');
-    console.warn('Sheets push:',e);
-  }
+    const xhr=new XMLHttpRequest();
+    xhr.open('POST',gsUrl,true);
+    xhr.setRequestHeader('Content-Type','text/plain');
+    xhr.onload=function(){
+      try{
+        const data=JSON.parse(xhr.responseText);
+        if(!data.ok)throw new Error(data.error||'Script error');
+        showGsSyncStatus(`📊 Sheets synced ${new Date().toLocaleTimeString('en',{hour:'2-digit',minute:'2-digit'})}`);
+      }catch(e){
+        showGsSyncStatus('⚠️ Sheets push failed');
+        console.warn('Sheets push:',e);
+      }
+      resolve();
+    };
+    xhr.onerror=function(){showGsSyncStatus('⚠️ Sheets push failed');resolve();};
+    xhr.send(JSON.stringify({budget}));
+  });
 }
 
-async function testAndSaveGsUrl(){
+function testAndSaveGsUrl(){
   const url=document.getElementById('gsUrlInput').value.trim();
   if(!url){document.getElementById('gsStatus').textContent='Enter a URL first';return;}
   document.getElementById('gsStatus').textContent='Testing…';
-  try{
-    const r=await fetch(url);
-    if(!r.ok)throw new Error(`HTTP ${r.status}`);
-    const data=await r.json();
-    if(!data.ok)throw new Error(data.error||'Script returned error');
-    gsUrl=url;localStorage.setItem('reno_gs_url',url);
-    document.getElementById('gsStatus').textContent=`✅ Connected · ${data.budget?.length||0} phases found`;
-    mergeBudgetFromSheets(data.budget);
-    localStorage.setItem('reno_budget_v1',JSON.stringify(budget));
-    renderBudget();
-  }catch(e){
-    document.getElementById('gsStatus').textContent='❌ '+e.message;
-  }
+  const xhr=new XMLHttpRequest();
+  xhr.open('GET',url,true);
+  xhr.onload=function(){
+    try{
+      if(xhr.status!==200)throw new Error(`HTTP ${xhr.status}`);
+      const data=JSON.parse(xhr.responseText);
+      if(!data.ok)throw new Error(data.error||'Script returned error');
+      gsUrl=url;localStorage.setItem('reno_gs_url',url);
+      document.getElementById('gsStatus').textContent=`✅ Connected · ${data.budget?.length||0} phases found`;
+      mergeBudgetFromSheets(data.budget);
+      localStorage.setItem('reno_budget_v1',JSON.stringify(budget));
+      renderBudget();
+    }catch(e){
+      document.getElementById('gsStatus').textContent='❌ '+e.message;
+    }
+  };
+  xhr.onerror=function(){document.getElementById('gsStatus').textContent='❌ Network error';};
+  xhr.send();
 }
 
 /* ══════ BUDGET ══════ */
