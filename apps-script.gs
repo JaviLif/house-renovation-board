@@ -12,8 +12,8 @@
  *  4. In the Renovation Board → ⚙ Settings → Google Sheets URL → paste URL → Connect Sheets
  *
  * COLUMN LAYOUT (confirmed):
- *   A  Item name / phase header
- *   B  (narrow hidden column — ignored)
+ *   A  (narrow formatting column — ignored, always blank in data rows)
+ *   B  Item name / phase header
  *   C  Quantity
  *   D  Cost per item (€)
  *   E  Material total  ← formula =IF(D*C=0,"",D*C), NEVER overwritten
@@ -29,7 +29,7 @@ const SPREADSHEET_ID = '1670GVxMtkEsH67B0kQgGMAnCMOdEABqMOPtqSMS7nW8';
 const SHEET_NAME     = 'Home Renovation Budget Template';
 
 const COL = {
-  NAME:   0,   // A  — item name / phase header
+  NAME:   1,   // B  — item name / phase header (column A is a narrow formatting column)
   QTY:    2,   // C  — quantity
   UNIT:   3,   // D  — cost per item
   MAT:    4,   // E  — material total (formula — never overwritten)
