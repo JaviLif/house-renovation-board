@@ -706,7 +706,7 @@
           "id": "ixmqcqpteqyu9",
           "name": "lnflkdNew item",
           "qty": 1,
-          "unit": 1,
+          "unit": 100,
           "labor": 0,
           "actual": null,
           "link": ""
@@ -854,5 +854,5 @@
       ]
     }
   ],
-  "updated": 1781378439882
+  "updated": 1781378461147
 }
