@@ -709,15 +709,6 @@
           "labor": 0,
           "actual": null,
           "link": ""
-        },
-        {
-          "id": "ixmqcdmsm0bx1",
-          "name": "Test",
-          "qty": 1,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": ""
         }
       ]
     },
@@ -757,5 +748,5 @@
       ]
     }
   ],
-  "updated": 1781356451203
+  "updated": 1781356463136
 }
