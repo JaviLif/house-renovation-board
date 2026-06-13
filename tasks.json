@@ -900,6 +900,16 @@
           "actual": null,
           "link": "",
           "notes": "90sqm Wanden + 40sqm Celing. Work + Materials. ink BTW  https://www.stuc-concurrent.nl/"
+        },
+        {
+          "id": "ixmqcy5o32sp9",
+          "name": "New item",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
         }
       ]
     },
@@ -941,5 +951,5 @@
       ]
     }
   ],
-  "updated": 1781390906997
+  "updated": 1781390919406
 }
