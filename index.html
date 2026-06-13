@@ -189,6 +189,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .budget-add-btn:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-light);}
 .bdel{background:none;border:none;cursor:pointer;font-size:12px;padding:2px 4px;border-radius:3px;color:var(--text-muted);line-height:1;}
 .bdel:hover{background:var(--danger-light);color:var(--danger);}
+.bi-notes{resize:none;overflow:hidden;min-height:24px;line-height:1.4;}
 .blink{background:none;border:none;cursor:pointer;font-size:12px;padding:2px 4px;border-radius:3px;color:var(--text-muted);line-height:1;}
 .blink:hover{background:var(--bg);}
 </style>
@@ -253,7 +254,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 </div><!-- /app -->
 
 <!-- Version badge -->
-<div id="versionBadge" style="position:fixed;bottom:10px;right:14px;font-size:10.5px;font-weight:700;color:var(--text-muted);background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:3px 9px;z-index:300;letter-spacing:.3px;box-shadow:var(--shadow);user-select:none">v1.2.4</div>
+<div id="versionBadge" style="position:fixed;bottom:10px;right:14px;font-size:10.5px;font-weight:700;color:var(--text-muted);background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:3px 9px;z-index:300;letter-spacing:.3px;box-shadow:var(--shadow);user-select:none">v1.2.5</div>
 
 <!-- Mobile nav -->
 <nav class="bottom-nav">
@@ -813,7 +814,7 @@ function renderBudget(){
             <th style="width:90px;text-align:right">Total</th>
             <th style="width:88px;text-align:right">Actual (€)</th>
             <th style="width:150px">Link</th>
-            <th style="width:150px">Notes</th>
+            <th style="min-width:240px">Notes</th>
             <th style="width:36px"></th>
           </tr></thead>
           <tbody id="tbody-${phase.id}"></tbody>
