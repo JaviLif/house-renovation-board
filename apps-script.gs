@@ -22,6 +22,7 @@
  *   H  Actual spent (€)
  *   I  (blank)
  *   J  Link / URL
+ *   K  Notes
  */
 
 // ── CONFIGURATION ─────────────────────────────────────────────
@@ -37,6 +38,7 @@ const COL = {
   TOTAL:  6,   // G  — total estimate (formula — never overwritten)
   ACTUAL: 7,   // H  — actual spent
   LINK:   9,   // J  — link / URL
+  NOTES: 10,   // K  — notes
 };
 // ──────────────────────────────────────────────────────────────
 
@@ -113,7 +115,8 @@ function parseSheetToBudget(rows) {
         labor:  numOrZero(row[COL.LABOR]),
         actual: (actual !== '' && actual !== null && actual !== undefined)
                 ? Number(actual) : null,
-        link:   String(row[COL.LINK] || ''),
+        link:   String(row[COL.LINK]  || ''),
+        notes:  String(row[COL.NOTES] || ''),
       });
     }
   });
@@ -163,7 +166,10 @@ function writeBudgetToSheet(sheet, budget) {
         sheet.getRange(r, COL.ACTUAL + 1).setValue(item.actual);
       }
       if (item.link !== undefined) {
-        sheet.getRange(r, COL.LINK + 1).setValue(item.link || '');
+        sheet.getRange(r, COL.LINK  + 1).setValue(item.link  || '');
+      }
+      if (item.notes !== undefined) {
+        sheet.getRange(r, COL.NOTES + 1).setValue(item.notes || '');
       }
     });
   });
