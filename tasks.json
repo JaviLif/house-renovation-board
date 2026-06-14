@@ -288,7 +288,7 @@
         },
         {
           "id": "ixmqd0vhh79uf",
-          "name": "New item",
+          "name": "asdsaNew item",
           "qty": 1,
           "unit": 0,
           "labor": 0,
@@ -2540,5 +2540,5 @@
       ]
     }
   ],
-  "updated": 1781395483127
+  "updated": 1781395487264
 }
