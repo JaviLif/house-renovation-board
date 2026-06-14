@@ -227,16 +227,6 @@
           "notes": ""
         },
         {
-          "id": "i_gs_30",
-          "name": "Preliminary Simple Layout Rooms & Zoning",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
           "id": "i_gs_31",
           "name": "Preliminary simple Layout Electricity",
           "qty": 0,
@@ -250,66 +240,6 @@
           "id": "i_gs_32",
           "name": "Street wokr Permits. (Dumpster/Container)",
           "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "ixmqcsoruk8fc",
-          "name": "testNew item",
-          "qty": 1,
-          "unit": 999,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_30",
-          "name": "TEST_INSERT_1781393290541",
-          "qty": 1,
-          "unit": 99,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": "auto test"
-        },
-        {
-          "id": "ixmqczxhonunm",
-          "name": "kjdsaNew item",
-          "qty": 1,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "ixmqd0vhh79uf",
-          "name": "asdsaNew item",
-          "qty": 1,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "ixmqd0vur6182",
-          "name": "New item",
-          "qty": 1,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "ixmqd0vvzvt8s",
-          "name": "New item",
-          "qty": 1,
           "unit": 0,
           "labor": 0,
           "actual": null,
@@ -2560,5 +2490,5 @@
       ]
     }
   ],
-  "updated": 1781395502254
+  "updated": 1781395525136
 }
