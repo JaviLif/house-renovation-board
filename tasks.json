@@ -45,153 +45,6 @@
   ],
   "budget": [
     {
-      "id": "ph_gs_6",
-      "label": "General",
-      "color": "#0052cc",
-      "items": [
-        {
-          "id": "i_gs_7",
-          "name": "Plans & Specification",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_8",
-          "name": "Survey",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_9",
-          "name": "Parcel / Lot",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_10",
-          "name": "Insurance cost",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_11",
-          "name": "Building Permit",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_12",
-          "name": "Zoning Permit",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_13",
-          "name": "Driveway Permit",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_14",
-          "name": "Soil Erosion Permit",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_15",
-          "name": "Septic/sewer permit",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_16",
-          "name": "Home Energy Assessor",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_18",
-          "name": "Engineering Fees",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_19",
-          "name": "Well/Water permit",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_20",
-          "name": "Port-A-Jon",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_21",
-          "name": "Dumpster",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        }
-      ]
-    },
-    {
       "id": "ph_gs_26",
       "label": "PHASE  0 Design & Prep",
       "color": "#0052cc",
@@ -204,7 +57,7 @@
           "labor": 0,
           "actual": null,
           "link": "https://www.bouwkeuringvergelijk.nl/zoeken/Amsterdam/390/",
-          "notes": "Structural inspection Building Inspector (Bouwkundig Inspecteur) ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ MANDATORY"
+          "notes": "Structural inspection Building Inspector (Bouwkundig Inspecteur) ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ MANDATORY"
         },
         {
           "id": "i_gs_28",
@@ -1578,14 +1431,17 @@
           "actual": null,
           "link": "",
           "notes": "90sqm Wanden + 40sqm Celing. Work + Materials. ink BTW  https://www.stuc-concurrent.nl/"
-        }
-      ]
-    },
-    {
-      "id": "ph_gs_191",
-      "label": "Needed Tools",
-      "color": "#0052cc",
-      "items": [
+        },
+        {
+          "id": "i_gs_191",
+          "name": "Needed Tools",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
         {
           "id": "i_gs_192",
           "name": "Stairs",
@@ -1645,97 +1501,10 @@
           "actual": null,
           "link": "https://nl.ryobitools.eu/elektrisch-gereedschap/boormachines-schroevendraaiers/slagschroevendraaiers/",
           "notes": ""
-        }
-      ]
-    },
-    {
-      "id": "ph_gs_198",
-      "label": "Site Preparation",
-      "color": "#0052cc",
-      "items": [
-        {
-          "id": "i_gs_199",
-          "name": "Perk Test",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_200",
-          "name": "Lot Clearing",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_201",
-          "name": "Excavation",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_202",
-          "name": "Sand fill",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_203",
-          "name": "Septic/Sewer",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_204",
-          "name": "Well",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_205",
-          "name": "Driveway",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_206",
-          "name": "Concrete",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
         },
         {
           "id": "i_gs_207",
-          "name": "Milling",
+          "name": "Site Preparation",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -1745,7 +1514,7 @@
         },
         {
           "id": "i_gs_208",
-          "name": "Asphalt",
+          "name": "Perk Test",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -1755,6 +1524,96 @@
         },
         {
           "id": "i_gs_209",
+          "name": "Lot Clearing",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_210",
+          "name": "Excavation",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_211",
+          "name": "Sand fill",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_212",
+          "name": "Septic/Sewer",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_213",
+          "name": "Well",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_214",
+          "name": "Driveway",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_215",
+          "name": "Concrete",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_216",
+          "name": "Milling",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_217",
+          "name": "Asphalt",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_218",
           "name": "other",
           "qty": 0,
           "unit": 0,
@@ -1762,67 +1621,10 @@
           "actual": null,
           "link": "",
           "notes": ""
-        }
-      ]
-    },
-    {
-      "id": "ph_gs_217",
-      "label": "Interior Requirements",
-      "color": "#0052cc",
-      "items": [
-        {
-          "id": "i_gs_219",
-          "name": "Insulation",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
         },
         {
-          "id": "i_gs_219",
-          "name": "Insulation",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_222",
-          "name": "Drywall",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_222",
-          "name": "Drywall",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_225",
-          "name": "Paint",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_225",
-          "name": "Paint",
+          "id": "i_gs_226",
+          "name": "Interior Requirements",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -1832,7 +1634,7 @@
         },
         {
           "id": "i_gs_228",
-          "name": "Trim",
+          "name": "Insulation",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -1842,17 +1644,7 @@
         },
         {
           "id": "i_gs_228",
-          "name": "Trim",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_230",
-          "name": "Cabinetry",
+          "name": "Insulation",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -1862,7 +1654,7 @@
         },
         {
           "id": "i_gs_231",
-          "name": "Cabinets",
+          "name": "Drywall",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -1871,8 +1663,8 @@
           "notes": ""
         },
         {
-          "id": "i_gs_233",
-          "name": "Sinks",
+          "id": "i_gs_231",
+          "name": "Drywall",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -1882,7 +1674,7 @@
         },
         {
           "id": "i_gs_234",
-          "name": "Kitchen sink",
+          "name": "Paint",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -1891,18 +1683,8 @@
           "notes": ""
         },
         {
-          "id": "i_gs_235",
-          "name": "Bathroom sink",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_236",
-          "name": "Laundry sink",
+          "id": "i_gs_234",
+          "name": "Paint",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -1912,7 +1694,17 @@
         },
         {
           "id": "i_gs_237",
-          "name": "Bar sink",
+          "name": "Trim",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_237",
+          "name": "Trim",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -1922,7 +1714,7 @@
         },
         {
           "id": "i_gs_239",
-          "name": "Counter tops",
+          "name": "Cabinetry",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -1932,17 +1724,7 @@
         },
         {
           "id": "i_gs_240",
-          "name": "Solid surface options",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_241",
-          "name": "Kitchen counter",
+          "name": "Cabinets",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -1952,7 +1734,7 @@
         },
         {
           "id": "i_gs_242",
-          "name": "Pantry counter",
+          "name": "Sinks",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -1962,7 +1744,7 @@
         },
         {
           "id": "i_gs_243",
-          "name": "Master bath counter",
+          "name": "Kitchen sink",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -1972,7 +1754,7 @@
         },
         {
           "id": "i_gs_244",
-          "name": "Laundry counter",
+          "name": "Bathroom sink",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -1982,7 +1764,7 @@
         },
         {
           "id": "i_gs_245",
-          "name": "Bar top counter",
+          "name": "Laundry sink",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -1992,17 +1774,7 @@
         },
         {
           "id": "i_gs_246",
-          "name": "Laminate tops options",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_255",
-          "name": "Kitchen",
+          "name": "Bar sink",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2012,7 +1784,7 @@
         },
         {
           "id": "i_gs_248",
-          "name": "Pantry",
+          "name": "Counter tops",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2022,7 +1794,7 @@
         },
         {
           "id": "i_gs_249",
-          "name": "Master bath",
+          "name": "Solid surface options",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2031,8 +1803,8 @@
           "notes": ""
         },
         {
-          "id": "i_gs_256",
-          "name": "Laundry",
+          "id": "i_gs_250",
+          "name": "Kitchen counter",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2042,7 +1814,7 @@
         },
         {
           "id": "i_gs_251",
-          "name": "Bar top",
+          "name": "Pantry counter",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2051,8 +1823,18 @@
           "notes": ""
         },
         {
-          "id": "i_gs_262",
-          "name": "Tile",
+          "id": "i_gs_252",
+          "name": "Master bath counter",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_253",
+          "name": "Laundry counter",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2062,7 +1844,7 @@
         },
         {
           "id": "i_gs_254",
-          "name": "Backsplash  locations",
+          "name": "Bar top counter",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2072,6 +1854,16 @@
         },
         {
           "id": "i_gs_255",
+          "name": "Laminate tops options",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_264",
           "name": "Kitchen",
           "qty": 0,
           "unit": 0,
@@ -2081,18 +1873,8 @@
           "notes": ""
         },
         {
-          "id": "i_gs_256",
-          "name": "Laundry",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
           "id": "i_gs_257",
-          "name": "Bath tile",
+          "name": "Pantry",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2102,7 +1884,7 @@
         },
         {
           "id": "i_gs_258",
-          "name": "Bar",
+          "name": "Master bath",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2111,8 +1893,8 @@
           "notes": ""
         },
         {
-          "id": "i_gs_259",
-          "name": "Shower tile",
+          "id": "i_gs_265",
+          "name": "Laundry",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2121,8 +1903,8 @@
           "notes": ""
         },
         {
-          "id": "i_gs_261",
-          "name": "Flooring",
+          "id": "i_gs_260",
+          "name": "Bar top",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2131,7 +1913,7 @@
           "notes": ""
         },
         {
-          "id": "i_gs_262",
+          "id": "i_gs_271",
           "name": "Tile",
           "qty": 0,
           "unit": 0,
@@ -2142,7 +1924,7 @@
         },
         {
           "id": "i_gs_263",
-          "name": "Master Bath",
+          "name": "Backsplash  locations",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2151,8 +1933,8 @@
           "notes": ""
         },
         {
-          "id": "i_gs_270",
-          "name": "Mudroom",
+          "id": "i_gs_264",
+          "name": "Kitchen",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2161,8 +1943,8 @@
           "notes": ""
         },
         {
-          "id": "i_gs_275",
-          "name": "Front Entry",
+          "id": "i_gs_265",
+          "name": "Laundry",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2171,8 +1953,8 @@
           "notes": ""
         },
         {
-          "id": "i_gs_285",
-          "name": "Laundry Room",
+          "id": "i_gs_266",
+          "name": "Bath tile",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2182,7 +1964,7 @@
         },
         {
           "id": "i_gs_267",
-          "name": "Laminated Vinyl Plank",
+          "name": "Bar",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2191,18 +1973,8 @@
           "notes": ""
         },
         {
-          "id": "i_gs_274",
-          "name": "Kitchen, dinette, great room, hallway , pantry",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_275",
-          "name": "Front Entry",
+          "id": "i_gs_268",
+          "name": "Shower tile",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2212,7 +1984,7 @@
         },
         {
           "id": "i_gs_270",
-          "name": "Mudroom",
+          "name": "Flooring",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2221,8 +1993,8 @@
           "notes": ""
         },
         {
-          "id": "i_gs_285",
-          "name": "Laundry Room",
+          "id": "i_gs_271",
+          "name": "Tile",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2231,68 +2003,8 @@
           "notes": ""
         },
         {
-          "id": "i_gs_281",
-          "name": "Master bedroom",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_273",
-          "name": "Hardwood",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_274",
-          "name": "Kitchen, dinette, great room, hallway , pantry",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_275",
-          "name": "Front Entry",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_276",
-          "name": "Rear Entry / Mudroom",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_285",
-          "name": "Laundry Room",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_278",
-          "name": "Master Bedroom",
+          "id": "i_gs_272",
+          "name": "Master Bath",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2302,7 +2014,7 @@
         },
         {
           "id": "i_gs_279",
-          "name": "Carpet",
+          "name": "Mudroom",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2311,8 +2023,8 @@
           "notes": ""
         },
         {
-          "id": "i_gs_280",
-          "name": "Den",
+          "id": "i_gs_284",
+          "name": "Front Entry",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2321,7 +2033,67 @@
           "notes": ""
         },
         {
-          "id": "i_gs_281",
+          "id": "i_gs_294",
+          "name": "Laundry Room",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_276",
+          "name": "Laminated Vinyl Plank",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_283",
+          "name": "Kitchen, dinette, great room, hallway , pantry",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_284",
+          "name": "Front Entry",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_279",
+          "name": "Mudroom",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_294",
+          "name": "Laundry Room",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_290",
           "name": "Master bedroom",
           "qty": 0,
           "unit": 0,
@@ -2332,7 +2104,7 @@
         },
         {
           "id": "i_gs_282",
-          "name": "Hallway/Stairs",
+          "name": "Hardwood",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2342,7 +2114,7 @@
         },
         {
           "id": "i_gs_283",
-          "name": "Rolled Vinyl",
+          "name": "Kitchen, dinette, great room, hallway , pantry",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2352,7 +2124,7 @@
         },
         {
           "id": "i_gs_284",
-          "name": "Bath",
+          "name": "Front Entry",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2362,6 +2134,16 @@
         },
         {
           "id": "i_gs_285",
+          "name": "Rear Entry / Mudroom",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_294",
           "name": "Laundry Room",
           "qty": 0,
           "unit": 0,
@@ -2372,7 +2154,7 @@
         },
         {
           "id": "i_gs_287",
-          "name": "Interior Stone",
+          "name": "Master Bedroom",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2382,24 +2164,7 @@
         },
         {
           "id": "i_gs_288",
-          "name": "Other",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": "ph_gs_293",
-      "label": "Final Finish Requirements",
-      "color": "#0052cc",
-      "items": [
-        {
-          "id": "i_gs_294",
-          "name": "Glass",
+          "name": "Carpet",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2408,8 +2173,58 @@
           "notes": ""
         },
         {
-          "id": "i_gs_295",
-          "name": "Mirrors",
+          "id": "i_gs_289",
+          "name": "Den",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_290",
+          "name": "Master bedroom",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_291",
+          "name": "Hallway/Stairs",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_292",
+          "name": "Rolled Vinyl",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_293",
+          "name": "Bath",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_294",
+          "name": "Laundry Room",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2419,7 +2234,7 @@
         },
         {
           "id": "i_gs_296",
-          "name": "Shower glass",
+          "name": "Interior Stone",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2428,47 +2243,7 @@
           "notes": ""
         },
         {
-          "id": "i_gs_298",
-          "name": "Closet systems",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_299",
-          "name": "Wood closet pantry system",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_302",
-          "name": "Hardware",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_303",
-          "name": "Towel bars, rings, toilet paper holder door knob, door stop allowance",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_304",
+          "id": "i_gs_313",
           "name": "Other",
           "qty": 0,
           "unit": 0,
@@ -2478,8 +2253,38 @@
           "notes": ""
         },
         {
-          "id": "i_gs_306",
-          "name": "Landscape Allowance",
+          "id": "i_gs_302",
+          "name": "Final Finish Requirements",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_303",
+          "name": "Glass",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_304",
+          "name": "Mirrors",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_305",
+          "name": "Shower glass",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2489,7 +2294,7 @@
         },
         {
           "id": "i_gs_307",
-          "name": "Underground sprinkling",
+          "name": "Closet systems",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -2499,6 +2304,66 @@
         },
         {
           "id": "i_gs_308",
+          "name": "Wood closet pantry system",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_311",
+          "name": "Hardware",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_312",
+          "name": "Towel bars, rings, toilet paper holder door knob, door stop allowance",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_313",
+          "name": "Other",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_315",
+          "name": "Landscape Allowance",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_316",
+          "name": "Underground sprinkling",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_317",
           "name": "Final Finishes",
           "qty": 0,
           "unit": 0,
@@ -2506,16 +2371,19 @@
           "actual": null,
           "link": "",
           "notes": ""
-        }
-      ]
-    },
-    {
-      "id": "ph_gs_302",
-      "label": "Totals",
-      "color": "#0052cc",
-      "items": [
+        },
         {
-          "id": "i_gs_305",
+          "id": "i_gs_321",
+          "name": "Totals",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_324",
           "name": "Contingency/Other (10%)",
           "qty": 0,
           "unit": 0,
@@ -2525,7 +2393,7 @@
           "notes": ""
         },
         {
-          "id": "i_gs_307",
+          "id": "i_gs_326",
           "name": "Realtor / closing cost fees",
           "qty": 0,
           "unit": 0,
@@ -2535,7 +2403,7 @@
           "notes": ""
         },
         {
-          "id": "i_gs_309",
+          "id": "i_gs_328",
           "name": "Grand Total",
           "qty": 0,
           "unit": 0,
@@ -2547,5 +2415,5 @@
       ]
     }
   ],
-  "updated": 1781447521797
+  "updated": 1781448031716
 }
