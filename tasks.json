@@ -2413,7 +2413,74 @@
           "notes": ""
         }
       ]
+    },
+    {
+      "id": "ph_gs_173",
+      "label": "Phase 14: Needed Tools",
+      "color": "#de350b",
+      "items": [
+        {
+          "id": "i_gs_174",
+          "name": "Stairs",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_175",
+          "name": "Tischkreissäge",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": "HBM"
+        },
+        {
+          "id": "i_gs_177",
+          "name": "Säbelsäge",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_178",
+          "name": "Nailgun",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_179",
+          "name": "HBM ALL Tools",
+          "qty": 1,
+          "unit": 1100,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.hbm-machines.com/nl/p/hbm-professionele-1700-watt-sloophamer-breekhamer-sds-max?sku=10924&utm_source=google&utm_medium=cpc&utm_campaign=18574139443&utm_content=bouw&kb=ga_pm_18574139443_&gad_source=1&gad_campaignid=18576853373&gclid=Cj0KCQjw_7PRBhDcARIsAMjV7jnZ_xOvSVfIX9tCRYXPBxjT50DM7EXjGoguEiDASApAGd5--XMOjVMaAkeoEALw_wcB",
+          "notes": "HBM"
+        },
+        {
+          "id": "i_gs_180",
+          "name": "Bohrer Ryobi",
+          "qty": 1,
+          "unit": 100,
+          "labor": 0,
+          "actual": null,
+          "link": "https://nl.ryobitools.eu/elektrisch-gereedschap/boormachines-schroevendraaiers/slagschroevendraaiers/",
+          "notes": ""
+        }
+      ]
     }
   ],
-  "updated": 1781448031716
+  "updated": 1781448218448
 }
