@@ -23,6 +23,13 @@
  *   I  (blank)
  *   J  Link / URL
  *   K  Notes
+ *
+ * PHASE DETECTION RULE:
+ *   A row is a phase header if and only if its name (column B) starts with
+ *   "Phase" or "Fase" (case-insensitive). Background color is NOT used.
+ *   All other rows inside a phase are treated as items, regardless of color.
+ *   Rows before the first Phase header are ignored.
+ *   Duplicate Phase headers with the same label are merged into one phase.
  */
 
 // ── CONFIGURATION ─────────────────────────────────────────────
@@ -52,10 +59,8 @@ function getSheet() {
 function doGet(e) {
   try {
     const sheet  = getSheet();
-    const range  = sheet.getDataRange();
-    const rows   = range.getValues();
-    const bgs    = range.getBackgrounds();
-    const budget = parseSheetToBudget(rows, bgs);
+    const rows   = sheet.getDataRange().getValues();
+    const budget = parseSheetToBudget(rows);
     return respond({ ok: true, budget, rows: rows.length, sheet: sheet.getName() });
   } catch (err) {
     return respond({ ok: false, error: err.message });
@@ -63,52 +68,57 @@ function doGet(e) {
 }
 
 /**
- * Row classification — uses BACKGROUND COLOR as the primary signal:
- *   • blank name             → skip
- *   • name starts "Subtotal" → skip (section subtotal row)
- *   • dark/colored background → phase / section header
- *   • light/white background  → item row
+ * Converts sheet rows into a budget array.
  *
- * Duplicate phase headers (same label appears multiple times) are merged
- * into one phase so the dashboard doesn't show duplicates.
+ * Phase header detection:
+ *   - ONLY rows whose name starts with "Phase" or "Fase" (case-insensitive) are headers.
+ *   - Background color is intentionally ignored — sub-section rows inside phases
+ *     often have colored backgrounds and must NOT be misclassified as phase headers.
+ *   - Rows before the first Phase header are skipped.
+ *   - If the same Phase label appears twice (duplicate header rows in the sheet),
+ *     their items are merged into a single phase on the board.
  */
-function parseSheetToBudget(rows, bgs) {
+function parseSheetToBudget(rows) {
   const phases       = [];
   let   currentPhase = null;
 
   rows.forEach((row, i) => {
     const name = String(row[COL.NAME] || '').trim();
-    if (!name) return;                                    // blank row
+    if (!name) return;
 
     // Skip subtotal / section-total rows
     if (name.toLowerCase().startsWith('subtotal')) return;
 
-    const bg       = bgs && bgs[i] ? bgs[i][COL.NAME] : null;
-    const isHeader = isPhaseHeader(name, bg);
+    if (isPhaseHeader(name)) {
+      // ── Phase header ────────────────────────────────────────
+      const lc    = name.toLowerCase();
+      let type    = undefined;
+      let color   = '#0052cc';
 
-    if (isHeader) {
-      // ── Phase / section header ──────────────────────────────
-      const lc = name.toLowerCase();
-      let type  = undefined;
-      let color = '#0052cc';
+      // Type detection — check content of the full name
+      if (lc.includes('subsidi') || lc.includes('subsidy')) {
+        type  = 'subsidy';
+        color = '#00875a';
+      } else if (lc.includes('labour') || lc.includes('labor') || lc.includes('arbeid')) {
+        type  = 'labour';
+        color = '#0052cc';
+      } else {
+        // Color by phase number — check multi-digit BEFORE single-digit
+        if      (lc.includes('phase 11') || lc.includes('fase 11'))  color = '#00875a';
+        else if (lc.includes('phase 10') || lc.includes('fase 10'))  color = '#6554c0';
+        else if (lc.includes('phase 0')  || lc.includes('fase 0'))   color = '#0052cc';
+        else if (lc.includes('phase 1')  || lc.includes('fase 1'))   color = '#de350b';
+        else if (lc.includes('phase 2')  || lc.includes('fase 2'))   color = '#ff8b00';
+        else if (lc.includes('phase 3')  || lc.includes('fase 3'))   color = '#00b8d9';
+        else if (lc.includes('phase 4')  || lc.includes('fase 4'))   color = '#de350b';
+        else if (lc.includes('phase 5')  || lc.includes('fase 5'))   color = '#6554c0';
+        else if (lc.includes('phase 6')  || lc.includes('fase 6'))   color = '#ff8b00';
+        else if (lc.includes('phase 7')  || lc.includes('fase 7'))   color = '#00875a';
+        else if (lc.includes('phase 8')  || lc.includes('fase 8'))   color = '#00b8d9';
+        else if (lc.includes('phase 9')  || lc.includes('fase 9'))   color = '#00875a';
+      }
 
-      if      (lc.includes('subsidi') || lc.includes('subsidy'))                            { type = 'subsidy'; color = '#00875a'; }
-      else if (lc.includes('labour')  || lc.includes('labor') || lc.includes('arbeid'))     { type = 'labour';  color = '#0052cc'; }
-      // Check multi-digit phases BEFORE single-digit (e.g. "phase 1" is a substring of "phase 10")
-      else if (lc.includes('phase 11') || lc.includes('fase 11'))  color = '#00875a';
-      else if (lc.includes('phase 10') || lc.includes('fase 10'))  color = '#6554c0';
-      else if (lc.includes('phase 0')  || lc.includes('fase 0'))   color = '#0052cc';
-      else if (lc.includes('phase 1')  || lc.includes('fase 1'))   color = '#de350b';
-      else if (lc.includes('phase 2')  || lc.includes('fase 2'))   color = '#ff8b00';
-      else if (lc.includes('phase 3')  || lc.includes('fase 3'))   color = '#00b8d9';
-      else if (lc.includes('phase 4')  || lc.includes('fase 4'))   color = '#de350b';
-      else if (lc.includes('phase 5')  || lc.includes('fase 5'))   color = '#6554c0';
-      else if (lc.includes('phase 6')  || lc.includes('fase 6'))   color = '#ff8b00';
-      else if (lc.includes('phase 7')  || lc.includes('fase 7'))   color = '#00875a';
-      else if (lc.includes('phase 8')  || lc.includes('fase 8'))   color = '#00b8d9';
-      else if (lc.includes('phase 9')  || lc.includes('fase 9'))   color = '#00875a';
-
-      // Merge into existing phase if same label (handles duplicate section headers in sheet)
+      // Merge into existing phase if same label (duplicate header rows in sheet)
       const existing = phases.find(p => p.label === name);
       if (existing) {
         currentPhase = existing;
@@ -118,7 +128,7 @@ function parseSheetToBudget(rows, bgs) {
       }
 
     } else if (currentPhase) {
-      // ── Item row ────────────────────────────────────────────
+      // ── Item row (everything inside a Phase that isn't a header) ──
       const actual = row[COL.ACTUAL];
       currentPhase.items.push({
         id:     'i_gs_' + i,
@@ -132,9 +142,10 @@ function parseSheetToBudget(rows, bgs) {
         notes:  String(row[COL.NOTES] || ''),
       });
     }
+    // rows before the first Phase header → silently ignored
   });
 
-  // Drop phases that have no items (e.g. blank template sections)
+  // Drop phases with no items
   return phases.filter(p => p.items.length > 0);
 }
 
@@ -152,9 +163,7 @@ function doPost(e) {
 }
 
 function writeBudgetToSheet(sheet, budget) {
-  const range = sheet.getDataRange();
-  const rows  = range.getValues();
-  const bgs   = range.getBackgrounds();
+  const rows = sheet.getDataRange().getValues();
 
   // Build name→rowIndex map (items only) and phase→lastItemRow map
   const nameToRow    = {};
@@ -166,12 +175,11 @@ function writeBudgetToSheet(sheet, budget) {
     if (!name) return;
     if (name.toLowerCase().startsWith('subtotal')) return;
 
-    const bg = bgs[i] ? bgs[i][COL.NAME] : null;
-    if (isPhaseHeader(name, bg)) {
-      currentPhaseLabel = name;   // phase header
-    } else {
+    if (isPhaseHeader(name)) {
+      currentPhaseLabel = name;
+    } else if (currentPhaseLabel) {
       nameToRow[name] = i;
-      if (currentPhaseLabel) phaseLastRow[currentPhaseLabel] = i;
+      phaseLastRow[currentPhaseLabel] = i;
     }
   });
 
@@ -181,7 +189,7 @@ function writeBudgetToSheet(sheet, budget) {
       let rowIdx = nameToRow[item.name];
 
       if (rowIdx === undefined) {
-        // ── NEW ITEM: insert a row after the phase's last known item ──
+        // ── NEW ITEM: insert after the phase's last known item ──
         const afterIdx = phaseLastRow[phase.label];
         if (afterIdx === undefined) return;   // phase not in sheet — skip
 
@@ -196,14 +204,14 @@ function writeBudgetToSheet(sheet, budget) {
         if (item.link  !== undefined) sheet.getRange(newRow1, COL.LINK  + 1).setValue(item.link  || '');
         if (item.notes !== undefined) sheet.getRange(newRow1, COL.NOTES + 1).setValue(item.notes || '');
 
-        // Advance tracker so next new item in same phase goes after this one
+        // Advance tracker
         const newIdx0 = afterIdx + 1;
         phaseLastRow[phase.label] = newIdx0;
         nameToRow[item.name]      = newIdx0;
         return;
       }
 
-      // ── EXISTING ITEM: update editable columns ────────────────────
+      // ── EXISTING ITEM: update editable columns ────────────────
       const r = rowIdx + 1;   // 1-indexed
       sheet.getRange(r, COL.QTY   + 1).setValue(item.qty   || 0);
       sheet.getRange(r, COL.UNIT  + 1).setValue(item.unit  || 0);
@@ -223,28 +231,11 @@ function writeBudgetToSheet(sheet, budget) {
 // ── HELPERS ───────────────────────────────────────────────────
 
 /**
- * Returns true if a row is a phase/section header.
- * Uses two signals — either is sufficient:
- *   1. Cell background is dark/colored (primary signal for most phases)
- *   2. Name matches "Phase N" / "Fase N" pattern (fallback for phases whose
- *      background may be lighter than expected)
+ * A row is a phase header if and only if its name starts with "Phase" or "Fase".
+ * Background color is NOT used — it caused false positives with colored sub-section rows.
  */
-function isPhaseHeader(name, bg) {
-  if (isHeaderBackground(bg)) return true;
-  return /^(phase|fase)\s+\d+/i.test(name);
-}
-
-/**
- * Returns true if the cell background is a dark/colored (non-white, non-light) color.
- */
-function isHeaderBackground(bg) {
-  if (!bg || bg === '#ffffff' || bg === '#000000') return false;
-  const hex = bg.replace('#', '');
-  if (hex.length !== 6) return false;
-  const r = parseInt(hex.substr(0, 2), 16);
-  const g = parseInt(hex.substr(2, 2), 16);
-  const b = parseInt(hex.substr(4, 2), 16);
-  return !(r > 200 && g > 200 && b > 200);
+function isPhaseHeader(name) {
+  return /^(phase|fase)\s+/i.test(name);
 }
 
 function numOrZero(v) {
