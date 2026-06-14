@@ -1,5 +1,5 @@
 /**
- * RENOVATION BOARD — Google Sheets Sync Script  v1.2.6
+ * RENOVATION BOARD — Google Sheets Sync Script  v1.3.0
  * =============================================
  * HOW TO INSTALL (3 steps):
  *
@@ -11,7 +11,12 @@
  *     → Deploy → Copy the Web App URL
  *  4. In the Renovation Board → ⚙ Settings → Google Sheets URL → paste URL → Connect Sheets
  *
- * COLUMN LAYOUT (confirmed):
+ * FIRST-TIME SETUP (after updating from v1.2.x):
+ *   Run setupNewColumns() once from the Apps Script editor to insert the
+ *   Payment Status (H) and Delivery Status (I) columns into the sheet.
+ *   After running, deploy a new version.
+ *
+ * COLUMN LAYOUT (confirmed after v1.3.0 setup):
  *   A  (narrow formatting column — ignored, always blank in data rows)
  *   B  Item name / phase header
  *   C  Quantity
@@ -19,10 +24,12 @@
  *   E  Material total  ← formula =IF(D*C=0,"",D*C), NEVER overwritten
  *   F  Labor (€)
  *   G  Total estimate  ← formula =IF(SUM(E:F)=0,"",SUM(E:F)), NEVER overwritten
- *   H  Actual spent (€)
- *   I  (blank)
- *   J  Link / URL
- *   K  Notes
+ *   H  Payment Status  (Not Paid / Deposit Paid / Fully Paid)
+ *   I  Delivery Status (Not Ordered / Ordered / Received / Returned)
+ *   J  Actual spent (€)
+ *   K  (blank)
+ *   L  Link / URL
+ *   M  Notes
  *
  * PHASE DETECTION RULE:
  *   A row is a phase header if and only if its name (column B) starts with
@@ -37,16 +44,21 @@ const SPREADSHEET_ID = '1670GVxMtkEsH67B0kQgGMAnCMOdEABqMOPtqSMS7nW8';
 const SHEET_NAME     = 'Home Renovation Budget Template';
 
 const COL = {
-  NAME:   1,   // B  — item name / phase header (column A is a narrow formatting column)
-  QTY:    2,   // C  — quantity
-  UNIT:   3,   // D  — cost per item
-  MAT:    4,   // E  — material total (formula — never overwritten)
-  LABOR:  5,   // F  — labor cost
-  TOTAL:  6,   // G  — total estimate (formula — never overwritten)
-  ACTUAL: 7,   // H  — actual spent
-  LINK:   9,   // J  — link / URL
-  NOTES: 10,   // K  — notes
+  NAME:     1,   // B  — item name / phase header
+  QTY:      2,   // C  — quantity
+  UNIT:     3,   // D  — cost per item
+  MAT:      4,   // E  — material total (formula — never overwritten)
+  LABOR:    5,   // F  — labor cost
+  TOTAL:    6,   // G  — total estimate (formula — never overwritten)
+  PAYMENT:  7,   // H  — payment status
+  DELIVERY: 8,   // I  — delivery status
+  ACTUAL:   9,   // J  — actual spent (was H before v1.3.0)
+  LINK:    11,   // L  — link / URL (was J before v1.3.0; K is blank)
+  NOTES:   12,   // M  — notes (was K before v1.3.0)
 };
+
+const PAY_DEFAULT = 'Not Paid';
+const DEL_DEFAULT = 'Not Ordered';
 // ──────────────────────────────────────────────────────────────
 
 
@@ -72,11 +84,9 @@ function doGet(e) {
  *
  * Phase header detection:
  *   - ONLY rows whose name starts with "Phase" or "Fase" (case-insensitive) are headers.
- *   - Background color is intentionally ignored — sub-section rows inside phases
- *     often have colored backgrounds and must NOT be misclassified as phase headers.
+ *   - Background color is intentionally ignored.
  *   - Rows before the first Phase header are skipped.
- *   - If the same Phase label appears twice (duplicate header rows in the sheet),
- *     their items are merged into a single phase on the board.
+ *   - Duplicate Phase labels are merged into a single phase.
  */
 function parseSheetToBudget(rows) {
   const phases       = [];
@@ -128,18 +138,22 @@ function parseSheetToBudget(rows) {
       }
 
     } else if (currentPhase) {
-      // ── Item row (everything inside a Phase that isn't a header) ──
-      const actual = row[COL.ACTUAL];
+      // ── Item row ─────────────────────────────────────────────
+      const actual   = row[COL.ACTUAL];
+      const payment  = String(row[COL.PAYMENT]  || '').trim() || PAY_DEFAULT;
+      const delivery = String(row[COL.DELIVERY] || '').trim() || DEL_DEFAULT;
+
       currentPhase.items.push({
-        id:     'i_gs_' + i,
+        id:       'i_gs_' + i,
         name,
-        qty:    numOrZero(row[COL.QTY]),
-        unit:   numOrZero(row[COL.UNIT]),
-        labor:  numOrZero(row[COL.LABOR]),
-        actual: (actual !== '' && actual !== null && actual !== undefined)
-                ? Number(actual) : null,
-        link:   String(row[COL.LINK]  || ''),
-        notes:  String(row[COL.NOTES] || ''),
+        qty:      numOrZero(row[COL.QTY]),
+        unit:     numOrZero(row[COL.UNIT]),
+        labor:    numOrZero(row[COL.LABOR]),
+        actual:   (actual !== '' && actual !== null && actual !== undefined) ? Number(actual) : null,
+        payment,
+        delivery,
+        link:     String(row[COL.LINK]  || ''),
+        notes:    String(row[COL.NOTES] || ''),
       });
     }
     // rows before the first Phase header → silently ignored
@@ -167,7 +181,7 @@ function writeBudgetToSheet(sheet, budget) {
 
   // Build name→rowIndex map (items only) and phase→lastItemRow map
   const nameToRow    = {};
-  const phaseLastRow = {};   // phase label → 0-based index of its last item row
+  const phaseLastRow = {};
   let   currentPhaseLabel = null;
 
   rows.forEach((row, i) => {
@@ -197,10 +211,12 @@ function writeBudgetToSheet(sheet, budget) {
         sheet.insertRowAfter(afterRow1);
         const newRow1 = afterRow1 + 1;        // 1-indexed position of new row
 
-        sheet.getRange(newRow1, COL.NAME  + 1).setValue(item.name);
-        sheet.getRange(newRow1, COL.QTY   + 1).setValue(item.qty   || 0);
-        sheet.getRange(newRow1, COL.UNIT  + 1).setValue(item.unit  || 0);
-        sheet.getRange(newRow1, COL.LABOR + 1).setValue(item.labor || 0);
+        sheet.getRange(newRow1, COL.NAME     + 1).setValue(item.name);
+        sheet.getRange(newRow1, COL.QTY      + 1).setValue(item.qty      || 0);
+        sheet.getRange(newRow1, COL.UNIT     + 1).setValue(item.unit     || 0);
+        sheet.getRange(newRow1, COL.LABOR    + 1).setValue(item.labor    || 0);
+        sheet.getRange(newRow1, COL.PAYMENT  + 1).setValue(item.payment  || PAY_DEFAULT);
+        sheet.getRange(newRow1, COL.DELIVERY + 1).setValue(item.delivery || DEL_DEFAULT);
         if (item.link  !== undefined) sheet.getRange(newRow1, COL.LINK  + 1).setValue(item.link  || '');
         if (item.notes !== undefined) sheet.getRange(newRow1, COL.NOTES + 1).setValue(item.notes || '');
 
@@ -213,9 +229,11 @@ function writeBudgetToSheet(sheet, budget) {
 
       // ── EXISTING ITEM: update editable columns ────────────────
       const r = rowIdx + 1;   // 1-indexed
-      sheet.getRange(r, COL.QTY   + 1).setValue(item.qty   || 0);
-      sheet.getRange(r, COL.UNIT  + 1).setValue(item.unit  || 0);
-      sheet.getRange(r, COL.LABOR + 1).setValue(item.labor || 0);
+      sheet.getRange(r, COL.QTY      + 1).setValue(item.qty      || 0);
+      sheet.getRange(r, COL.UNIT     + 1).setValue(item.unit     || 0);
+      sheet.getRange(r, COL.LABOR    + 1).setValue(item.labor    || 0);
+      sheet.getRange(r, COL.PAYMENT  + 1).setValue(item.payment  || PAY_DEFAULT);
+      sheet.getRange(r, COL.DELIVERY + 1).setValue(item.delivery || DEL_DEFAULT);
 
       if (item.actual !== null && item.actual !== undefined) {
         sheet.getRange(r, COL.ACTUAL + 1).setValue(item.actual);
@@ -226,6 +244,106 @@ function writeBudgetToSheet(sheet, budget) {
   });
 
   SpreadsheetApp.flush();
+}
+
+// ── SETUP (run once after upgrading from v1.2.x) ──────────────
+/**
+ * Run this function ONCE from the Apps Script editor after upgrading to v1.3.0.
+ * It inserts columns H (Payment Status) and I (Delivery Status) into the sheet,
+ * adds dropdown validation, fills default values, and sets conditional formatting.
+ *
+ * Safe to run: checks if columns are already set up before inserting.
+ */
+function setupNewColumns() {
+  const sheet   = getSheet();
+  const lastRow = sheet.getLastRow();
+
+  // Guard: don't insert twice
+  const existingHeader = sheet.getRange(1, 8).getValue();
+  if (String(existingHeader).toLowerCase().includes('payment')) {
+    Logger.log('Columns already set up — no changes made.');
+    return;
+  }
+
+  // Insert 2 columns after column G (7, 1-indexed)
+  sheet.insertColumnAfter(7);  // New col 8 = H (Payment Status)
+  sheet.insertColumnAfter(8);  // New col 9 = I (Delivery Status)
+
+  // Headers (row 1)
+  sheet.getRange(1, 8).setValue('Payment Status').setFontWeight('bold');
+  sheet.getRange(1, 9).setValue('Delivery Status').setFontWeight('bold');
+
+  // Data range (all rows below header)
+  const dataRows = Math.max(lastRow - 1, 1);
+  const payRange = sheet.getRange(2, 8, dataRows, 1);
+  const delRange = sheet.getRange(2, 9, dataRows, 1);
+
+  // Dropdown validation — Payment Status
+  payRange.setDataValidation(
+    SpreadsheetApp.newDataValidation()
+      .requireValueInList(['Not Paid', 'Deposit Paid', 'Fully Paid'], true)
+      .setAllowInvalid(false)
+      .build()
+  );
+
+  // Dropdown validation — Delivery Status
+  delRange.setDataValidation(
+    SpreadsheetApp.newDataValidation()
+      .requireValueInList(['Not Ordered', 'Ordered', 'Received', 'Returned'], true)
+      .setAllowInvalid(false)
+      .build()
+  );
+
+  // Fill defaults for blank cells
+  const payVals = payRange.getValues();
+  for (let i = 0; i < payVals.length; i++) {
+    if (!payVals[i][0]) payVals[i][0] = PAY_DEFAULT;
+  }
+  payRange.setValues(payVals);
+
+  const delVals = delRange.getValues();
+  for (let i = 0; i < delVals.length; i++) {
+    if (!delVals[i][0]) delVals[i][0] = DEL_DEFAULT;
+  }
+  delRange.setValues(delVals);
+
+  // Conditional formatting — Payment Status
+  const cfPay = [
+    { text: 'Not Paid',     bg: '#FFEBE6', fg: '#DE350B' },
+    { text: 'Deposit Paid', bg: '#FFF0B3', fg: '#FF8B00' },
+    { text: 'Fully Paid',   bg: '#E3FCEF', fg: '#006644' },
+  ].map(r =>
+    SpreadsheetApp.newConditionalFormatRule()
+      .whenTextEqualTo(r.text)
+      .setBackground(r.bg)
+      .setFontColor(r.fg)
+      .setRanges([payRange])
+      .build()
+  );
+
+  // Conditional formatting — Delivery Status
+  const cfDel = [
+    { text: 'Not Ordered', bg: '#EBECF0', fg: '#5E6C84' },
+    { text: 'Ordered',     bg: '#DEEBFF', fg: '#0052CC' },
+    { text: 'Received',    bg: '#E3FCEF', fg: '#006644' },
+    { text: 'Returned',    bg: '#FFF0B3', fg: '#FF8B00' },
+  ].map(r =>
+    SpreadsheetApp.newConditionalFormatRule()
+      .whenTextEqualTo(r.text)
+      .setBackground(r.bg)
+      .setFontColor(r.fg)
+      .setRanges([delRange])
+      .build()
+  );
+
+  sheet.setConditionalFormatRules([
+    ...sheet.getConditionalFormatRules(),
+    ...cfPay,
+    ...cfDel,
+  ]);
+
+  SpreadsheetApp.flush();
+  Logger.log('Done! Columns H (Payment Status) and I (Delivery Status) created and configured.');
 }
 
 // ── HELPERS ───────────────────────────────────────────────────

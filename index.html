@@ -190,6 +190,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .bdel{background:none;border:none;cursor:pointer;font-size:12px;padding:2px 4px;border-radius:3px;color:var(--text-muted);line-height:1;}
 .bdel:hover{background:var(--danger-light);color:var(--danger);}
 .bi-notes{resize:none;overflow:hidden;min-height:24px;line-height:1.4;}
+.bi-status{font-size:10px;font-weight:700;border-radius:12px;border:1.5px solid;cursor:pointer;width:100%;text-align:center;padding:2px 4px;-webkit-appearance:none;appearance:none;outline:none;}
 .blink{background:none;border:none;cursor:pointer;font-size:12px;padding:2px 4px;border-radius:3px;color:var(--text-muted);line-height:1;}
 .blink:hover{background:var(--bg);}
 </style>
@@ -254,7 +255,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 </div><!-- /app -->
 
 <!-- Version badge -->
-<div id="versionBadge" style="position:fixed;bottom:10px;right:14px;font-size:10.5px;font-weight:700;color:var(--text-muted);background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:3px 9px;z-index:300;letter-spacing:.3px;box-shadow:var(--shadow);user-select:none">v1.2.7</div>
+<div id="versionBadge" style="position:fixed;bottom:10px;right:14px;font-size:10.5px;font-weight:700;color:var(--text-muted);background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:3px 9px;z-index:300;letter-spacing:.3px;box-shadow:var(--shadow);user-select:none">v1.3.0</div>
 
 <!-- Mobile nav -->
 <nav class="bottom-nav">
@@ -808,6 +809,8 @@ function renderBudget(){
             <th style="width:90px;text-align:right">Material</th>
             <th style="width:80px;text-align:right">Labor (€)</th>
             <th style="width:90px;text-align:right">Total</th>
+            <th style="width:100px;text-align:center">Payment</th>
+            <th style="width:100px;text-align:center">Delivery</th>
             <th style="width:88px;text-align:right">Actual (€)</th>
             <th style="width:150px">Link</th>
             <th style="width:100%">Notes</th>
@@ -838,6 +841,8 @@ function makeBudgetRow(phaseId,item){
     <td class="bcalc${isNeg?' neg':''}" id="bmat-${item.id}">${fmt(mat)}</td>
     <td><input class="bi bi-num" type="number" step="any" value="${item.labor||''}" placeholder="0" onchange="updateBudgetItem('${phaseId}','${item.id}','labor',this.value)"/></td>
     <td class="bcalc${isNeg?' neg':''}" id="btot-${item.id}">${fmt(total)}</td>
+    <td><select class="bi bi-status" style="${payStyle(item.payment||'Not Paid')}" onchange="updateBudgetItem('${phaseId}','${item.id}','payment',this.value);applyStatusStyle(this,'pay')">${PAY_OPTS.map(o=>`<option value="${o.v}"${(item.payment||'Not Paid')===o.v?' selected':''}>${o.v}</option>`).join('')}</select></td>
+    <td><select class="bi bi-status" style="${delStyle(item.delivery||'Not Ordered')}" onchange="updateBudgetItem('${phaseId}','${item.id}','delivery',this.value);applyStatusStyle(this,'del')">${DEL_OPTS.map(o=>`<option value="${o.v}"${(item.delivery||'Not Ordered')===o.v?' selected':''}>${o.v}</option>`).join('')}</select></td>
     <td><input class="bi bi-num" type="number" step="any" value="${item.actual!==null&&item.actual!==undefined?item.actual:''}" placeholder="–" onchange="updateBudgetItem('${phaseId}','${item.id}','actual',this.value)"/></td>
     <td style="white-space:nowrap;display:flex;align-items:center;gap:3px">
       <input class="bi" style="width:120px" value="${esc(item.link||'')}" placeholder="https://…" onchange="updateBudgetItem('${phaseId}','${item.id}','link',this.value)"/>
@@ -848,11 +853,26 @@ function makeBudgetRow(phaseId,item){
   return tr;
 }
 
+const PAY_OPTS=[
+  {v:'Not Paid',     bg:'#ffebe6',color:'#de350b'},
+  {v:'Deposit Paid', bg:'#fff0b3',color:'#ff8b00'},
+  {v:'Fully Paid',   bg:'#e3fcef',color:'#00875a'},
+];
+const DEL_OPTS=[
+  {v:'Not Ordered',bg:'#ebecf0',color:'#5e6c84'},
+  {v:'Ordered',    bg:'#deebff',color:'#0052cc'},
+  {v:'Received',   bg:'#e3fcef',color:'#00875a'},
+  {v:'Returned',   bg:'#fff0b3',color:'#ff8b00'},
+];
+function payStyle(v){const o=PAY_OPTS.find(x=>x.v===v)||PAY_OPTS[0];return `background:${o.bg};color:${o.color};border-color:${o.color}99`;}
+function delStyle(v){const o=DEL_OPTS.find(x=>x.v===v)||DEL_OPTS[0];return `background:${o.bg};color:${o.color};border-color:${o.color}99`;}
+function applyStatusStyle(sel,type){const opts=type==='pay'?PAY_OPTS:DEL_OPTS;const o=opts.find(x=>x.v===sel.value)||opts[0];sel.style.background=o.bg;sel.style.color=o.color;sel.style.borderColor=o.color+'99';}
+
 function updateBudgetItem(phaseId,itemId,field,value){
   const phase=budget.find(p=>p.id===phaseId);if(!phase)return;
   const item=phase.items.find(i=>i.id===itemId);if(!item)return;
   const num=parseFloat(value);
-  item[field]=(['name','link','notes'].includes(field))?value:(isNaN(num)?0:num);
+  item[field]=(['name','link','notes','payment','delivery'].includes(field))?value:(isNaN(num)?0:num);
   saveBudget();
   /* update calculated cells without full re-render */
   const mat=(item.qty||0)*(item.unit||0);
@@ -869,7 +889,7 @@ function updateBudgetItem(phaseId,itemId,field,value){
 
 function addBudgetItem(phaseId){
   const phase=budget.find(p=>p.id===phaseId);if(!phase)return;
-  const newItem={id:'i'+uid(),name:'New item',qty:1,unit:0,labor:0,actual:null,link:'',notes:''};
+  const newItem={id:'i'+uid(),name:'New item',qty:1,unit:0,labor:0,actual:null,link:'',notes:'',payment:'Not Paid',delivery:'Not Ordered'};
   phase.items.push(newItem);
   saveBudget();
   const tbody=document.getElementById(`tbody-${phaseId}`);
