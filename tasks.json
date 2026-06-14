@@ -204,7 +204,7 @@
           "labor": 0,
           "actual": null,
           "link": "https://www.bouwkeuringvergelijk.nl/zoeken/Amsterdam/390/",
-          "notes": "Structural inspection Building Inspector (Bouwkundig Inspecteur) ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ MANDATORY"
+          "notes": "Structural inspection Building Inspector (Bouwkundig Inspecteur) ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ MANDATORY"
         },
         {
           "id": "i_gs_28",
@@ -276,22 +276,22 @@
         {
           "id": "i_gs_38",
           "name": "Removing Existing Walls (If necessary!)",
-          "qty": 2,
-          "unit": 600,
+          "qty": 0,
+          "unit": 0,
           "labor": 0,
           "actual": null,
-          "link": "https://www.afzetbak.nl/en/container-rental/construction-and-demolition-waste/10m3-gesloten",
-          "notes": ""
+          "link": "",
+          "notes": "Self Made"
         },
         {
           "id": "i_gs_39",
           "name": "Remove Bathroom & Kitchen",
-          "qty": 1,
-          "unit": 450,
+          "qty": 0,
+          "unit": 0,
           "labor": 0,
           "actual": null,
-          "link": "https://mastertools.nl/nl_nl/product/bosch-professional-breekhamer-0611338700",
-          "notes": ""
+          "link": "",
+          "notes": "Self Made"
         },
         {
           "id": "i_gs_40",
@@ -301,6 +301,16 @@
           "labor": 0,
           "actual": null,
           "link": "https://www.afzetbak.nl/en/container-rental/construction-and-demolition-waste/10m3-gesloten",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_43",
+          "name": "Tools",
+          "qty": 1,
+          "unit": 1000,
+          "labor": 0,
+          "actual": null,
+          "link": "",
           "notes": ""
         },
         {
@@ -321,16 +331,6 @@
           "labor": 0,
           "actual": null,
           "link": "https://mastertools.nl/nl_nl/product/bosch-professional-breekhamer-0611338700",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_43",
-          "name": "Tools",
-          "qty": 1,
-          "unit": 1000,
-          "labor": 0,
-          "actual": null,
-          "link": "",
           "notes": ""
         }
       ]
@@ -390,22 +390,22 @@
         {
           "id": "i_gs_57",
           "name": "Floor insolation",
-          "qty": 200,
-          "unit": 6,
+          "qty": 90,
+          "unit": 16,
           "labor": 0,
           "actual": null,
-          "link": "https://www.isolatiemateriaal.nl/p/gipsplaten-3000x600x125mm-ak-180-m2?utm_source=google&utm_medium=cpc&gad_source=1&gad_campaignid=19643236460&gbraid=0AAAAADxVveE6MjWj_uypRqIlvQYR1V3Tz&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsY9EhYWrdfmXthiXcRAfMbDXsS11dZrooPGwACYXcXZcyXXTE0BQ9YaAk2PEALw_wcB",
+          "link": "PIR 80mm Isolatieplaat | 2-Zijdig Aluminium (1200x600x80mm) - De Isolatieshop BV",
           "notes": "Only Boards, not including filler and so on"
         },
         {
           "id": "i_gs_58",
           "name": "Outside Wall Isolation",
-          "qty": 1,
-          "unit": 1000,
+          "qty": 90,
+          "unit": 15,
           "labor": 0,
           "actual": null,
-          "link": "",
-          "notes": ""
+          "link": "https://www.isolatiemateriaal.nl/p/insus-pir-2-zijdig-aluminium-1200x600x80mm-rd364-6plpak-432-m2",
+          "notes": "Rd 3,6; 80mm Price per sqm"
         },
         {
           "id": "i_gs_59",
@@ -482,93 +482,6 @@
           "labor": 0,
           "actual": null,
           "link": "",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": "ph_gs_83",
-      "label": "Phase 6:  Heating",
-      "color": "#ff8b00",
-      "items": [
-        {
-          "id": "i_gs_91",
-          "name": "Tools Extras, Glue, Material",
-          "qty": 16,
-          "unit": 3.23,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.elektramat.nl/magnum-adaptor-euroconus-aansluitkoppeling-12x1-5mm-x-3-4-2-stuks-w90012/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_84",
-          "name": "First Step isolation (see phase 1)",
-          "qty": 1,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_85",
-          "name": "Underfloor Gips DBs14 system Magnumboard",
-          "qty": 16,
-          "unit": 3.23,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.elektramat.nl/magnum-adaptor-euroconus-aansluitkoppeling-12x1-5mm-x-3-4-2-stuks-w90012/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_86",
-          "name": "Mega plate",
-          "qty": 1,
-          "unit": 421,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.elektramat.nl/magnum-basic-staal-vloerverwarming-verdeler-5-groeps-incl-a-label-pomp-w40005/?_gl=1*1ytr542*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_87",
-          "name": "Pipe Line",
-          "qty": 1,
-          "unit": 120,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.elektramat.nl/magnum-universele-vloerverwarmingsbuis-5-laags-pe-rt-12x1-5-mm-komo-rol-van-300-meter-w12300/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_88",
-          "name": "Adaptor",
-          "qty": 16,
-          "unit": 3.23,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.elektramat.nl/magnum-adaptor-euroconus-aansluitkoppeling-12x1-5mm-x-3-4-2-stuks-w90012/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_89",
-          "name": "Manifold + Pump",
-          "qty": 1,
-          "unit": 421,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.elektramat.nl/magnum-basic-staal-vloerverwarming-verdeler-5-groeps-incl-a-label-pomp-w40005/?_gl=1*1ytr542*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_91",
-          "name": "Tools Extras, Glue, Material",
-          "qty": 1,
-          "unit": 400,
-          "labor": 0,
-          "actual": null,
-          "link": "https://sanitairkamer.nl/saniclear-cube-ligbad-180x80cm-wit-sk1116.html",
           "notes": ""
         }
       ]
@@ -671,182 +584,75 @@
       ]
     },
     {
-      "id": "ph_gs_101",
-      "label": "Phase 8: Toilet",
-      "color": "#00b8d9",
+      "id": "ph_gs_83",
+      "label": "Phase 6:  Heating",
+      "color": "#ff8b00",
       "items": [
         {
-          "id": "i_gs_102",
+          "id": "i_gs_84",
           "name": "First Step isolation (see phase 1)",
-          "qty": 2,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_103",
-          "name": "Tales",
-          "qty": 1,
-          "unit": 1000,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.hornbach.nl/p/qboard-liquid-douche-element-1200x900x40-mm/12234114/?wt_mc=nl.paid.sea.google.alwayson_lia.bau.product.14491879814.166764485654.&gad_source=1&gad_campaignid=14491879814&gbraid=0AAAAADkpB3U45h96YcoypAE_4EDR9ZBaT&gclid=CjwKCAiAnoXNBhAZEiwAnItcG3pALPp1YK6XH59YEERUyQk_RwT_IVk1TSdxU9aGdSX7CQDpC9MI9hoC_WAQAvD_BwE",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_104",
-          "name": "Ligbadde",
-          "qty": 20,
-          "unit": 18.59,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_105",
-          "name": "Toilette",
-          "qty": 1,
-          "unit": 300,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.sklum.com/nl/kopen-douchebakken/208844-soho-rechthoekige-antislip-extra-vlakke-smc-hars-douchebak.html?id_c=573327",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_106",
-          "name": "Shower",
-          "qty": 1,
-          "unit": 284,
-          "labor": 0,
-          "actual": null,
-          "link": "https://sanitairkamer.nl/fontana-alaska-toiletmeubel-mat-zwart-40x22cm-met-solid-surface-fontein-links-sk79995.html",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_107",
-          "name": "Gips",
-          "qty": 1,
-          "unit": 384,
-          "labor": 0,
-          "actual": null,
-          "link": "https://sanitairkamer.nl/mueller-single-flat-natuur-stenen-meubelwastafel-80x46cm-geen-kraangat-sk50899.html",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_108",
-          "name": "Teller",
           "qty": 0,
           "unit": 0,
           "labor": 0,
           "actual": null,
-          "link": "https://www.maxaro.nl/en-gb/baths/built-in-baths/pianosa-corner-bath-160x85cm-acrylic-gloss-white-left-with-panels-99746/",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_109",
-          "name": "Kran small toilet",
-          "qty": 1,
-          "unit": 284,
-          "labor": 0,
-          "actual": null,
-          "link": "https://sanitairkamer.nl/fontana-alaska-toiletmeubel-mat-zwart-40x22cm-met-solid-surface-fontein-links-sk79995.html",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_110",
-          "name": "Kran big toilet",
-          "qty": 1,
-          "unit": 384,
-          "labor": 0,
-          "actual": null,
-          "link": "https://sanitairkamer.nl/mueller-single-flat-natuur-stenen-meubelwastafel-80x46cm-geen-kraangat-sk50899.html",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_111",
-          "name": "Bathtub cornelis",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.maxaro.nl/en-gb/baths/built-in-baths/pianosa-corner-bath-160x85cm-acrylic-gloss-white-left-with-panels-99746/",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_112",
-          "name": "Tools Extras, Glue, Material",
-          "qty": 1,
-          "unit": 600,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.mediamarkt.nl/nl/product/_samsung-rb34c600csaef-1762331.html?utm_source=google&utm_medium=cpc&utm_campaign=rt_shopping_generic_sp_nl-W8-9-MDA-Samsung-IBTNG-2026&utm_term=&utm_content=&utm_content=TCID23571866157-TAID197259997630&gad_source=1&gad_campaignid=23571866157&gbraid=0AAAAADoGBO6h4uKdtVlIEUgNM9-eH1RQA&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsYUvjU-9EXl5x1mOLzmasE89xl2Fx4JqExEpTGtB2GezUyGyi8AhgYaAlXHEALw_wcB",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": "ph_gs_115",
-      "label": "Phase 9: Kitchen",
-      "color": "#00875a",
-      "items": [
-        {
-          "id": "i_gs_116",
-          "name": "Iduction Plate",
-          "qty": 1,
-          "unit": 600,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.mediamarkt.nl/nl/product/_samsung-rb34c600csaef-1762331.html?utm_source=google&utm_medium=cpc&utm_campaign=rt_shopping_generic_sp_nl-W8-9-MDA-Samsung-IBTNG-2026&utm_term=&utm_content=&utm_content=TCID23571866157-TAID197259997630&gad_source=1&gad_campaignid=23571866157&gbraid=0AAAAADoGBO6h4uKdtVlIEUgNM9-eH1RQA&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsYUvjU-9EXl5x1mOLzmasE89xl2Fx4JqExEpTGtB2GezUyGyi8AhgYaAlXHEALw_wcB",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_117",
-          "name": "Oven",
-          "qty": 1,
-          "unit": 5000,
-          "labor": 0,
-          "actual": null,
           "link": "",
           "notes": ""
         },
         {
-          "id": "i_gs_118",
-          "name": "Spoelbak",
-          "qty": 1,
-          "unit": 338,
+          "id": "i_gs_85",
+          "name": "Underfloor Gips DBs14 system Magnumboard",
+          "qty": 13,
+          "unit": 104,
           "labor": 0,
           "actual": null,
-          "link": "https://sanitairkamer.nl/sapho-spoelbak-97x50cm-met-kraangat-zwart-graniet-sk38406.html",
+          "link": "https://www.vloerverwarming-direct.nl/p/25mm-systeem-dbs14-25mm-droogbouw-isolatieplaat-doos-7-50m2?utm_source=google&utm_medium=cpc&utm_campaign=FC_NL_NL_SHOP_PUR_CONV_BESTSELLERSQ424&gad_source=1&gad_campaignid=23277490225&gbraid=0AAAAADyq6tSzGK0p-Qz1Z_ayzduM5FMrQ&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCI5TdsWLuy4TOx0MXfb2rov05WusVCJJl-hNT71ND8DGxH9-P0DmrxoCZigQAvD_BwE",
+          "notes": "For 100 sqm. Each panel 7,5 sqm"
+        },
+        {
+          "id": "i_gs_86",
+          "name": "Mega plate",
+          "qty": 130,
+          "unit": 3,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.vloerverwarming-direct.nl/p/omega-profielen-dbs14-aluminium-1000mm-x-120mm?_gl=1*1qo18i4*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCI5TdsWLuy4TOx0MXfb2rov05WusVCJJl-hNT71ND8DGxH9-P0DmrxoCZigQAvD_BwE&gbraid=0AAAAADyq6tSzGK0p-Qz1Z_ayzduM5FMrQ",
           "notes": ""
         },
         {
-          "id": "i_gs_119",
-          "name": "Fridge",
+          "id": "i_gs_87",
+          "name": "Pipe Line",
           "qty": 1,
-          "unit": 600,
+          "unit": 120,
           "labor": 0,
           "actual": null,
-          "link": "https://www.mediamarkt.nl/nl/product/_samsung-rb34c600csaef-1762331.html?utm_source=google&utm_medium=cpc&utm_campaign=rt_shopping_generic_sp_nl-W8-9-MDA-Samsung-IBTNG-2026&utm_term=&utm_content=&utm_content=TCID23571866157-TAID197259997630&gad_source=1&gad_campaignid=23571866157&gbraid=0AAAAADoGBO6h4uKdtVlIEUgNM9-eH1RQA&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsYUvjU-9EXl5x1mOLzmasE89xl2Fx4JqExEpTGtB2GezUyGyi8AhgYaAlXHEALw_wcB",
+          "link": "https://www.elektramat.nl/magnum-universele-vloerverwarmingsbuis-5-laags-pe-rt-12x1-5-mm-komo-rol-van-300-meter-w12300/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
           "notes": ""
         },
         {
-          "id": "i_gs_120",
-          "name": "Forniture",
-          "qty": 1,
-          "unit": 5000,
+          "id": "i_gs_88",
+          "name": "Adaptor",
+          "qty": 16,
+          "unit": 3.23,
           "labor": 0,
           "actual": null,
-          "link": "",
+          "link": "https://www.elektramat.nl/magnum-adaptor-euroconus-aansluitkoppeling-12x1-5mm-x-3-4-2-stuks-w90012/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
           "notes": ""
         },
         {
-          "id": "i_gs_125",
+          "id": "i_gs_89",
+          "name": "Manifold + Pump",
+          "qty": 1,
+          "unit": 421,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.elektramat.nl/magnum-basic-staal-vloerverwarming-verdeler-5-groeps-incl-a-label-pomp-w40005/?_gl=1*1ytr542*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_91",
           "name": "Tools Extras, Glue, Material",
           "qty": 1,
-          "unit": 1000,
+          "unit": 1500,
           "labor": 0,
           "actual": null,
           "link": "",
@@ -872,8 +678,8 @@
         {
           "id": "i_gs_97",
           "name": "Tools Extras, Glue, Material",
-          "qty": 20,
-          "unit": 18.59,
+          "qty": 1,
+          "unit": 1000,
           "labor": 0,
           "actual": null,
           "link": "",
@@ -1044,6 +850,190 @@
           "name": "Forniture",
           "qty": 1,
           "unit": 5000,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ph_gs_101",
+      "label": "Phase 8: Toilet",
+      "color": "#00b8d9",
+      "items": [
+        {
+          "id": "i_gs_102",
+          "name": "First Step isolation (see phase 1)",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_103",
+          "name": "Tales",
+          "qty": 20,
+          "unit": 50,
+          "labor": 0,
+          "actual": null,
+          "link": "https://sanitairkamer.nl/jabo-gobi-nude-vloertegel-60x60cm-gerectificeerd-jb12440-4.html",
+          "notes": "20 sqm"
+        },
+        {
+          "id": "i_gs_104",
+          "name": "Ligbadde",
+          "qty": 1,
+          "unit": 400,
+          "labor": 0,
+          "actual": null,
+          "link": "https://sanitairkamer.nl/saniclear-cube-ligbad-180x80cm-wit-sk1116.html",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_105",
+          "name": "Toilette",
+          "qty": 2,
+          "unit": 325,
+          "labor": 0,
+          "actual": null,
+          "link": "https://sanitairkamer.nl/sanigoods-andes-toiletset-met-saniclear-itsie-randloos-toilet-wit-glans-sk101869.html",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_106",
+          "name": "Shower",
+          "qty": 1,
+          "unit": 1000,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.hornbach.nl/p/qboard-liquid-douche-element-1200x900x40-mm/12234114/?wt_mc=nl.paid.sea.google.alwayson_lia.bau.product.14491879814.166764485654.&gad_source=1&gad_campaignid=14491879814&gbraid=0AAAAADkpB3U45h96YcoypAE_4EDR9ZBaT&gclid=CjwKCAiAnoXNBhAZEiwAnItcG3pALPp1YK6XH59YEERUyQk_RwT_IVk1TSdxU9aGdSX7CQDpC9MI9hoC_WAQAvD_BwE",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_107",
+          "name": "Gips",
+          "qty": 20,
+          "unit": 18.59,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_108",
+          "name": "Teller",
+          "qty": 1,
+          "unit": 300,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.sklum.com/nl/kopen-douchebakken/208844-soho-rechthoekige-antislip-extra-vlakke-smc-hars-douchebak.html?id_c=573327",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_109",
+          "name": "Kran small toilet",
+          "qty": 1,
+          "unit": 284,
+          "labor": 0,
+          "actual": null,
+          "link": "https://sanitairkamer.nl/fontana-alaska-toiletmeubel-mat-zwart-40x22cm-met-solid-surface-fontein-links-sk79995.html",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_110",
+          "name": "Kran big toilet",
+          "qty": 1,
+          "unit": 384,
+          "labor": 0,
+          "actual": null,
+          "link": "https://sanitairkamer.nl/mueller-single-flat-natuur-stenen-meubelwastafel-80x46cm-geen-kraangat-sk50899.html",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_111",
+          "name": "Bathtub cornelis",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.maxaro.nl/en-gb/baths/built-in-baths/pianosa-corner-bath-160x85cm-acrylic-gloss-white-left-with-panels-99746/",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_112",
+          "name": "Tools Extras, Glue, Material",
+          "qty": 1,
+          "unit": 2000,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ph_gs_115",
+      "label": "Phase 9: Kitchen",
+      "color": "#00875a",
+      "items": [
+        {
+          "id": "i_gs_116",
+          "name": "Iduction Plate",
+          "qty": 1,
+          "unit": 900,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.elektroshopwagner.de/de/p/326929?utm_campaign=froogle_326929&utm_source=froogle&utm_medium=CPC&utm_content=textanzeige&campaign=froogle&gad_source=1&gad_campaignid=22319801995&gbraid=0AAAAAD_RZfyFbl5ea0h2s_mgLX8E1cQc-&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsbvw5Qmv4ZYwgtHhil7DFl6Sos7U7O7oLUwbf1CMZOP4Y0toYoi0EoaAoQ3EALw_wcB",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_117",
+          "name": "Oven",
+          "qty": 1,
+          "unit": 629,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.bemmelenkroon.nl/merken/siemens/hb272abb3-sies/?gad_source=1&gad_campaignid=215085475&gbraid=0AAAAADtnj80Q04PEH76MuMrO63MHHwykZ&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsZkxT7qtX4hFHJNteh_-oVYJBFXx5SKZlmQtMhj8M9GbWWNIj9lLXUaAnFBEALw_wcB",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_118",
+          "name": "Spoelbak",
+          "qty": 1,
+          "unit": 338,
+          "labor": 0,
+          "actual": null,
+          "link": "https://sanitairkamer.nl/sapho-spoelbak-97x50cm-met-kraangat-zwart-graniet-sk38406.html",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_119",
+          "name": "Fridge",
+          "qty": 1,
+          "unit": 600,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.mediamarkt.nl/nl/product/_samsung-rb34c600csaef-1762331.html?utm_source=google&utm_medium=cpc&utm_campaign=rt_shopping_generic_sp_nl-W8-9-MDA-Samsung-IBTNG-2026&utm_term=&utm_content=&utm_content=TCID23571866157-TAID197259997630&gad_source=1&gad_campaignid=23571866157&gbraid=0AAAAADoGBO6h4uKdtVlIEUgNM9-eH1RQA&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsYUvjU-9EXl5x1mOLzmasE89xl2Fx4JqExEpTGtB2GezUyGyi8AhgYaAlXHEALw_wcB",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_120",
+          "name": "Forniture",
+          "qty": 1,
+          "unit": 5000,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_125",
+          "name": "Tools Extras, Glue, Material",
+          "qty": 1,
+          "unit": 1000,
           "labor": 0,
           "actual": null,
           "link": "",
@@ -1324,28 +1314,38 @@
       "color": "#de350b",
       "items": [
         {
-          "id": "i_gs_143",
-          "name": "SUBSIDIES",
-          "qty": 1,
-          "unit": -610,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": "40 sqm @ 14/m2 subsidie ISDE Subsidie"
-        },
-        {
-          "id": "i_gs_164",
-          "name": "Tools Extras",
-          "qty": 1,
-          "unit": 1000,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
           "id": "i_gs_145",
           "name": "Bouwtekening",
+          "qty": 1,
+          "unit": 2000,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": "3,5x3,5x4,7 m =  12m"
+        },
+        {
+          "id": "i_gs_146",
+          "name": "Excavation",
+          "qty": 3,
+          "unit": 79,
+          "labor": 200,
+          "actual": null,
+          "link": "",
+          "notes": "12m"
+        },
+        {
+          "id": "i_gs_147",
+          "name": "Cement",
+          "qty": 1,
+          "unit": 1100,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.betonstorten.nl/offerte-aanvragen",
+          "notes": "10 for fundiereingbekisting,  7 for dak(), 12 for walls(35m\")"
+        },
+        {
+          "id": "i_gs_148",
+          "name": "Fundieeringbekisting",
           "qty": 1,
           "unit": 500,
           "labor": 0,
@@ -1354,60 +1354,30 @@
           "notes": "3,5x3,5x4,7 m =  12m"
         },
         {
-          "id": "i_gs_146",
-          "name": "Excavation",
-          "qty": 1,
-          "unit": 1000,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": "12m"
-        },
-        {
-          "id": "i_gs_147",
-          "name": "Cement",
-          "qty": 30,
-          "unit": 16.9,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": "10 for fundiereingbekisting,  7 for dak(), 12 for walls(35m\")"
-        },
-        {
-          "id": "i_gs_148",
-          "name": "Fundieeringbekisting",
-          "qty": 1,
-          "unit": 1000,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
           "id": "i_gs_149",
           "name": "Wapeningskorf",
           "qty": 1,
-          "unit": 6000,
+          "unit": 300,
           "labor": 0,
           "actual": null,
-          "link": "https://www.toeleveringonline.nl/product/2-delige-schuifpui-aluminium/?s=ventilation&w=m84w4000h2400p116jt0pc1469wc2112s2114sl0gt1025gi271gl324rt0rd0%7Ecp377cg2046c2109-x0y0w3868h2268f317dh0gr0ho0kac0mb0o1sd1who0wso0%7Ecp1566cg2298c4815%7Ecp396cg2046c2106.v1.v1",
+          "link": "",
           "notes": "3,6x2,4 3 windows all open "
         },
         {
           "id": "i_gs_150",
           "name": "OSB 2440x1220x11 mm",
-          "qty": 1,
-          "unit": 400,
+          "qty": 30,
+          "unit": 16.9,
           "labor": 0,
           "actual": null,
-          "link": "https://mein-dach24.de/epdm-dachfolie-1-5mm-457#",
+          "link": "",
           "notes": "1,5 mm 4mx4,5m"
         },
         {
           "id": "i_gs_151",
           "name": "Extra wood + screws...",
           "qty": 1,
-          "unit": 120,
+          "unit": 1000,
           "labor": 0,
           "actual": null,
           "link": "",
@@ -1416,22 +1386,22 @@
         {
           "id": "i_gs_152",
           "name": "Windows / Schuifpuien",
-          "qty": 2,
-          "unit": 40,
+          "qty": 1,
+          "unit": 6000,
           "labor": 0,
           "actual": null,
-          "link": "https://mein-dach24.de/EPDM-Dachgully?_gl=1*1510go*_up*MQ..*_ga*MTI0NzY2NzAzNi4xNzgxMzczOTc4*_ga_8GN11EHM1V*czE3ODEzNzM5NzgkbzEkZzEkdDE3ODEzNzQxMzUkajYwJGwwJGgxNDc3NzY2MTI3",
-          "notes": ""
+          "link": "https://www.toeleveringonline.nl/product/2-delige-schuifpui-aluminium/?s=ventilation&w=m84w4000h2400p116jt0pc1469wc2112s2114sl0gt1025gi271gl324rt0rd0%7Ecp377cg2046c2109-x0y0w3868h2268f317dh0gr0ho0kac0mb0o1sd1who0wso0%7Ecp1566cg2298c4815%7Ecp396cg2046c2106.v1.v1",
+          "notes": "3,6x2,4 3 windows all open "
         },
         {
           "id": "i_gs_153",
           "name": "EPDM Folie",
           "qty": 1,
-          "unit": 300,
+          "unit": 400,
           "labor": 0,
           "actual": null,
-          "link": "",
-          "notes": ""
+          "link": "https://mein-dach24.de/epdm-dachfolie-1-5mm-457#",
+          "notes": "1,5 mm 4mx4,5m"
         },
         {
           "id": "i_gs_154",
@@ -1464,6 +1434,26 @@
           "notes": ""
         },
         {
+          "id": "i_gs_164",
+          "name": "Tools Extras",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_143",
+          "name": "SUBSIDIES",
+          "qty": 1,
+          "unit": -610,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": "40 sqm @ 14/m2 subsidie ISDE Subsidie"
+        },
+        {
           "id": "i_gs_161",
           "name": "lnflkdNew item",
           "qty": 1,
@@ -1472,67 +1462,47 @@
           "actual": null,
           "link": "",
           "notes": ""
-        },
-        {
-          "id": "i_gs_164",
-          "name": "Tools Extras",
-          "qty": 1,
-          "unit": 1000,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
         }
       ]
     },
     {
-      "id": "ph_gs_167",
-      "label": "SUBSIDIES",
+      "id": "ph_gs_165",
+      "label": "Phase 12: SUBSIDIES",
       "color": "#00875a",
       "type": "subsidy",
       "items": [
         {
-          "id": "i_gs_169",
+          "id": "i_gs_167",
           "name": "MVHR",
           "qty": 1,
-          "unit": -1500,
+          "unit": -400,
           "labor": 0,
           "actual": null,
           "link": "",
-          "notes": "60m2 @ 25/m2 subsidie ISDE Subsidie"
+          "notes": "One time for following products https://www.rvo.nl/onderwerpen/isde/meldcodelijsten/ventilatiesystemen?sortBy=created&sortOrder=DESC"
         },
         {
-          "id": "i_gs_170",
+          "id": "i_gs_168",
           "name": "Heatpump",
           "qty": 1,
           "unit": -2500,
           "labor": 0,
           "actual": null,
           "link": "",
-          "notes": "Gemeende Subside Amsterdam. APPLY FIRST THEN DO THE WORK!"
+          "notes": "5kwh Air to Water. ISDe Subsidie https://www.rvo.nl/subsidies-financiering/isde/woningeigenaren/isolatiemaatregelen#voorwaarden-isolatie"
         },
         {
-          "id": "i_gs_171",
+          "id": "i_gs_169",
           "name": "Isolation Floor 40sqm2",
           "qty": 1,
-          "unit": 0,
+          "unit": -610,
           "labor": 0,
           "actual": null,
           "link": "",
-          "notes": "NO BTW"
+          "notes": "40 sqm @ 14/m2 subsidie ISDE Subsidie"
         },
         {
-          "id": "i_gs_172",
-          "name": "qewfcewqNew item",
-          "qty": 1,
-          "unit": 32,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_173",
+          "id": "i_gs_170",
           "name": "Wall Isoation 50sqm2",
           "qty": 1,
           "unit": -1250,
@@ -1542,7 +1512,7 @@
           "notes": "50m2 @ 25/m2 subsidie ISDE Subsidie"
         },
         {
-          "id": "i_gs_174",
+          "id": "i_gs_171",
           "name": "Roof 60sqm2",
           "qty": 1,
           "unit": -1500,
@@ -1552,7 +1522,7 @@
           "notes": "60m2 @ 25/m2 subsidie ISDE Subsidie"
         },
         {
-          "id": "i_gs_175",
+          "id": "i_gs_172",
           "name": "Isolation gemeende Subsidie",
           "qty": 1,
           "unit": -2500,
@@ -1562,7 +1532,7 @@
           "notes": "Gemeende Subside Amsterdam. APPLY FIRST THEN DO THE WORK!"
         },
         {
-          "id": "i_gs_176",
+          "id": "i_gs_173",
           "name": "Solar Panels",
           "qty": 1,
           "unit": 0,
@@ -1570,27 +1540,17 @@
           "actual": null,
           "link": "",
           "notes": "NO BTW"
-        },
-        {
-          "id": "i_gs_191",
-          "name": "Blabla",
-          "qty": 1,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
         }
       ]
     },
     {
-      "id": "ph_gs_172",
-      "label": "LABOUR",
+      "id": "ph_gs_179",
+      "label": "Phase 13: LABOUR",
       "color": "#0052cc",
       "type": "labour",
       "items": [
         {
-          "id": "i_gs_173",
+          "id": "i_gs_180",
           "name": "Rene",
           "qty": 1,
           "unit": 25000,
@@ -1600,7 +1560,7 @@
           "notes": "Rene works per project"
         },
         {
-          "id": "i_gs_174",
+          "id": "i_gs_181",
           "name": "Kevin",
           "qty": 120,
           "unit": 55,
@@ -1610,7 +1570,7 @@
           "notes": "Kevin wokrs per hour. calculation based on 6 weeks @ 37h/week  = 230 hours"
         },
         {
-          "id": "i_gs_175",
+          "id": "i_gs_182",
           "name": "Plaster Quotation Stuc-Concurrent b.v",
           "qty": 1,
           "unit": 2637.8,
@@ -1618,6 +1578,73 @@
           "actual": null,
           "link": "",
           "notes": "90sqm Wanden + 40sqm Celing. Work + Materials. ink BTW  https://www.stuc-concurrent.nl/"
+        }
+      ]
+    },
+    {
+      "id": "ph_gs_191",
+      "label": "Needed Tools",
+      "color": "#0052cc",
+      "items": [
+        {
+          "id": "i_gs_192",
+          "name": "Stairs",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_193",
+          "name": "Tischkreissäge",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": "HBM"
+        },
+        {
+          "id": "i_gs_195",
+          "name": "Säbelsäge",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_196",
+          "name": "Nailgun",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_197",
+          "name": "HBM ALL Tools",
+          "qty": 1,
+          "unit": 1100,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.hbm-machines.com/nl/p/hbm-professionele-1700-watt-sloophamer-breekhamer-sds-max?sku=10924&utm_source=google&utm_medium=cpc&utm_campaign=18574139443&utm_content=bouw&kb=ga_pm_18574139443_&gad_source=1&gad_campaignid=18576853373&gclid=Cj0KCQjw_7PRBhDcARIsAMjV7jnZ_xOvSVfIX9tCRYXPBxjT50DM7EXjGoguEiDASApAGd5--XMOjVMaAkeoEALw_wcB",
+          "notes": "HBM"
+        },
+        {
+          "id": "i_gs_198",
+          "name": "Bohrer Ryobi",
+          "qty": 1,
+          "unit": 100,
+          "labor": 0,
+          "actual": null,
+          "link": "https://nl.ryobitools.eu/elektrisch-gereedschap/boormachines-schroevendraaiers/slagschroevendraaiers/",
+          "notes": ""
         }
       ]
     },
@@ -1746,12 +1773,12 @@
         {
           "id": "i_gs_219",
           "name": "Insulation",
-          "qty": 3,
-          "unit": 79,
+          "qty": 0,
+          "unit": 0,
           "labor": 0,
           "actual": null,
-          "link": "https://www.verfwinkel.nl/powerdek-muren-plafonds-muurverf-wit.html?channable=02c96b696400333634353267&select=VW-FL1011.10&utm_source=google&utm_medium=cpc&utm_campaign={campaignname}&utm_id=22495205671&utm_term=&utm_content=749693406602&utm_source_platform=Google+Ads&gad_source=1&gad_campaignid=22495205671&gbraid=0AAAAADhCR3MgDW7x3qxfXShsSZ65bzkVt&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsZnj-nylLtkeaLYMuMKliz1s6cQ1flf05Ux9eCIHXjhZKBt_muTlxAaAsH3EALw_wcB",
-          "notes": "for 235m2 wall. 1L= 10m2; aprox 30 L"
+          "link": "",
+          "notes": ""
         },
         {
           "id": "i_gs_219",
@@ -2456,7 +2483,7 @@
           "qty": 0,
           "unit": 0,
           "labor": 0,
-          "actual": 0,
+          "actual": null,
           "link": "",
           "notes": ""
         },
@@ -2476,7 +2503,7 @@
           "qty": 0,
           "unit": 0,
           "labor": 0,
-          "actual": 0,
+          "actual": null,
           "link": "",
           "notes": ""
         }
@@ -2513,12 +2540,12 @@
           "qty": 0,
           "unit": 0,
           "labor": 0,
-          "actual": 0,
+          "actual": null,
           "link": "",
           "notes": ""
         }
       ]
     }
   ],
-  "updated": 1781446821524
+  "updated": 1781447521797
 }
