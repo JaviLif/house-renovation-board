@@ -204,7 +204,7 @@
           "labor": 0,
           "actual": null,
           "link": "https://www.bouwkeuringvergelijk.nl/zoeken/Amsterdam/390/",
-          "notes": "Structural inspection Building Inspector (Bouwkundig Inspecteur) ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ MANDATORY"
+          "notes": "Structural inspection Building Inspector (Bouwkundig Inspecteur) ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ MANDATORY"
         },
         {
           "id": "i_gs_28",
@@ -219,6 +219,16 @@
         {
           "id": "i_gs_29",
           "name": "Preliminary simple Layout Kitchen & Bath",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_30",
+          "name": "Preliminary Simple Layout Rooms & Zoning",
           "qty": 0,
           "unit": 0,
           "labor": 0,
@@ -477,6 +487,93 @@
       ]
     },
     {
+      "id": "ph_gs_83",
+      "label": "Phase 6:  Heating",
+      "color": "#ff8b00",
+      "items": [
+        {
+          "id": "i_gs_91",
+          "name": "Tools Extras, Glue, Material",
+          "qty": 16,
+          "unit": 3.23,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.elektramat.nl/magnum-adaptor-euroconus-aansluitkoppeling-12x1-5mm-x-3-4-2-stuks-w90012/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_84",
+          "name": "First Step isolation (see phase 1)",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_85",
+          "name": "Underfloor Gips DBs14 system Magnumboard",
+          "qty": 16,
+          "unit": 3.23,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.elektramat.nl/magnum-adaptor-euroconus-aansluitkoppeling-12x1-5mm-x-3-4-2-stuks-w90012/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_86",
+          "name": "Mega plate",
+          "qty": 1,
+          "unit": 421,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.elektramat.nl/magnum-basic-staal-vloerverwarming-verdeler-5-groeps-incl-a-label-pomp-w40005/?_gl=1*1ytr542*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_87",
+          "name": "Pipe Line",
+          "qty": 1,
+          "unit": 120,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.elektramat.nl/magnum-universele-vloerverwarmingsbuis-5-laags-pe-rt-12x1-5-mm-komo-rol-van-300-meter-w12300/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_88",
+          "name": "Adaptor",
+          "qty": 16,
+          "unit": 3.23,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.elektramat.nl/magnum-adaptor-euroconus-aansluitkoppeling-12x1-5mm-x-3-4-2-stuks-w90012/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_89",
+          "name": "Manifold + Pump",
+          "qty": 1,
+          "unit": 421,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.elektramat.nl/magnum-basic-staal-vloerverwarming-verdeler-5-groeps-incl-a-label-pomp-w40005/?_gl=1*1ytr542*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_91",
+          "name": "Tools Extras, Glue, Material",
+          "qty": 1,
+          "unit": 400,
+          "labor": 0,
+          "actual": null,
+          "link": "https://sanitairkamer.nl/saniclear-cube-ligbad-180x80cm-wit-sk1116.html",
+          "notes": ""
+        }
+      ]
+    },
+    {
       "id": "ph_gs_77",
       "label": "Phase 5 : MVHR",
       "color": "#6554c0",
@@ -574,14 +671,14 @@
       ]
     },
     {
-      "id": "ph_gs_83",
-      "label": "Phase 6:  Heating",
-      "color": "#ff8b00",
+      "id": "ph_gs_101",
+      "label": "Phase 8: Toilet",
+      "color": "#00b8d9",
       "items": [
         {
-          "id": "i_gs_84",
+          "id": "i_gs_102",
           "name": "First Step isolation (see phase 1)",
-          "qty": 1,
+          "qty": 2,
           "unit": 0,
           "labor": 0,
           "actual": null,
@@ -589,60 +686,167 @@
           "notes": ""
         },
         {
-          "id": "i_gs_85",
-          "name": "Underfloor Gips DBs14 system Magnumboard",
-          "qty": 16,
-          "unit": 3.23,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.elektramat.nl/magnum-adaptor-euroconus-aansluitkoppeling-12x1-5mm-x-3-4-2-stuks-w90012/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_86",
-          "name": "Mega plate",
+          "id": "i_gs_103",
+          "name": "Tales",
           "qty": 1,
-          "unit": 421,
+          "unit": 1000,
           "labor": 0,
           "actual": null,
-          "link": "https://www.elektramat.nl/magnum-basic-staal-vloerverwarming-verdeler-5-groeps-incl-a-label-pomp-w40005/?_gl=1*1ytr542*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
+          "link": "https://www.hornbach.nl/p/qboard-liquid-douche-element-1200x900x40-mm/12234114/?wt_mc=nl.paid.sea.google.alwayson_lia.bau.product.14491879814.166764485654.&gad_source=1&gad_campaignid=14491879814&gbraid=0AAAAADkpB3U45h96YcoypAE_4EDR9ZBaT&gclid=CjwKCAiAnoXNBhAZEiwAnItcG3pALPp1YK6XH59YEERUyQk_RwT_IVk1TSdxU9aGdSX7CQDpC9MI9hoC_WAQAvD_BwE",
           "notes": ""
         },
         {
-          "id": "i_gs_87",
-          "name": "Pipe Line",
+          "id": "i_gs_104",
+          "name": "Ligbadde",
+          "qty": 20,
+          "unit": 18.59,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_105",
+          "name": "Toilette",
           "qty": 1,
-          "unit": 120,
+          "unit": 300,
           "labor": 0,
           "actual": null,
-          "link": "https://www.elektramat.nl/magnum-universele-vloerverwarmingsbuis-5-laags-pe-rt-12x1-5-mm-komo-rol-van-300-meter-w12300/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
+          "link": "https://www.sklum.com/nl/kopen-douchebakken/208844-soho-rechthoekige-antislip-extra-vlakke-smc-hars-douchebak.html?id_c=573327",
           "notes": ""
         },
         {
-          "id": "i_gs_88",
-          "name": "Adaptor",
-          "qty": 16,
-          "unit": 3.23,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.elektramat.nl/magnum-adaptor-euroconus-aansluitkoppeling-12x1-5mm-x-3-4-2-stuks-w90012/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_89",
-          "name": "Manifold + Pump",
+          "id": "i_gs_106",
+          "name": "Shower",
           "qty": 1,
-          "unit": 421,
+          "unit": 284,
           "labor": 0,
           "actual": null,
-          "link": "https://www.elektramat.nl/magnum-basic-staal-vloerverwarming-verdeler-5-groeps-incl-a-label-pomp-w40005/?_gl=1*1ytr542*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
+          "link": "https://sanitairkamer.nl/fontana-alaska-toiletmeubel-mat-zwart-40x22cm-met-solid-surface-fontein-links-sk79995.html",
           "notes": ""
         },
         {
-          "id": "i_gs_91",
+          "id": "i_gs_107",
+          "name": "Gips",
+          "qty": 1,
+          "unit": 384,
+          "labor": 0,
+          "actual": null,
+          "link": "https://sanitairkamer.nl/mueller-single-flat-natuur-stenen-meubelwastafel-80x46cm-geen-kraangat-sk50899.html",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_108",
+          "name": "Teller",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.maxaro.nl/en-gb/baths/built-in-baths/pianosa-corner-bath-160x85cm-acrylic-gloss-white-left-with-panels-99746/",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_109",
+          "name": "Kran small toilet",
+          "qty": 1,
+          "unit": 284,
+          "labor": 0,
+          "actual": null,
+          "link": "https://sanitairkamer.nl/fontana-alaska-toiletmeubel-mat-zwart-40x22cm-met-solid-surface-fontein-links-sk79995.html",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_110",
+          "name": "Kran big toilet",
+          "qty": 1,
+          "unit": 384,
+          "labor": 0,
+          "actual": null,
+          "link": "https://sanitairkamer.nl/mueller-single-flat-natuur-stenen-meubelwastafel-80x46cm-geen-kraangat-sk50899.html",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_111",
+          "name": "Bathtub cornelis",
+          "qty": 0,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.maxaro.nl/en-gb/baths/built-in-baths/pianosa-corner-bath-160x85cm-acrylic-gloss-white-left-with-panels-99746/",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_112",
           "name": "Tools Extras, Glue, Material",
           "qty": 1,
-          "unit": 1500,
+          "unit": 600,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.mediamarkt.nl/nl/product/_samsung-rb34c600csaef-1762331.html?utm_source=google&utm_medium=cpc&utm_campaign=rt_shopping_generic_sp_nl-W8-9-MDA-Samsung-IBTNG-2026&utm_term=&utm_content=&utm_content=TCID23571866157-TAID197259997630&gad_source=1&gad_campaignid=23571866157&gbraid=0AAAAADoGBO6h4uKdtVlIEUgNM9-eH1RQA&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsYUvjU-9EXl5x1mOLzmasE89xl2Fx4JqExEpTGtB2GezUyGyi8AhgYaAlXHEALw_wcB",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ph_gs_115",
+      "label": "Phase 9: Kitchen",
+      "color": "#00875a",
+      "items": [
+        {
+          "id": "i_gs_116",
+          "name": "Iduction Plate",
+          "qty": 1,
+          "unit": 600,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.mediamarkt.nl/nl/product/_samsung-rb34c600csaef-1762331.html?utm_source=google&utm_medium=cpc&utm_campaign=rt_shopping_generic_sp_nl-W8-9-MDA-Samsung-IBTNG-2026&utm_term=&utm_content=&utm_content=TCID23571866157-TAID197259997630&gad_source=1&gad_campaignid=23571866157&gbraid=0AAAAADoGBO6h4uKdtVlIEUgNM9-eH1RQA&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsYUvjU-9EXl5x1mOLzmasE89xl2Fx4JqExEpTGtB2GezUyGyi8AhgYaAlXHEALw_wcB",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_117",
+          "name": "Oven",
+          "qty": 1,
+          "unit": 5000,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_118",
+          "name": "Spoelbak",
+          "qty": 1,
+          "unit": 338,
+          "labor": 0,
+          "actual": null,
+          "link": "https://sanitairkamer.nl/sapho-spoelbak-97x50cm-met-kraangat-zwart-graniet-sk38406.html",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_119",
+          "name": "Fridge",
+          "qty": 1,
+          "unit": 600,
+          "labor": 0,
+          "actual": null,
+          "link": "https://www.mediamarkt.nl/nl/product/_samsung-rb34c600csaef-1762331.html?utm_source=google&utm_medium=cpc&utm_campaign=rt_shopping_generic_sp_nl-W8-9-MDA-Samsung-IBTNG-2026&utm_term=&utm_content=&utm_content=TCID23571866157-TAID197259997630&gad_source=1&gad_campaignid=23571866157&gbraid=0AAAAADoGBO6h4uKdtVlIEUgNM9-eH1RQA&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsYUvjU-9EXl5x1mOLzmasE89xl2Fx4JqExEpTGtB2GezUyGyi8AhgYaAlXHEALw_wcB",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_120",
+          "name": "Forniture",
+          "qty": 1,
+          "unit": 5000,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "i_gs_125",
+          "name": "Tools Extras, Glue, Material",
+          "qty": 1,
+          "unit": 1000,
           "labor": 0,
           "actual": null,
           "link": "",
@@ -668,8 +872,8 @@
         {
           "id": "i_gs_97",
           "name": "Tools Extras, Glue, Material",
-          "qty": 1,
-          "unit": 1000,
+          "qty": 20,
+          "unit": 18.59,
           "labor": 0,
           "actual": null,
           "link": "",
@@ -840,190 +1044,6 @@
           "name": "Forniture",
           "qty": 1,
           "unit": 5000,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": "ph_gs_101",
-      "label": "Phase 8: Toilet",
-      "color": "#00b8d9",
-      "items": [
-        {
-          "id": "i_gs_102",
-          "name": "First Step isolation (see phase 1)",
-          "qty": 2,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_103",
-          "name": "Tales",
-          "qty": 1,
-          "unit": 1000,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.hornbach.nl/p/qboard-liquid-douche-element-1200x900x40-mm/12234114/?wt_mc=nl.paid.sea.google.alwayson_lia.bau.product.14491879814.166764485654.&gad_source=1&gad_campaignid=14491879814&gbraid=0AAAAADkpB3U45h96YcoypAE_4EDR9ZBaT&gclid=CjwKCAiAnoXNBhAZEiwAnItcG3pALPp1YK6XH59YEERUyQk_RwT_IVk1TSdxU9aGdSX7CQDpC9MI9hoC_WAQAvD_BwE",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_104",
-          "name": "Ligbadde",
-          "qty": 20,
-          "unit": 18.59,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_105",
-          "name": "Toilette",
-          "qty": 1,
-          "unit": 300,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.sklum.com/nl/kopen-douchebakken/208844-soho-rechthoekige-antislip-extra-vlakke-smc-hars-douchebak.html?id_c=573327",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_106",
-          "name": "Shower",
-          "qty": 1,
-          "unit": 284,
-          "labor": 0,
-          "actual": null,
-          "link": "https://sanitairkamer.nl/fontana-alaska-toiletmeubel-mat-zwart-40x22cm-met-solid-surface-fontein-links-sk79995.html",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_107",
-          "name": "Gips",
-          "qty": 1,
-          "unit": 384,
-          "labor": 0,
-          "actual": null,
-          "link": "https://sanitairkamer.nl/mueller-single-flat-natuur-stenen-meubelwastafel-80x46cm-geen-kraangat-sk50899.html",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_108",
-          "name": "Teller",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.maxaro.nl/en-gb/baths/built-in-baths/pianosa-corner-bath-160x85cm-acrylic-gloss-white-left-with-panels-99746/",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_109",
-          "name": "Kran small toilet",
-          "qty": 1,
-          "unit": 284,
-          "labor": 0,
-          "actual": null,
-          "link": "https://sanitairkamer.nl/fontana-alaska-toiletmeubel-mat-zwart-40x22cm-met-solid-surface-fontein-links-sk79995.html",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_110",
-          "name": "Kran big toilet",
-          "qty": 1,
-          "unit": 384,
-          "labor": 0,
-          "actual": null,
-          "link": "https://sanitairkamer.nl/mueller-single-flat-natuur-stenen-meubelwastafel-80x46cm-geen-kraangat-sk50899.html",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_111",
-          "name": "Bathtub cornelis",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.maxaro.nl/en-gb/baths/built-in-baths/pianosa-corner-bath-160x85cm-acrylic-gloss-white-left-with-panels-99746/",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_112",
-          "name": "Tools Extras, Glue, Material",
-          "qty": 1,
-          "unit": 2000,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": "ph_gs_115",
-      "label": "Phase 9: Kitchen",
-      "color": "#00875a",
-      "items": [
-        {
-          "id": "i_gs_116",
-          "name": "Iduction Plate",
-          "qty": 1,
-          "unit": 600,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.mediamarkt.nl/nl/product/_samsung-rb34c600csaef-1762331.html?utm_source=google&utm_medium=cpc&utm_campaign=rt_shopping_generic_sp_nl-W8-9-MDA-Samsung-IBTNG-2026&utm_term=&utm_content=&utm_content=TCID23571866157-TAID197259997630&gad_source=1&gad_campaignid=23571866157&gbraid=0AAAAADoGBO6h4uKdtVlIEUgNM9-eH1RQA&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsYUvjU-9EXl5x1mOLzmasE89xl2Fx4JqExEpTGtB2GezUyGyi8AhgYaAlXHEALw_wcB",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_117",
-          "name": "Oven",
-          "qty": 1,
-          "unit": 5000,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_118",
-          "name": "Spoelbak",
-          "qty": 1,
-          "unit": 338,
-          "labor": 0,
-          "actual": null,
-          "link": "https://sanitairkamer.nl/sapho-spoelbak-97x50cm-met-kraangat-zwart-graniet-sk38406.html",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_119",
-          "name": "Fridge",
-          "qty": 1,
-          "unit": 600,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.mediamarkt.nl/nl/product/_samsung-rb34c600csaef-1762331.html?utm_source=google&utm_medium=cpc&utm_campaign=rt_shopping_generic_sp_nl-W8-9-MDA-Samsung-IBTNG-2026&utm_term=&utm_content=&utm_content=TCID23571866157-TAID197259997630&gad_source=1&gad_campaignid=23571866157&gbraid=0AAAAADoGBO6h4uKdtVlIEUgNM9-eH1RQA&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsYUvjU-9EXl5x1mOLzmasE89xl2Fx4JqExEpTGtB2GezUyGyi8AhgYaAlXHEALw_wcB",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_120",
-          "name": "Forniture",
-          "qty": 1,
-          "unit": 5000,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_125",
-          "name": "Tools Extras, Glue, Material",
-          "qty": 1,
-          "unit": 1000,
           "labor": 0,
           "actual": null,
           "link": "",
@@ -1304,6 +1324,26 @@
       "color": "#de350b",
       "items": [
         {
+          "id": "i_gs_143",
+          "name": "SUBSIDIES",
+          "qty": 1,
+          "unit": -610,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": "40 sqm @ 14/m2 subsidie ISDE Subsidie"
+        },
+        {
+          "id": "i_gs_164",
+          "name": "Tools Extras",
+          "qty": 1,
+          "unit": 1000,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
           "id": "i_gs_145",
           "name": "Bouwtekening",
           "qty": 1,
@@ -1317,7 +1357,7 @@
           "id": "i_gs_146",
           "name": "Excavation",
           "qty": 1,
-          "unit": 300,
+          "unit": 1000,
           "labor": 0,
           "actual": null,
           "link": "",
@@ -1530,6 +1570,16 @@
           "actual": null,
           "link": "",
           "notes": "NO BTW"
+        },
+        {
+          "id": "i_gs_191",
+          "name": "Blabla",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
         }
       ]
     },
@@ -1696,12 +1746,12 @@
         {
           "id": "i_gs_219",
           "name": "Insulation",
-          "qty": 0,
-          "unit": 0,
+          "qty": 3,
+          "unit": 79,
           "labor": 0,
           "actual": null,
-          "link": "",
-          "notes": ""
+          "link": "https://www.verfwinkel.nl/powerdek-muren-plafonds-muurverf-wit.html?channable=02c96b696400333634353267&select=VW-FL1011.10&utm_source=google&utm_medium=cpc&utm_campaign={campaignname}&utm_id=22495205671&utm_term=&utm_content=749693406602&utm_source_platform=Google+Ads&gad_source=1&gad_campaignid=22495205671&gbraid=0AAAAADhCR3MgDW7x3qxfXShsSZ65bzkVt&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsZnj-nylLtkeaLYMuMKliz1s6cQ1flf05Ux9eCIHXjhZKBt_muTlxAaAsH3EALw_wcB",
+          "notes": "for 235m2 wall. 1L= 10m2; aprox 30 L"
         },
         {
           "id": "i_gs_219",
@@ -2406,7 +2456,7 @@
           "qty": 0,
           "unit": 0,
           "labor": 0,
-          "actual": null,
+          "actual": 0,
           "link": "",
           "notes": ""
         },
@@ -2426,7 +2476,7 @@
           "qty": 0,
           "unit": 0,
           "labor": 0,
-          "actual": null,
+          "actual": 0,
           "link": "",
           "notes": ""
         }
@@ -2463,12 +2513,12 @@
           "qty": 0,
           "unit": 0,
           "labor": 0,
-          "actual": null,
+          "actual": 0,
           "link": "",
           "notes": ""
         }
       ]
     }
   ],
-  "updated": 1781395595256
+  "updated": 1781446821524
 }
