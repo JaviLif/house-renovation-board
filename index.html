@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -254,7 +254,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 </div><!-- /app -->
 
 <!-- Version badge -->
-<div id="versionBadge" style="position:fixed;bottom:10px;right:14px;font-size:10.5px;font-weight:700;color:var(--text-muted);background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:3px 9px;z-index:300;letter-spacing:.3px;box-shadow:var(--shadow);user-select:none">v1.2.6</div>
+<div id="versionBadge" style="position:fixed;bottom:10px;right:14px;font-size:10.5px;font-weight:700;color:var(--text-muted);background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:3px 9px;z-index:300;letter-spacing:.3px;box-shadow:var(--shadow);user-select:none">v1.2.7</div>
 
 <!-- Mobile nav -->
 <nav class="bottom-nav">
@@ -658,17 +658,16 @@ function loadFromSheets(){
 }
 
 function mergeBudgetFromSheets(sheetBudget){
-  /* preserve local IDs/colors/notes by label+name matching;
-     locally-added items (not in Sheets) survive syncs */
-  const phaseColorMap={},phaseIdMap={},localItemId={},localNotes={},localOnlyItems={};
+  /* GS is authoritative: structure comes entirely from Sheets.
+     Local IDs, colors and notes are preserved by label+name matching.
+     No local-only items survive a sync (eliminates stale ghost items). */
+  const phaseColorMap={},phaseIdMap={},localItemId={},localNotes={};
   budget.forEach(p=>{
     phaseColorMap[p.label]=p.color;
     phaseIdMap[p.label]=p.id;
-    const sheetsNames=new Set((sheetBudget.find(sp=>sp.label===p.label)||{items:[]}).items.map(si=>si.name));
     p.items.forEach(i=>{
       localItemId[p.label+'||'+i.name]=i.id;
       localNotes[p.label+'||'+i.name]=i.notes||'';
-      if(!sheetsNames.has(i.name))(localOnlyItems[p.label]=localOnlyItems[p.label]||[]).push(i);
     });
   });
   budget=sheetBudget.map(sp=>({
@@ -676,14 +675,11 @@ function mergeBudgetFromSheets(sheetBudget){
     label:sp.label,
     color:phaseColorMap[sp.label]||sp.color,
     type:sp.type,
-    items:[
-      ...sp.items.map(si=>({
-        id:localItemId[sp.label+'||'+si.name]||si.id,
-        name:si.name,qty:si.qty,unit:si.unit,labor:si.labor,actual:si.actual,link:si.link,
-        notes:localNotes[sp.label+'||'+si.name]||si.notes||'',
-      })),
-      ...(localOnlyItems[sp.label]||[]),
-    ],
+    items:sp.items.map(si=>({
+      id:localItemId[sp.label+'||'+si.name]||si.id,
+      name:si.name,qty:si.qty,unit:si.unit,labor:si.labor,actual:si.actual,link:si.link,
+      notes:localNotes[sp.label+'||'+si.name]||si.notes||'',
+    })),
   }));
 }
 
