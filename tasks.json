@@ -295,6 +295,26 @@
           "actual": null,
           "link": "",
           "notes": ""
+        },
+        {
+          "id": "ixmqd0vur6182",
+          "name": "New item",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
+        },
+        {
+          "id": "ixmqd0vvzvt8s",
+          "name": "New item",
+          "qty": 1,
+          "unit": 0,
+          "labor": 0,
+          "actual": null,
+          "link": "",
+          "notes": ""
         }
       ]
     },
@@ -2540,5 +2560,5 @@
       ]
     }
   ],
-  "updated": 1781395487264
+  "updated": 1781395502254
 }
