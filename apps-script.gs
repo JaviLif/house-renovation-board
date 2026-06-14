@@ -1,5 +1,5 @@
 /**
- * RENOVATION BOARD — Google Sheets Sync Script
+ * RENOVATION BOARD — Google Sheets Sync Script  v1.2.6
  * =============================================
  * HOW TO INSTALL (3 steps):
  *
