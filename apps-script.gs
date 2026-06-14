@@ -69,9 +69,8 @@ function doGet(e) {
  *   • dark/colored background → phase / section header
  *   • light/white background  → item row
  *
- * This is more reliable than checking for empty data columns, because some
- * phase headers in the template have 0-values in data columns, and some
- * items (e.g. "Self Made" work) have all-zero costs.
+ * Duplicate phase headers (same label appears multiple times) are merged
+ * into one phase so the dashboard doesn't show duplicates.
  */
 function parseSheetToBudget(rows, bgs) {
   const phases       = [];
@@ -109,8 +108,14 @@ function parseSheetToBudget(rows, bgs) {
       else if (lc.includes('phase 8')  || lc.includes('fase 8'))   color = '#00b8d9';
       else if (lc.includes('phase 9')  || lc.includes('fase 9'))   color = '#00875a';
 
-      currentPhase = { id: 'ph_gs_' + i, label: name, color, type, items: [] };
-      phases.push(currentPhase);
+      // Merge into existing phase if same label (handles duplicate section headers in sheet)
+      const existing = phases.find(p => p.label === name);
+      if (existing) {
+        currentPhase = existing;
+      } else {
+        currentPhase = { id: 'ph_gs_' + i, label: name, color, type, items: [] };
+        phases.push(currentPhase);
+      }
 
     } else if (currentPhase) {
       // ── Item row ────────────────────────────────────────────
@@ -222,18 +227,15 @@ function writeBudgetToSheet(sheet, budget) {
  * Uses two signals — either is sufficient:
  *   1. Cell background is dark/colored (primary signal for most phases)
  *   2. Name matches "Phase N" / "Fase N" pattern (fallback for phases whose
- *      background may be lighter than expected, e.g. Phase 9, Phase 11)
+ *      background may be lighter than expected)
  */
 function isPhaseHeader(name, bg) {
   if (isHeaderBackground(bg)) return true;
-  // Fallback: name literally starts with "phase" or "fase" followed by a number
   return /^(phase|fase)\s+\d+/i.test(name);
 }
 
 /**
  * Returns true if the cell background is a dark/colored (non-white, non-light) color.
- * Phase header rows in this sheet always have a dark background.
- * Item rows are white or very light grey.
  */
 function isHeaderBackground(bg) {
   if (!bg || bg === '#ffffff' || bg === '#000000') return false;
@@ -242,7 +244,6 @@ function isHeaderBackground(bg) {
   const r = parseInt(hex.substr(0, 2), 16);
   const g = parseInt(hex.substr(2, 2), 16);
   const b = parseInt(hex.substr(4, 2), 16);
-  // If all channels > 200 → very light (white/light grey) → NOT a header
   return !(r > 200 && g > 200 && b > 200);
 }
 
