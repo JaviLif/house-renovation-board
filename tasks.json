@@ -1530,16 +1530,6 @@
           "actual": null,
           "link": "",
           "notes": "NO BTW"
-        },
-        {
-          "id": "i_gs_180",
-          "name": "Blabla",
-          "qty": 1,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
         }
       ]
     },
@@ -2490,5 +2480,5 @@
       ]
     }
   ],
-  "updated": 1781395525136
+  "updated": 1781395592036
 }
