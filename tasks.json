@@ -56,8 +56,9 @@
           "unit": 1000,
           "labor": 0,
           "actual": null,
-          "link": "https://www.bouwkeuringvergelijk.nl/zoeken/Amsterdam/390/",
-          "notes": "Structural inspection Building Inspector (Bouwkundig Inspecteur) ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ MANDATORY"
+          "link": "",
+          "notes": "Structural inspection Building Inspector (Bouwkundig Inspecteur) ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ MANDATORY",
+          "delivery": "Not Ordered"
         },
         {
           "id": "i_gs_28",
@@ -153,7 +154,7 @@
           "unit": 600,
           "labor": 0,
           "actual": null,
-          "link": "https://www.afzetbak.nl/en/container-rental/construction-and-demolition-waste/10m3-gesloten",
+          "link": "",
           "notes": ""
         },
         {
@@ -164,26 +165,6 @@
           "labor": 0,
           "actual": null,
           "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_41",
-          "name": "testaNew item",
-          "qty": 1,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_42",
-          "name": "Breekhammer",
-          "qty": 1,
-          "unit": 450,
-          "labor": 0,
-          "actual": null,
-          "link": "https://mastertools.nl/nl_nl/product/bosch-professional-breekhamer-0611338700",
           "notes": ""
         }
       ]
@@ -247,7 +228,7 @@
           "unit": 16,
           "labor": 0,
           "actual": null,
-          "link": "PIR 80mm Isolatieplaat | 2-Zijdig Aluminium (1200x600x80mm) - De Isolatieshop BV",
+          "link": "",
           "notes": "Only Boards, not including filler and so on"
         },
         {
@@ -257,7 +238,7 @@
           "unit": 15,
           "labor": 0,
           "actual": null,
-          "link": "https://www.isolatiemateriaal.nl/p/insus-pir-2-zijdig-aluminium-1200x600x80mm-rd364-6plpak-432-m2",
+          "link": "",
           "notes": "Rd 3,6; 80mm Price per sqm"
         },
         {
@@ -277,7 +258,7 @@
           "unit": 6,
           "labor": 0,
           "actual": null,
-          "link": "https://www.isolatiemateriaal.nl/p/gipsplaten-3000x600x125mm-ak-180-m2?utm_source=google&utm_medium=cpc&gad_source=1&gad_campaignid=19643236460&gbraid=0AAAAADxVveE6MjWj_uypRqIlvQYR1V3Tz&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsY9EhYWrdfmXthiXcRAfMbDXsS11dZrooPGwACYXcXZcyXXTE0BQ9YaAk2PEALw_wcB",
+          "link": "",
           "notes": "Only Boards, not including filler and so on"
         },
         {
@@ -297,7 +278,7 @@
           "unit": 1500,
           "labor": 0,
           "actual": null,
-          "link": "https://www.isolatiemateriaal.nl/purschuim-lijmen/pur-set-de-isolatieshop-purschuim-reiniger-pistool?_gl=1*1aphokc*_up*MQ..*_gs*MQ..&gclid=CjwKCAiAssfLBhBDEiwAcLpwfjIggjyLW2O-2YH6Y_JLK0LEPHJ1t4BPMjXZi7kjU9zDzHPH7mUYLBoCQ7kQAvD_BwE&gbraid=0AAAAADxVveE9-2YaOXFNeaNq8bQMLVYBJ",
+          "link": "",
           "notes": ""
         }
       ]
@@ -314,7 +295,7 @@
           "unit": 6664,
           "labor": 0,
           "actual": null,
-          "link": "https://klimatime.com/products/lg-5kw-therma-v-r32-split-iwt-air-water-heat-pump-with-200l-tank-hu051mr-hn0913t?variant=49050367787335&country=DE&currency=EUR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorkKZ3jJSyJ78m1EWcSZOOAAYaGDhqxcoB7uQZrkaHJhPSRKatE4H8",
+          "link": "",
           "notes": ""
         },
         {
@@ -351,7 +332,7 @@
           "unit": 1890,
           "labor": 0,
           "actual": null,
-          "link": "https://www.lueftungsland.de/de_DE/p/vent-axia-sentinel-kinetic-advance-einschliesslich-vorwarmer-250-m3-h-rechts/9985/",
+          "link": "",
           "notes": "List with subside approved ventialtion systems https://www.rvo.nl/onderwerpen/isde/meldcodelijsten/ventilatiesystemen?sortBy=created&sortOrder=DESC"
         },
         {
@@ -362,76 +343,6 @@
           "labor": 0,
           "actual": null,
           "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_85",
-          "name": "Phase 6:  Heating",
-          "qty": 130,
-          "unit": 3,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.vloerverwarming-direct.nl/p/omega-profielen-dbs14-aluminium-1000mm-x-120mm?_gl=1*1qo18i4*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCI5TdsWLuy4TOx0MXfb2rov05WusVCJJl-hNT71ND8DGxH9-P0DmrxoCZigQAvD_BwE&gbraid=0AAAAADyq6tSzGK0p-Qz1Z_ayzduM5FMrQ",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_86",
-          "name": "First Step isolation (see phase 1)",
-          "qty": 1,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_87",
-          "name": "Underfloor Gips DBs14 system Magnumboard",
-          "qty": 16,
-          "unit": 3.23,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.elektramat.nl/magnum-adaptor-euroconus-aansluitkoppeling-12x1-5mm-x-3-4-2-stuks-w90012/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_88",
-          "name": "Mega plate",
-          "qty": 1,
-          "unit": 421,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.elektramat.nl/magnum-basic-staal-vloerverwarming-verdeler-5-groeps-incl-a-label-pomp-w40005/?_gl=1*1ytr542*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_89",
-          "name": "Pipe Line",
-          "qty": 1,
-          "unit": 120,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.elektramat.nl/magnum-universele-vloerverwarmingsbuis-5-laags-pe-rt-12x1-5-mm-komo-rol-van-300-meter-w12300/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_90",
-          "name": "Adaptor",
-          "qty": 16,
-          "unit": 3.23,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.elektramat.nl/magnum-adaptor-euroconus-aansluitkoppeling-12x1-5mm-x-3-4-2-stuks-w90012/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_91",
-          "name": "Manifold + Pump",
-          "qty": 1,
-          "unit": 421,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.elektramat.nl/magnum-basic-staal-vloerverwarming-verdeler-5-groeps-incl-a-label-pomp-w40005/?_gl=1*1ytr542*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
           "notes": ""
         }
       ]
@@ -458,7 +369,7 @@
           "unit": 104,
           "labor": 0,
           "actual": null,
-          "link": "https://www.vloerverwarming-direct.nl/p/25mm-systeem-dbs14-25mm-droogbouw-isolatieplaat-doos-7-50m2?utm_source=google&utm_medium=cpc&utm_campaign=FC_NL_NL_SHOP_PUR_CONV_BESTSELLERSQ424&gad_source=1&gad_campaignid=23277490225&gbraid=0AAAAADyq6tSzGK0p-Qz1Z_ayzduM5FMrQ&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCI5TdsWLuy4TOx0MXfb2rov05WusVCJJl-hNT71ND8DGxH9-P0DmrxoCZigQAvD_BwE",
+          "link": "",
           "notes": "For 100 sqm. Each panel 7,5 sqm"
         },
         {
@@ -468,7 +379,7 @@
           "unit": 3,
           "labor": 0,
           "actual": null,
-          "link": "https://www.vloerverwarming-direct.nl/p/omega-profielen-dbs14-aluminium-1000mm-x-120mm?_gl=1*1qo18i4*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCI5TdsWLuy4TOx0MXfb2rov05WusVCJJl-hNT71ND8DGxH9-P0DmrxoCZigQAvD_BwE&gbraid=0AAAAADyq6tSzGK0p-Qz1Z_ayzduM5FMrQ",
+          "link": "",
           "notes": ""
         },
         {
@@ -478,7 +389,7 @@
           "unit": 120,
           "labor": 0,
           "actual": null,
-          "link": "https://www.elektramat.nl/magnum-universele-vloerverwarmingsbuis-5-laags-pe-rt-12x1-5-mm-komo-rol-van-300-meter-w12300/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
+          "link": "",
           "notes": ""
         },
         {
@@ -488,7 +399,7 @@
           "unit": 3.23,
           "labor": 0,
           "actual": null,
-          "link": "https://www.elektramat.nl/magnum-adaptor-euroconus-aansluitkoppeling-12x1-5mm-x-3-4-2-stuks-w90012/?_gl=1*vzoi6e*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
+          "link": "",
           "notes": ""
         },
         {
@@ -498,7 +409,7 @@
           "unit": 421,
           "labor": 0,
           "actual": null,
-          "link": "https://www.elektramat.nl/magnum-basic-staal-vloerverwarming-verdeler-5-groeps-incl-a-label-pomp-w40005/?_gl=1*1ytr542*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA7LzLBhAgEiwAjMWzCBs8Y9yGXBhhHVSntySiLKJplta7KHBoAmdkODIcKErmgF2gyayIlRoCf5gQAvD_BwE&gbraid=0AAAAAD5RVIdmMMQMn-aP_0pVJhxKtk9-4",
+          "link": "",
           "notes": ""
         },
         {
@@ -525,7 +436,7 @@
           "unit": 5000,
           "labor": 0,
           "actual": null,
-          "link": "https://www.berlin-parkett.de/Forbo-Marmoleum-Walton-Linoleum-3369-titanium",
+          "link": "",
           "notes": ""
         },
         {
@@ -533,176 +444,6 @@
           "name": "Tools Extras, Glue, Material",
           "qty": 1,
           "unit": 1000,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_103",
-          "name": "Phase 8: Toilet",
-          "qty": 1,
-          "unit": 400,
-          "labor": 0,
-          "actual": null,
-          "link": "https://sanitairkamer.nl/saniclear-cube-ligbad-180x80cm-wit-sk1116.html",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_104",
-          "name": "First Step isolation (see phase 1)",
-          "qty": 2,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_105",
-          "name": "Tales",
-          "qty": 1,
-          "unit": 1000,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.hornbach.nl/p/qboard-liquid-douche-element-1200x900x40-mm/12234114/?wt_mc=nl.paid.sea.google.alwayson_lia.bau.product.14491879814.166764485654.&gad_source=1&gad_campaignid=14491879814&gbraid=0AAAAADkpB3U45h96YcoypAE_4EDR9ZBaT&gclid=CjwKCAiAnoXNBhAZEiwAnItcG3pALPp1YK6XH59YEERUyQk_RwT_IVk1TSdxU9aGdSX7CQDpC9MI9hoC_WAQAvD_BwE",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_106",
-          "name": "Ligbadde",
-          "qty": 20,
-          "unit": 18.59,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_107",
-          "name": "Toilette",
-          "qty": 1,
-          "unit": 300,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.sklum.com/nl/kopen-douchebakken/208844-soho-rechthoekige-antislip-extra-vlakke-smc-hars-douchebak.html?id_c=573327",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_108",
-          "name": "Shower",
-          "qty": 1,
-          "unit": 284,
-          "labor": 0,
-          "actual": null,
-          "link": "https://sanitairkamer.nl/fontana-alaska-toiletmeubel-mat-zwart-40x22cm-met-solid-surface-fontein-links-sk79995.html",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_109",
-          "name": "Gips",
-          "qty": 1,
-          "unit": 384,
-          "labor": 0,
-          "actual": null,
-          "link": "https://sanitairkamer.nl/mueller-single-flat-natuur-stenen-meubelwastafel-80x46cm-geen-kraangat-sk50899.html",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_110",
-          "name": "Teller",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.maxaro.nl/en-gb/baths/built-in-baths/pianosa-corner-bath-160x85cm-acrylic-gloss-white-left-with-panels-99746/",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_111",
-          "name": "Kran small toilet",
-          "qty": 1,
-          "unit": 284,
-          "labor": 0,
-          "actual": null,
-          "link": "https://sanitairkamer.nl/fontana-alaska-toiletmeubel-mat-zwart-40x22cm-met-solid-surface-fontein-links-sk79995.html",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_112",
-          "name": "Kran big toilet",
-          "qty": 1,
-          "unit": 384,
-          "labor": 0,
-          "actual": null,
-          "link": "https://sanitairkamer.nl/mueller-single-flat-natuur-stenen-meubelwastafel-80x46cm-geen-kraangat-sk50899.html",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_113",
-          "name": "Bathtub cornelis",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.maxaro.nl/en-gb/baths/built-in-baths/pianosa-corner-bath-160x85cm-acrylic-gloss-white-left-with-panels-99746/",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_117",
-          "name": "Phase 9: Kitchen",
-          "qty": 1,
-          "unit": 338,
-          "labor": 0,
-          "actual": null,
-          "link": "https://sanitairkamer.nl/sapho-spoelbak-97x50cm-met-kraangat-zwart-graniet-sk38406.html",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_118",
-          "name": "Iduction Plate",
-          "qty": 1,
-          "unit": 600,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.mediamarkt.nl/nl/product/_samsung-rb34c600csaef-1762331.html?utm_source=google&utm_medium=cpc&utm_campaign=rt_shopping_generic_sp_nl-W8-9-MDA-Samsung-IBTNG-2026&utm_term=&utm_content=&utm_content=TCID23571866157-TAID197259997630&gad_source=1&gad_campaignid=23571866157&gbraid=0AAAAADoGBO6h4uKdtVlIEUgNM9-eH1RQA&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsYUvjU-9EXl5x1mOLzmasE89xl2Fx4JqExEpTGtB2GezUyGyi8AhgYaAlXHEALw_wcB",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_119",
-          "name": "Oven",
-          "qty": 1,
-          "unit": 5000,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_120",
-          "name": "Spoelbak",
-          "qty": 1,
-          "unit": 338,
-          "labor": 0,
-          "actual": null,
-          "link": "https://sanitairkamer.nl/sapho-spoelbak-97x50cm-met-kraangat-zwart-graniet-sk38406.html",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_121",
-          "name": "Fridge",
-          "qty": 1,
-          "unit": 600,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.mediamarkt.nl/nl/product/_samsung-rb34c600csaef-1762331.html?utm_source=google&utm_medium=cpc&utm_campaign=rt_shopping_generic_sp_nl-W8-9-MDA-Samsung-IBTNG-2026&utm_term=&utm_content=&utm_content=TCID23571866157-TAID197259997630&gad_source=1&gad_campaignid=23571866157&gbraid=0AAAAADoGBO6h4uKdtVlIEUgNM9-eH1RQA&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsYUvjU-9EXl5x1mOLzmasE89xl2Fx4JqExEpTGtB2GezUyGyi8AhgYaAlXHEALw_wcB",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_122",
-          "name": "Forniture",
-          "qty": 1,
-          "unit": 5000,
           "labor": 0,
           "actual": null,
           "link": "",
@@ -732,7 +473,7 @@
           "unit": 50,
           "labor": 0,
           "actual": null,
-          "link": "https://sanitairkamer.nl/jabo-gobi-nude-vloertegel-60x60cm-gerectificeerd-jb12440-4.html",
+          "link": "",
           "notes": "20 sqm"
         },
         {
@@ -742,7 +483,7 @@
           "unit": 400,
           "labor": 0,
           "actual": null,
-          "link": "https://sanitairkamer.nl/saniclear-cube-ligbad-180x80cm-wit-sk1116.html",
+          "link": "",
           "notes": ""
         },
         {
@@ -752,7 +493,7 @@
           "unit": 325,
           "labor": 0,
           "actual": null,
-          "link": "https://sanitairkamer.nl/sanigoods-andes-toiletset-met-saniclear-itsie-randloos-toilet-wit-glans-sk101869.html",
+          "link": "",
           "notes": ""
         },
         {
@@ -762,7 +503,7 @@
           "unit": 1000,
           "labor": 0,
           "actual": null,
-          "link": "https://www.hornbach.nl/p/qboard-liquid-douche-element-1200x900x40-mm/12234114/?wt_mc=nl.paid.sea.google.alwayson_lia.bau.product.14491879814.166764485654.&gad_source=1&gad_campaignid=14491879814&gbraid=0AAAAADkpB3U45h96YcoypAE_4EDR9ZBaT&gclid=CjwKCAiAnoXNBhAZEiwAnItcG3pALPp1YK6XH59YEERUyQk_RwT_IVk1TSdxU9aGdSX7CQDpC9MI9hoC_WAQAvD_BwE",
+          "link": "",
           "notes": ""
         },
         {
@@ -782,7 +523,7 @@
           "unit": 300,
           "labor": 0,
           "actual": null,
-          "link": "https://www.sklum.com/nl/kopen-douchebakken/208844-soho-rechthoekige-antislip-extra-vlakke-smc-hars-douchebak.html?id_c=573327",
+          "link": "",
           "notes": ""
         },
         {
@@ -792,7 +533,7 @@
           "unit": 284,
           "labor": 0,
           "actual": null,
-          "link": "https://sanitairkamer.nl/fontana-alaska-toiletmeubel-mat-zwart-40x22cm-met-solid-surface-fontein-links-sk79995.html",
+          "link": "",
           "notes": ""
         },
         {
@@ -802,7 +543,7 @@
           "unit": 384,
           "labor": 0,
           "actual": null,
-          "link": "https://sanitairkamer.nl/mueller-single-flat-natuur-stenen-meubelwastafel-80x46cm-geen-kraangat-sk50899.html",
+          "link": "",
           "notes": ""
         },
         {
@@ -812,7 +553,7 @@
           "unit": 0,
           "labor": 0,
           "actual": null,
-          "link": "https://www.maxaro.nl/en-gb/baths/built-in-baths/pianosa-corner-bath-160x85cm-acrylic-gloss-white-left-with-panels-99746/",
+          "link": "",
           "notes": ""
         },
         {
@@ -839,7 +580,7 @@
           "unit": 900,
           "labor": 0,
           "actual": null,
-          "link": "https://www.elektroshopwagner.de/de/p/326929?utm_campaign=froogle_326929&utm_source=froogle&utm_medium=CPC&utm_content=textanzeige&campaign=froogle&gad_source=1&gad_campaignid=22319801995&gbraid=0AAAAAD_RZfyFbl5ea0h2s_mgLX8E1cQc-&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsbvw5Qmv4ZYwgtHhil7DFl6Sos7U7O7oLUwbf1CMZOP4Y0toYoi0EoaAoQ3EALw_wcB",
+          "link": "",
           "notes": ""
         },
         {
@@ -849,7 +590,7 @@
           "unit": 629,
           "labor": 0,
           "actual": null,
-          "link": "https://www.bemmelenkroon.nl/merken/siemens/hb272abb3-sies/?gad_source=1&gad_campaignid=215085475&gbraid=0AAAAADtnj80Q04PEH76MuMrO63MHHwykZ&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsZkxT7qtX4hFHJNteh_-oVYJBFXx5SKZlmQtMhj8M9GbWWNIj9lLXUaAnFBEALw_wcB",
+          "link": "",
           "notes": ""
         },
         {
@@ -859,7 +600,7 @@
           "unit": 338,
           "labor": 0,
           "actual": null,
-          "link": "https://sanitairkamer.nl/sapho-spoelbak-97x50cm-met-kraangat-zwart-graniet-sk38406.html",
+          "link": "",
           "notes": ""
         },
         {
@@ -869,7 +610,7 @@
           "unit": 600,
           "labor": 0,
           "actual": null,
-          "link": "https://www.mediamarkt.nl/nl/product/_samsung-rb34c600csaef-1762331.html?utm_source=google&utm_medium=cpc&utm_campaign=rt_shopping_generic_sp_nl-W8-9-MDA-Samsung-IBTNG-2026&utm_term=&utm_content=&utm_content=TCID23571866157-TAID197259997630&gad_source=1&gad_campaignid=23571866157&gbraid=0AAAAADoGBO6h4uKdtVlIEUgNM9-eH1RQA&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsYUvjU-9EXl5x1mOLzmasE89xl2Fx4JqExEpTGtB2GezUyGyi8AhgYaAlXHEALw_wcB",
+          "link": "",
           "notes": ""
         },
         {
@@ -906,7 +647,7 @@
           "unit": 79,
           "labor": 0,
           "actual": null,
-          "link": "https://www.verfwinkel.nl/powerdek-muren-plafonds-muurverf-wit.html?channable=02c96b696400333634353267&select=VW-FL1011.10&utm_source=google&utm_medium=cpc&utm_campaign={campaignname}&utm_id=22495205671&utm_term=&utm_content=749693406602&utm_source_platform=Google+Ads&gad_source=1&gad_campaignid=22495205671&gbraid=0AAAAADhCR3MgDW7x3qxfXShsSZ65bzkVt&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsZnj-nylLtkeaLYMuMKliz1s6cQ1flf05Ux9eCIHXjhZKBt_muTlxAaAsH3EALw_wcB",
+          "link": "",
           "notes": "for 235m2 wall. 1L= 10m2; aprox 30 L"
         },
         {
@@ -914,246 +655,6 @@
           "name": "Tools Extras",
           "qty": 1,
           "unit": 1000,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_144",
-          "name": "Phase 11: Garden Extension",
-          "qty": 1,
-          "unit": 2000,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_147",
-          "name": "Bouwtekening",
-          "qty": 1,
-          "unit": 500,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.bouwbestel.nl/funderingsbekisting-piepschuim-tempex.html",
-          "notes": "3,5x3,5x4,7 m =  12m"
-        },
-        {
-          "id": "i_gs_148",
-          "name": "Excavation",
-          "qty": 1,
-          "unit": 300,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": "12m"
-        },
-        {
-          "id": "i_gs_149",
-          "name": "Cement",
-          "qty": 30,
-          "unit": 16.9,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": "10 for fundiereingbekisting,  7 for dak(), 12 for walls(35m\")"
-        },
-        {
-          "id": "i_gs_150",
-          "name": "Fundieeringbekisting",
-          "qty": 1,
-          "unit": 1000,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_151",
-          "name": "Wapeningskorf",
-          "qty": 1,
-          "unit": 6000,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.toeleveringonline.nl/product/2-delige-schuifpui-aluminium/?s=ventilation&w=m84w4000h2400p116jt0pc1469wc2112s2114sl0gt1025gi271gl324rt0rd0%7Ecp377cg2046c2109-x0y0w3868h2268f317dh0gr0ho0kac0mb0o1sd1who0wso0%7Ecp1566cg2298c4815%7Ecp396cg2046c2106.v1.v1",
-          "notes": "3,6x2,4 3 windows all open "
-        },
-        {
-          "id": "i_gs_152",
-          "name": "OSB 2440x1220x11 mm",
-          "qty": 1,
-          "unit": 400,
-          "labor": 0,
-          "actual": null,
-          "link": "https://mein-dach24.de/epdm-dachfolie-1-5mm-457#",
-          "notes": "1,5 mm 4mx4,5m"
-        },
-        {
-          "id": "i_gs_153",
-          "name": "Extra wood + screws...",
-          "qty": 1,
-          "unit": 120,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_154",
-          "name": "Windows / Schuifpuien",
-          "qty": 2,
-          "unit": 40,
-          "labor": 0,
-          "actual": null,
-          "link": "https://mein-dach24.de/EPDM-Dachgully?_gl=1*1510go*_up*MQ..*_ga*MTI0NzY2NzAzNi4xNzgxMzczOTc4*_ga_8GN11EHM1V*czE3ODEzNzM5NzgkbzEkZzEkdDE3ODEzNzQxMzUkajYwJGwwJGgxNDc3NzY2MTI3",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_155",
-          "name": "EPDM Folie",
-          "qty": 1,
-          "unit": 300,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_156",
-          "name": "Kleber",
-          "qty": 1,
-          "unit": 120,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_157",
-          "name": "Gullys",
-          "qty": 2,
-          "unit": 40,
-          "labor": 0,
-          "actual": null,
-          "link": "https://mein-dach24.de/EPDM-Dachgully?_gl=1*1510go*_up*MQ..*_ga*MTI0NzY2NzAzNi4xNzgxMzczOTc4*_ga_8GN11EHM1V*czE3ODEzNzM5NzgkbzEkZzEkdDE3ODEzNzQxMzUkajYwJGwwJGgxNDc3NzY2MTI3",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_158",
-          "name": "Extras",
-          "qty": 1,
-          "unit": 300,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_163",
-          "name": "lnflkdNew item",
-          "qty": 1,
-          "unit": 100,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_169",
-          "name": "SUBSIDIES",
-          "qty": 1,
-          "unit": -610,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": "40 sqm @ 14/m2 subsidie ISDE Subsidie"
-        },
-        {
-          "id": "i_gs_171",
-          "name": "MVHR",
-          "qty": 1,
-          "unit": -1500,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": "60m2 @ 25/m2 subsidie ISDE Subsidie"
-        },
-        {
-          "id": "i_gs_172",
-          "name": "Heatpump",
-          "qty": 1,
-          "unit": -2500,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": "Gemeende Subside Amsterdam. APPLY FIRST THEN DO THE WORK!"
-        },
-        {
-          "id": "i_gs_173",
-          "name": "Isolation Floor 40sqm2",
-          "qty": 1,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": "NO BTW"
-        },
-        {
-          "id": "i_gs_174",
-          "name": "qewfcewqNew item",
-          "qty": 1,
-          "unit": 32,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_175",
-          "name": "Wall Isoation 50sqm2",
-          "qty": 1,
-          "unit": -1250,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": "50m2 @ 25/m2 subsidie ISDE Subsidie"
-        },
-        {
-          "id": "i_gs_176",
-          "name": "Roof 60sqm2",
-          "qty": 1,
-          "unit": -1500,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": "60m2 @ 25/m2 subsidie ISDE Subsidie"
-        },
-        {
-          "id": "i_gs_177",
-          "name": "Isolation gemeende Subsidie",
-          "qty": 1,
-          "unit": -2500,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": "Gemeende Subside Amsterdam. APPLY FIRST THEN DO THE WORK!"
-        },
-        {
-          "id": "i_gs_178",
-          "name": "Solar Panels",
-          "qty": 1,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": "NO BTW"
-        },
-        {
-          "id": "i_gs_182",
-          "name": "Blabla",
-          "qty": 1,
-          "unit": 0,
           "labor": 0,
           "actual": null,
           "link": "",
@@ -1193,7 +694,7 @@
           "unit": 1100,
           "labor": 0,
           "actual": null,
-          "link": "https://www.betonstorten.nl/offerte-aanvragen",
+          "link": "",
           "notes": "10 for fundiereingbekisting,  7 for dak(), 12 for walls(35m\")"
         },
         {
@@ -1203,7 +704,7 @@
           "unit": 500,
           "labor": 0,
           "actual": null,
-          "link": "https://www.bouwbestel.nl/funderingsbekisting-piepschuim-tempex.html",
+          "link": "",
           "notes": "3,5x3,5x4,7 m =  12m"
         },
         {
@@ -1243,7 +744,7 @@
           "unit": 6000,
           "labor": 0,
           "actual": null,
-          "link": "https://www.toeleveringonline.nl/product/2-delige-schuifpui-aluminium/?s=ventilation&w=m84w4000h2400p116jt0pc1469wc2112s2114sl0gt1025gi271gl324rt0rd0%7Ecp377cg2046c2109-x0y0w3868h2268f317dh0gr0ho0kac0mb0o1sd1who0wso0%7Ecp1566cg2298c4815%7Ecp396cg2046c2106.v1.v1",
+          "link": "",
           "notes": "3,6x2,4 3 windows all open "
         },
         {
@@ -1253,7 +754,7 @@
           "unit": 400,
           "labor": 0,
           "actual": null,
-          "link": "https://mein-dach24.de/epdm-dachfolie-1-5mm-457#",
+          "link": "",
           "notes": "1,5 mm 4mx4,5m"
         },
         {
@@ -1273,7 +774,7 @@
           "unit": 40,
           "labor": 0,
           "actual": null,
-          "link": "https://mein-dach24.de/EPDM-Dachgully?_gl=1*1510go*_up*MQ..*_ga*MTI0NzY2NzAzNi4xNzgxMzczOTc4*_ga_8GN11EHM1V*czE3ODEzNzM5NzgkbzEkZzEkdDE3ODEzNzQxMzUkajYwJGwwJGgxNDc3NzY2MTI3",
+          "link": "",
           "notes": ""
         },
         {
@@ -1291,26 +792,6 @@
           "name": "Tools Extras",
           "qty": 1,
           "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_143",
-          "name": "SUBSIDIES",
-          "qty": 1,
-          "unit": -610,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": "40 sqm @ 14/m2 subsidie ISDE Subsidie"
-        },
-        {
-          "id": "i_gs_161",
-          "name": "lnflkdNew item",
-          "qty": 1,
-          "unit": 100,
           "labor": 0,
           "actual": null,
           "link": "",
@@ -1431,986 +912,6 @@
           "actual": null,
           "link": "",
           "notes": "90sqm Wanden + 40sqm Celing. Work + Materials. ink BTW  https://www.stuc-concurrent.nl/"
-        },
-        {
-          "id": "i_gs_191",
-          "name": "Needed Tools",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_192",
-          "name": "Stairs",
-          "qty": 1,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_193",
-          "name": "Tischkreissäge",
-          "qty": 1,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": "HBM"
-        },
-        {
-          "id": "i_gs_195",
-          "name": "Säbelsäge",
-          "qty": 1,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_196",
-          "name": "Nailgun",
-          "qty": 1,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_197",
-          "name": "HBM ALL Tools",
-          "qty": 1,
-          "unit": 1100,
-          "labor": 0,
-          "actual": null,
-          "link": "https://www.hbm-machines.com/nl/p/hbm-professionele-1700-watt-sloophamer-breekhamer-sds-max?sku=10924&utm_source=google&utm_medium=cpc&utm_campaign=18574139443&utm_content=bouw&kb=ga_pm_18574139443_&gad_source=1&gad_campaignid=18576853373&gclid=Cj0KCQjw_7PRBhDcARIsAMjV7jnZ_xOvSVfIX9tCRYXPBxjT50DM7EXjGoguEiDASApAGd5--XMOjVMaAkeoEALw_wcB",
-          "notes": "HBM"
-        },
-        {
-          "id": "i_gs_198",
-          "name": "Bohrer Ryobi",
-          "qty": 1,
-          "unit": 100,
-          "labor": 0,
-          "actual": null,
-          "link": "https://nl.ryobitools.eu/elektrisch-gereedschap/boormachines-schroevendraaiers/slagschroevendraaiers/",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_207",
-          "name": "Site Preparation",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_208",
-          "name": "Perk Test",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_209",
-          "name": "Lot Clearing",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_210",
-          "name": "Excavation",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_211",
-          "name": "Sand fill",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_212",
-          "name": "Septic/Sewer",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_213",
-          "name": "Well",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_214",
-          "name": "Driveway",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_215",
-          "name": "Concrete",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_216",
-          "name": "Milling",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_217",
-          "name": "Asphalt",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_218",
-          "name": "other",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_226",
-          "name": "Interior Requirements",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_228",
-          "name": "Insulation",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_228",
-          "name": "Insulation",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_231",
-          "name": "Drywall",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_231",
-          "name": "Drywall",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_234",
-          "name": "Paint",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_234",
-          "name": "Paint",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_237",
-          "name": "Trim",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_237",
-          "name": "Trim",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_239",
-          "name": "Cabinetry",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_240",
-          "name": "Cabinets",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_242",
-          "name": "Sinks",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_243",
-          "name": "Kitchen sink",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_244",
-          "name": "Bathroom sink",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_245",
-          "name": "Laundry sink",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_246",
-          "name": "Bar sink",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_248",
-          "name": "Counter tops",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_249",
-          "name": "Solid surface options",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_250",
-          "name": "Kitchen counter",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_251",
-          "name": "Pantry counter",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_252",
-          "name": "Master bath counter",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_253",
-          "name": "Laundry counter",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_254",
-          "name": "Bar top counter",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_255",
-          "name": "Laminate tops options",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_264",
-          "name": "Kitchen",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_257",
-          "name": "Pantry",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_258",
-          "name": "Master bath",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_265",
-          "name": "Laundry",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_260",
-          "name": "Bar top",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_271",
-          "name": "Tile",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_263",
-          "name": "Backsplash  locations",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_264",
-          "name": "Kitchen",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_265",
-          "name": "Laundry",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_266",
-          "name": "Bath tile",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_267",
-          "name": "Bar",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_268",
-          "name": "Shower tile",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_270",
-          "name": "Flooring",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_271",
-          "name": "Tile",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_272",
-          "name": "Master Bath",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_279",
-          "name": "Mudroom",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_284",
-          "name": "Front Entry",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_294",
-          "name": "Laundry Room",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_276",
-          "name": "Laminated Vinyl Plank",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_283",
-          "name": "Kitchen, dinette, great room, hallway , pantry",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_284",
-          "name": "Front Entry",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_279",
-          "name": "Mudroom",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_294",
-          "name": "Laundry Room",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_290",
-          "name": "Master bedroom",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_282",
-          "name": "Hardwood",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_283",
-          "name": "Kitchen, dinette, great room, hallway , pantry",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_284",
-          "name": "Front Entry",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_285",
-          "name": "Rear Entry / Mudroom",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_294",
-          "name": "Laundry Room",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_287",
-          "name": "Master Bedroom",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_288",
-          "name": "Carpet",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_289",
-          "name": "Den",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_290",
-          "name": "Master bedroom",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_291",
-          "name": "Hallway/Stairs",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_292",
-          "name": "Rolled Vinyl",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_293",
-          "name": "Bath",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_294",
-          "name": "Laundry Room",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_296",
-          "name": "Interior Stone",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_313",
-          "name": "Other",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_302",
-          "name": "Final Finish Requirements",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_303",
-          "name": "Glass",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_304",
-          "name": "Mirrors",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_305",
-          "name": "Shower glass",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_307",
-          "name": "Closet systems",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_308",
-          "name": "Wood closet pantry system",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_311",
-          "name": "Hardware",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_312",
-          "name": "Towel bars, rings, toilet paper holder door knob, door stop allowance",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_313",
-          "name": "Other",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_315",
-          "name": "Landscape Allowance",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_316",
-          "name": "Underground sprinkling",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_317",
-          "name": "Final Finishes",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_321",
-          "name": "Totals",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_324",
-          "name": "Contingency/Other (10%)",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": 0,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_326",
-          "name": "Realtor / closing cost fees",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": 0,
-          "link": "",
-          "notes": ""
-        },
-        {
-          "id": "i_gs_328",
-          "name": "Grand Total",
-          "qty": 0,
-          "unit": 0,
-          "labor": 0,
-          "actual": null,
-          "link": "",
-          "notes": ""
         }
       ]
     },
@@ -2437,7 +938,7 @@
           "labor": 0,
           "actual": null,
           "link": "",
-          "notes": "HBM"
+          "notes": ""
         },
         {
           "id": "i_gs_177",
@@ -2466,7 +967,7 @@
           "unit": 1100,
           "labor": 0,
           "actual": null,
-          "link": "https://www.hbm-machines.com/nl/p/hbm-professionele-1700-watt-sloophamer-breekhamer-sds-max?sku=10924&utm_source=google&utm_medium=cpc&utm_campaign=18574139443&utm_content=bouw&kb=ga_pm_18574139443_&gad_source=1&gad_campaignid=18576853373&gclid=Cj0KCQjw_7PRBhDcARIsAMjV7jnZ_xOvSVfIX9tCRYXPBxjT50DM7EXjGoguEiDASApAGd5--XMOjVMaAkeoEALw_wcB",
+          "link": "",
           "notes": "HBM"
         },
         {
@@ -2476,11 +977,11 @@
           "unit": 100,
           "labor": 0,
           "actual": null,
-          "link": "https://nl.ryobitools.eu/elektrisch-gereedschap/boormachines-schroevendraaiers/slagschroevendraaiers/",
+          "link": "",
           "notes": ""
         }
       ]
     }
   ],
-  "updated": 1781448218448
+  "updated": 1781458378746
 }
